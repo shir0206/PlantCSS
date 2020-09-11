@@ -2,8 +2,12 @@
   font-family: sans-serif;
   text-align: center;
   width: 98vw;
-  height: 98vh;
-  overflow: hidden;
+  /* height: 98vh;
+
+  width: 100vw; */
+  height: 100vh;
+
+  /* overflow: hidden; */
 
   padding: 0px;
 }

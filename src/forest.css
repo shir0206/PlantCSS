@@ -2,9 +2,9 @@
   height: 80%;
   width: 100%;
   background: #0d200d;
-  left: 0%;
-  bottom: 0%;
-  overflow: hidden;
+  /* left: 0%;
+  bottom: 0%; */
+  /* overflow: hidden; */
 }
 
 .base-forest {
@@ -35,7 +35,7 @@
     color-stop(1, rgba(0, 0, 0, 1))
   );
 
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 @media only screen and (max-width: 600px) {
@@ -55,23 +55,6 @@
   height: 10vw;
 }
 
-.base-forest .circle1 {
-  margin: 10% 10% 10% 10%;
-  background: rgba(217, 235, 187, 0.1);
-  border-radius: 48% 52% 46% 54% / 50% 43% 57% 50%;
-}
-
-.base-forest .circle2 {
-  margin: 15% 10% 10% -5%;
-  background: rgba(217, 235, 187, 0.1);
-  border-radius: 48% 52% 46% 54% / 50% 43% 57% 50%;
-}
-
-.base-forest .circle3 {
-  margin: 18% 10% 10% 2%;
-  background: rgba(217, 235, 187, 0.1);
-  border-radius: 48% 52% 46% 54% / 50% 43% 57% 50%;
-}
 .base-forest .circle1 {
   background: rgba(217, 235, 187, 0.1);
   margin: 52% 13% 73% 62%;

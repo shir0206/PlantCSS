@@ -3,8 +3,9 @@
   width: 100%;
   background: rgb(90, 80, 71);
   background: rgb(61,44,28);
-  overflow: hidden;
+  /* overflow: hidden; */
   margin-top: -2vh;
+  
 }
 
 .base-mud{
@@ -506,10 +507,11 @@ overflow: hidden;
 }
 
 .base-mud .circle449 {
+  position: absolute;
   width: 3.5vw;
   height: 10vh;
-  left:0%;
-  bottom:0%;
+  /* left:0%;
+  bottom:0%; */
   transform: translate(0vw,2vh);
   border-radius:8% 92% 20% 80% / 100% 61% 39% 0% ;
   background: rgb(209,148,110);
