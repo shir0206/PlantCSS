@@ -916,6 +916,8 @@ export default function App() {
           <div id="mud-298" className="circle mud"></div>
           <div id="mud-299" className="circle mud"></div>
           <div id="mud-300" className="circle mud"></div>
+
+          <div className="base-mud1"></div>
         </div>
       </div>
     </div>
