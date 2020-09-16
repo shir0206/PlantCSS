@@ -5,7 +5,7 @@
   /* height: 98vh;
 
   width: 100vw; */
-  height: 100vh;
+  height: 98vh;
 
   /* overflow: hidden; */
   display: flex;
@@ -14,4 +14,8 @@
 }
 html * {
   padding: 0px;
+}
+
+#root {
+  overflow: hidden;
 }

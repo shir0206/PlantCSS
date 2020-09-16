@@ -1,15 +1,16 @@
 .background-mud {
-  height: 100%;
+  height: 18vh;
   width: 100vw;
   background: rgb(90, 80, 71);
   background: rgb(61, 44, 28);
-  overflow: hidden;
+  /* overflow: hidden; */
   /* margin-top: -2vh; */
 }
 
 .base-mud {
   height: 100%;
   width: 100%;
+  position: relative;
 }
 .base-mud1 {
   background: rgb(31, 24, 28);
@@ -41,7 +42,7 @@
     color-stop(0, rgba(0, 0, 0, 0)),
     color-stop(1, rgba(0, 0, 0, 1))
   );
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .base-mud .circle {
@@ -265,76 +266,76 @@
 .base-mud #light-197 {background: rgba(90, 80, 71, 0.07);transform: translate(30vw,-4vh);border-radius: 58% 53% 59% 49% / 50% 43% 57% 50%;}
 .base-mud #light-198 {background: rgba(90, 80, 71, 0.1814);transform: translate(44vw,-5vh);border-radius: 58% 60% 59% 56% / 50% 43% 57% 50%;}
 .base-mud #light-199 {background: rgba(90, 80, 71, 0.0041);transform: translate(66vw,-6vh);border-radius: 47% 49% 52% 46% / 50% 43% 57% 50%;}
-.base-mud #light-200 {background: rgba(90, 80, 71, 0.2527);transform: translate(108vw,-6vh);border-radius: 60% 46% 59% 47% / 50% 43% 57% 50%;}
-.base-mud #light-201 {background: rgba(90, 80, 71, 0.0921);transform: translate(105vw,-8vh);border-radius: 54% 46% 55% 45% / 50% 43% 57% 50%;}
+.base-mud #light-200 {background: rgba(90, 80, 71, 0.2527);transform: translate(58vw,-6vh);border-radius: 60% 46% 59% 47% / 50% 43% 57% 50%;}
+.base-mud #light-201 {background: rgba(90, 80, 71, 0.0921);transform: translate(65vw,-8vh);border-radius: 54% 46% 55% 45% / 50% 43% 57% 50%;}
 .base-mud #light-202 {background: rgba(90, 80, 71, 0.2058);transform: translate(81vw,-7vh);border-radius: 54% 54% 51% 48% / 50% 43% 57% 50%;}
 .base-mud #light-203 {background: rgba(90, 80, 71, 0.0974);transform: translate(71vw,-7vh);border-radius: 60% 47% 49% 50% / 50% 43% 57% 50%;}
-.base-mud #light-204 {background: rgba(90, 80, 71, 0.07);transform: translate(98vw,-5vh);border-radius: 54% 48% 49% 53% / 50% 43% 57% 50%;}
+.base-mud #light-204 {background: rgba(90, 80, 71, 0.07);transform: translate(48vw,-5vh);border-radius: 54% 48% 49% 53% / 50% 43% 57% 50%;}
 .base-mud #light-205 {background: rgba(90, 80, 71, 0.2599);transform: translate(83vw,-6vh);border-radius: 57% 55% 54% 59% / 50% 43% 57% 50%;}
 .base-mud #light-206 {background: rgba(90, 80, 71, 0.2023);transform: translate(83vw,-4vh);border-radius: 59% 45% 56% 59% / 50% 43% 57% 50%;}
-.base-mud #light-207 {background: rgba(90, 80, 71, 0.0236);transform: translate(99vw,-7vh);border-radius: 48% 60% 46% 45% / 50% 43% 57% 50%;}
+.base-mud #light-207 {background: rgba(90, 80, 71, 0.0236);transform: translate(69vw,-7vh);border-radius: 48% 60% 46% 45% / 50% 43% 57% 50%;}
 .base-mud #light-208 {background: rgba(90, 80, 71, 0.1657);transform: translate(73vw,-8vh);border-radius: 49% 57% 52% 56% / 50% 43% 57% 50%;}
-.base-mud #light-209 {background: rgba(90, 80, 71, 0.0426);transform: translate(101vw,-7vh);border-radius: 51% 46% 51% 49% / 50% 43% 57% 50%;}
+.base-mud #light-209 {background: rgba(90, 80, 71, 0.0426);transform: translate(41vw,-7vh);border-radius: 51% 46% 51% 49% / 50% 43% 57% 50%;}
 .base-mud #light-210 {background: rgba(90, 80, 71, 0.1284);transform: translate(95vw,-2vh);border-radius: 46% 46% 54% 52% / 50% 43% 57% 50%;}
-.base-mud #light-211 {background: rgba(90, 80, 71, 0.2417);transform: translate(108vw,-2vh);border-radius: 59% 55% 47% 48% / 50% 43% 57% 50%;}
+.base-mud #light-211 {background: rgba(90, 80, 71, 0.2417);transform: translate(78vw,-2vh);border-radius: 59% 55% 47% 48% / 50% 43% 57% 50%;}
 .base-mud #light-212 {background: rgba(90, 80, 71, 0.0757);transform: translate(70vw,-2vh);border-radius: 54% 59% 60% 51% / 50% 43% 57% 50%;}
 .base-mud #light-213 {background: rgba(90, 80, 71, 0.1679);transform: translate(83vw,-6vh);border-radius: 56% 57% 46% 48% / 50% 43% 57% 50%;}
 .base-mud #light-214 {background: rgba(90, 80, 71, 0.1242);transform: translate(78vw,-5vh);border-radius: 54% 56% 49% 47% / 50% 43% 57% 50%;}
-.base-mud #light-215 {background: rgba(90, 80, 71, 0.2507);transform: translate(104vw,-5vh);border-radius: 58% 55% 50% 51% / 50% 43% 57% 50%;}
+.base-mud #light-215 {background: rgba(90, 80, 71, 0.2507);transform: translate(44vw,-5vh);border-radius: 58% 55% 50% 51% / 50% 43% 57% 50%;}
 .base-mud #light-216 {background: rgba(90, 80, 71, 0.1709);transform: translate(75vw,-2vh);border-radius: 47% 49% 54% 45% / 50% 43% 57% 50%;}
 .base-mud #light-217 {background: rgba(90, 80, 71, 0.0958);transform: translate(96vw,-3vh);border-radius: 45% 59% 46% 57% / 50% 43% 57% 50%;}
 .base-mud #light-218 {background: rgba(90, 80, 71, 0.0998);transform: translate(91vw,-3vh);border-radius: 60% 53% 55% 60% / 50% 43% 57% 50%;}
-.base-mud #light-219 {background: rgba(90, 80, 71, 0.0934);transform: translate(100vw,-5vh);border-radius: 45% 48% 57% 46% / 50% 43% 57% 50%;}
+.base-mud #light-219 {background: rgba(90, 80, 71, 0.0934);transform: translate(50vw,-5vh);border-radius: 45% 48% 57% 46% / 50% 43% 57% 50%;}
 .base-mud #light-220 {background: rgba(90, 80, 71, 0.0587);transform: translate(70vw,-2vh);border-radius: 59% 58% 59% 47% / 50% 43% 57% 50%;}
 .base-mud #light-221 {background: rgba(90, 80, 71, 0.1364);transform: translate(89vw,-5vh);border-radius: 46% 60% 55% 47% / 50% 43% 57% 50%;}
 .base-mud #light-222 {background: rgba(90, 80, 71, 0.2703);transform: translate(92vw,-5vh);border-radius: 46% 53% 49% 47% / 50% 43% 57% 50%;}
 .base-mud #light-223 {background: rgba(90, 80, 71, 0.0203);transform: translate(85vw,-4vh);border-radius: 47% 51% 59% 55% / 50% 43% 57% 50%;}
 .base-mud #light-224 {background: rgba(90, 80, 71, 0.2488);transform: translate(78vw,-3vh);border-radius: 47% 59% 58% 60% / 50% 43% 57% 50%;}
-.base-mud #light-225 {background: rgba(90, 80, 71, 0.2759);transform: translate(103vw,-6vh);border-radius: 49% 58% 55% 45% / 50% 43% 57% 50%;}
-.base-mud #light-226 {background: rgba(90, 80, 71, 0.0094);transform: translate(98vw,-2vh);border-radius: 48% 52% 48% 58% / 50% 43% 57% 50%;}
+.base-mud #light-225 {background: rgba(90, 80, 71, 0.2759);transform: translate(53vw,-6vh);border-radius: 49% 58% 55% 45% / 50% 43% 57% 50%;}
+.base-mud #light-226 {background: rgba(90, 80, 71, 0.0094);transform: translate(58vw,-2vh);border-radius: 48% 52% 48% 58% / 50% 43% 57% 50%;}
 .base-mud #light-227 {background: rgba(90, 80, 71, 0.2671);transform: translate(84vw,-2vh);border-radius: 50% 48% 47% 46% / 50% 43% 57% 50%;}
-.base-mud #light-228 {background: rgba(90, 80, 71, 0.1764);transform: translate(103vw,-4vh);border-radius: 45% 47% 55% 47% / 50% 43% 57% 50%;}
+.base-mud #light-228 {background: rgba(90, 80, 71, 0.1764);transform: translate(63vw,-4vh);border-radius: 45% 47% 55% 47% / 50% 43% 57% 50%;}
 .base-mud #light-229 {background: rgba(90, 80, 71, 0.0291);transform: translate(82vw,-5vh);border-radius: 51% 45% 47% 48% / 50% 43% 57% 50%;}
 .base-mud #light-230 {background: rgba(90, 80, 71, 0.1326);transform: translate(96vw,-2vh);border-radius: 53% 60% 51% 49% / 50% 43% 57% 50%;}
 .base-mud #light-231 {background: rgba(90, 80, 71, 0.1587);transform: translate(71vw,-4vh);border-radius: 50% 53% 53% 56% / 50% 43% 57% 50%;}
 .base-mud #light-232 {background: rgba(90, 80, 71, 0.261);transform: translate(83vw,-2vh);border-radius: 56% 50% 52% 47% / 50% 43% 57% 50%;}
-.base-mud #light-233 {background: rgba(90, 80, 71, 0.1867);transform: translate(99vw,-5vh);border-radius: 52% 55% 59% 46% / 50% 43% 57% 50%;}
+.base-mud #light-233 {background: rgba(90, 80, 71, 0.1867);transform: translate(59vw,-5vh);border-radius: 52% 55% 59% 46% / 50% 43% 57% 50%;}
 .base-mud #light-234 {background: rgba(90, 80, 71, 0.0653);transform: translate(90vw,-2vh);border-radius: 58% 51% 47% 52% / 50% 43% 57% 50%;}
 .base-mud #light-235 {background: rgba(90, 80, 71, 0.0092);transform: translate(76vw,-7vh);border-radius: 52% 49% 56% 45% / 50% 43% 57% 50%;}
 .base-mud #light-236 {background: rgba(90, 80, 71, 0.1792);transform: translate(72vw,-7vh);border-radius: 47% 45% 50% 50% / 50% 43% 57% 50%;}
 .base-mud #light-237 {background: rgba(90, 80, 71, 0.2772);transform: translate(74vw,-2vh);border-radius: 46% 60% 53% 57% / 50% 43% 57% 50%;}
 .base-mud #light-238 {background: rgba(90, 80, 71, 0.0966);transform: translate(77vw,-5vh);border-radius: 50% 48% 53% 59% / 50% 43% 57% 50%;}
-.base-mud #light-239 {background: rgba(90, 80, 71, 0.2462);transform: translate(110vw,-4vh);border-radius: 45% 56% 46% 49% / 50% 43% 57% 50%;}
+.base-mud #light-239 {background: rgba(90, 80, 71, 0.2462);transform: translate(80vw,-4vh);border-radius: 45% 56% 46% 49% / 50% 43% 57% 50%;}
 .base-mud #light-240 {background: rgba(90, 80, 71, 0.2567);transform: translate(91vw,-2vh);border-radius: 57% 57% 57% 56% / 50% 43% 57% 50%;}
 .base-mud #light-241 {background: rgba(90, 80, 71, 0.1272);transform: translate(95vw,-3vh);border-radius: 54% 53% 59% 48% / 50% 43% 57% 50%;}
 .base-mud #light-242 {background: rgba(90, 80, 71, 0.1188);transform: translate(83vw,-4vh);border-radius: 52% 45% 51% 58% / 50% 43% 57% 50%;}
 .base-mud #light-243 {background: rgba(90, 80, 71, 0.064);transform: translate(94vw,-7vh);border-radius: 56% 58% 57% 47% / 50% 43% 57% 50%;}
-.base-mud #light-244 {background: rgba(90, 80, 71, 0.0657);transform: translate(104vw,-5vh);border-radius: 45% 45% 52% 51% / 50% 43% 57% 50%;}
+.base-mud #light-244 {background: rgba(90, 80, 71, 0.0657);transform: translate(34vw,-5vh);border-radius: 45% 45% 52% 51% / 50% 43% 57% 50%;}
 .base-mud #light-245 {background: rgba(90, 80, 71, 0.2223);transform: translate(84vw,-6vh);border-radius: 46% 48% 60% 48% / 50% 43% 57% 50%;}
-.base-mud #light-246 {background: rgba(90, 80, 71, 0.0996);transform: translate(106vw,-5vh);border-radius: 51% 55% 53% 55% / 50% 43% 57% 50%;}
+.base-mud #light-246 {background: rgba(90, 80, 71, 0.0996);transform: translate(96vw,-5vh);border-radius: 51% 55% 53% 55% / 50% 43% 57% 50%;}
 .base-mud #light-247 {background: rgba(90, 80, 71, 0.2748);transform: translate(74vw,-4vh);border-radius: 47% 52% 50% 51% / 50% 43% 57% 50%;}
 .base-mud #light-248 {background: rgba(90, 80, 71, 0.2271);transform: translate(92vw,-5vh);border-radius: 46% 47% 54% 49% / 50% 43% 57% 50%;}
 .base-mud #light-249 {background: rgba(90, 80, 71, 0.0051);transform: translate(91vw,-4vh);border-radius: 57% 50% 54% 52% / 50% 43% 57% 50%;}
 .base-mud #light-250 {background: rgba(90, 80, 71, 0.0645);transform: translate(93vw,-6vh);border-radius: 53% 57% 49% 45% / 50% 43% 57% 50%;}
-.base-mud #light-251 {background: rgba(90, 80, 71, 0.187);transform: translate(109vw,-6vh);border-radius: 52% 56% 56% 50% / 50% 43% 57% 50%;}
+.base-mud #light-251 {background: rgba(90, 80, 71, 0.187);transform: translate(89vw,-6vh);border-radius: 52% 56% 56% 50% / 50% 43% 57% 50%;}
 .base-mud #light-252 {background: rgba(90, 80, 71, 0.1379);transform: translate(97vw,-6vh);border-radius: 57% 50% 48% 57% / 50% 43% 57% 50%;}
-.base-mud #light-253 {background: rgba(90, 80, 71, 0.0854);transform: translate(104vw,-2vh);border-radius: 47% 56% 54% 52% / 50% 43% 57% 50%;}
+.base-mud #light-253 {background: rgba(90, 80, 71, 0.0854);transform: translate(44vw,-2vh);border-radius: 47% 56% 54% 52% / 50% 43% 57% 50%;}
 .base-mud #light-254 {background: rgba(90, 80, 71, 0.1434);transform: translate(80vw,-2vh);border-radius: 45% 53% 55% 49% / 50% 43% 57% 50%;}
 .base-mud #light-255 {background: rgba(90, 80, 71, 0.0876);transform: translate(84vw,-5vh);border-radius: 59% 56% 58% 54% / 50% 43% 57% 50%;}
 .base-mud #light-256 {background: rgba(90, 80, 71, 0.0835);transform: translate(78vw,-4vh);border-radius: 45% 59% 45% 48% / 50% 43% 57% 50%;}
 .base-mud #light-257 {background: rgba(90, 80, 71, 0.1263);transform: translate(86vw,-3vh);border-radius: 50% 52% 55% 45% / 50% 43% 57% 50%;}
 .base-mud #light-258 {background: rgba(90, 80, 71, 0.0515);transform: translate(82vw,-6vh);border-radius: 58% 48% 54% 51% / 50% 43% 57% 50%;}
-.base-mud #light-259 {background: rgba(90, 80, 71, 0.1463);transform: translate(101vw,-6vh);border-radius: 46% 53% 53% 46% / 50% 43% 57% 50%;}
-.base-mud #light-260 {background: rgba(90, 80, 71, 0.262);transform: translate(101vw,-4vh);border-radius: 46% 46% 52% 59% / 50% 43% 57% 50%;}
+.base-mud #light-259 {background: rgba(90, 80, 71, 0.1463);transform: translate(51vw,-6vh);border-radius: 46% 53% 53% 46% / 50% 43% 57% 50%;}
+.base-mud #light-260 {background: rgba(90, 80, 71, 0.262);transform: translate(41vw,-4vh);border-radius: 46% 46% 52% 59% / 50% 43% 57% 50%;}
 .base-mud #light-261 {background: rgba(90, 80, 71, 0.1906);transform: translate(90vw,-6vh);border-radius: 59% 60% 53% 54% / 50% 43% 57% 50%;}
-.base-mud #light-262 {background: rgba(90, 80, 71, 0.1349);transform: translate(98vw,-4vh);border-radius: 54% 52% 57% 60% / 50% 43% 57% 50%;}
+.base-mud #light-262 {background: rgba(90, 80, 71, 0.1349);transform: translate(78vw,-4vh);border-radius: 54% 52% 57% 60% / 50% 43% 57% 50%;}
 .base-mud #light-263 {background: rgba(90, 80, 71, 0.0442);transform: translate(79vw,-3vh);border-radius: 49% 49% 52% 57% / 50% 43% 57% 50%;}
 .base-mud #light-264 {background: rgba(90, 80, 71, 0.21);transform: translate(77vw,-4vh);border-radius: 47% 54% 59% 52% / 50% 43% 57% 50%;}
 .base-mud #light-265 {background: rgba(90, 80, 71, 0.1404);transform: translate(83vw,-6vh);border-radius: 47% 57% 59% 45% / 50% 43% 57% 50%;}
-.base-mud #light-266 {background: rgba(90, 80, 71, 0.2083);transform: translate(101vw,-3vh);border-radius: 59% 56% 49% 46% / 50% 43% 57% 50%;}
+.base-mud #light-266 {background: rgba(90, 80, 71, 0.2083);transform: translate(51vw,-3vh);border-radius: 59% 56% 49% 46% / 50% 43% 57% 50%;}
 .base-mud #light-267 {background: rgba(90, 80, 71, 0.1763);transform: translate(85vw,-4vh);border-radius: 57% 46% 56% 60% / 50% 43% 57% 50%;}
-.base-mud #light-268 {background: rgba(90, 80, 71, 0.1322);transform: translate(99vw,-2vh);border-radius: 47% 50% 45% 56% / 50% 43% 57% 50%;}
-.base-mud #light-269 {background: rgba(90, 80, 71, 0.1695);transform: translate(110vw,-3vh);border-radius: 58% 55% 45% 59% / 50% 43% 57% 50%;}
+.base-mud #light-268 {background: rgba(90, 80, 71, 0.1322);transform: translate(49vw,-2vh);border-radius: 47% 50% 45% 56% / 50% 43% 57% 50%;}
+.base-mud #light-269 {background: rgba(90, 80, 71, 0.1695);transform: translate(90vw,-3vh);border-radius: 58% 55% 45% 59% / 50% 43% 57% 50%;}
 .base-mud #light-270 {background: rgba(90, 80, 71, 0.1867);transform: translate(78vw,-4vh);border-radius: 51% 48% 57% 59% / 50% 43% 57% 50%;}
 .base-mud #light-271 {background: rgba(90, 80, 71, 0.0885);transform: translate(88vw,-7vh);border-radius: 51% 48% 59% 49% / 50% 43% 57% 50%;}
 .base-mud #light-272 {background: rgba(90, 80, 71, 0.2648);transform: translate(91vw,-3vh);border-radius: 46% 56% 45% 47% / 50% 43% 57% 50%;}
@@ -342,27 +343,27 @@
 .base-mud #light-274 {background: rgba(90, 80, 71, 0.0376);transform: translate(97vw,-7vh);border-radius: 60% 60% 48% 59% / 50% 43% 57% 50%;}
 .base-mud #light-275 {background: rgba(90, 80, 71, 0.1895);transform: translate(87vw,-4vh);border-radius: 56% 46% 45% 59% / 50% 43% 57% 50%;}
 .base-mud #light-276 {background: rgba(90, 80, 71, 0.0296);transform: translate(72vw,-5vh);border-radius: 49% 46% 46% 60% / 50% 43% 57% 50%;}
-.base-mud #light-277 {background: rgba(90, 80, 71, 0.0296);transform: translate(106vw,-2vh);border-radius: 49% 50% 55% 52% / 50% 43% 57% 50%;}
+.base-mud #light-277 {background: rgba(90, 80, 71, 0.0296);transform: translate(76vw,-2vh);border-radius: 49% 50% 55% 52% / 50% 43% 57% 50%;}
 .base-mud #light-278 {background: rgba(90, 80, 71, 0.2359);transform: translate(83vw,-7vh);border-radius: 47% 59% 46% 45% / 50% 43% 57% 50%;}
-.base-mud #light-279 {background: rgba(90, 80, 71, 0.2125);transform: translate(108vw,-6vh);border-radius: 50% 51% 52% 59% / 50% 43% 57% 50%;}
-.base-mud #light-280 {background: rgba(90, 80, 71, 0.2152);transform: translate(108vw,-6vh);border-radius: 51% 52% 57% 55% / 50% 43% 57% 50%;}
-.base-mud #light-281 {background: rgba(90, 80, 71, 0.0896);transform: translate(110vw,-7vh);border-radius: 55% 47% 48% 47% / 50% 43% 57% 50%;}
-.base-mud #light-282 {background: rgba(90, 80, 71, 0.1957);transform: translate(100vw,-5vh);border-radius: 52% 59% 50% 55% / 50% 43% 57% 50%;}
+.base-mud #light-279 {background: rgba(90, 80, 71, 0.2125);transform: translate(88vw,-6vh);border-radius: 50% 51% 52% 59% / 50% 43% 57% 50%;}
+.base-mud #light-280 {background: rgba(90, 80, 71, 0.2152);transform: translate(68vw,-6vh);border-radius: 51% 52% 57% 55% / 50% 43% 57% 50%;}
+.base-mud #light-281 {background: rgba(90, 80, 71, 0.0896);transform: translate(90vw,-7vh);border-radius: 55% 47% 48% 47% / 50% 43% 57% 50%;}
+.base-mud #light-282 {background: rgba(90, 80, 71, 0.1957);transform: translate(50vw,-5vh);border-radius: 52% 59% 50% 55% / 50% 43% 57% 50%;}
 .base-mud #light-283 {background: rgba(90, 80, 71, 0.2722);transform: translate(84vw,-5vh);border-radius: 54% 50% 58% 54% / 50% 43% 57% 50%;}
 .base-mud #light-284 {background: rgba(90, 80, 71, 0.1557);transform: translate(84vw,-6vh);border-radius: 51% 49% 47% 47% / 50% 43% 57% 50%;}
 .base-mud #light-285 {background: rgba(90, 80, 71, 0.1043);transform: translate(72vw,-4vh);border-radius: 49% 48% 51% 50% / 50% 43% 57% 50%;}
-.base-mud #light-286 {background: rgba(90, 80, 71, 0.106);transform: translate(103vw,-6vh);border-radius: 52% 54% 60% 52% / 50% 43% 57% 50%;}
-.base-mud #light-287 {background: rgba(90, 80, 71, 0.1335);transform: translate(98vw,-3vh);border-radius: 55% 49% 55% 51% / 50% 43% 57% 50%;}
+.base-mud #light-286 {background: rgba(90, 80, 71, 0.106);transform: translate(53vw,-6vh);border-radius: 52% 54% 60% 52% / 50% 43% 57% 50%;}
+.base-mud #light-287 {background: rgba(90, 80, 71, 0.1335);transform: translate(78vw,-3vh);border-radius: 55% 49% 55% 51% / 50% 43% 57% 50%;}
 .base-mud #light-288 {background: rgba(90, 80, 71, 0.2613);transform: translate(76vw,-7vh);border-radius: 45% 45% 57% 45% / 50% 43% 57% 50%;}
 .base-mud #light-289 {background: rgba(90, 80, 71, 0.2703);transform: translate(70vw,-4vh);border-radius: 45% 56% 48% 50% / 50% 43% 57% 50%;}
-.base-mud #light-290 {background: rgba(90, 80, 71, 0.2494);transform: translate(98vw,-3vh);border-radius: 52% 46% 53% 58% / 50% 43% 57% 50%;}
+.base-mud #light-290 {background: rgba(90, 80, 71, 0.2494);transform: translate(68vw,-3vh);border-radius: 52% 46% 53% 58% / 50% 43% 57% 50%;}
 .base-mud #light-291 {background: rgba(90, 80, 71, 0.2534);transform: translate(72vw,-6vh);border-radius: 50% 47% 46% 47% / 50% 43% 57% 50%;}
 .base-mud #light-292 {background: rgba(90, 80, 71, 0.0951);transform: translate(70vw,-2vh);border-radius: 55% 52% 58% 48% / 50% 43% 57% 50%;}
 .base-mud #light-293 {background: rgba(90, 80, 71, 0.2163);transform: translate(74vw,-3vh);border-radius: 50% 45% 48% 60% / 50% 43% 57% 50%;}
-.base-mud #light-294 {background: rgba(90, 80, 71, 0.0801);transform: translate(102vw,-7vh);border-radius: 45% 48% 49% 60% / 50% 43% 57% 50%;}
+.base-mud #light-294 {background: rgba(90, 80, 71, 0.0801);transform: translate(42vw,-7vh);border-radius: 45% 48% 49% 60% / 50% 43% 57% 50%;}
 .base-mud #light-295 {background: rgba(90, 80, 71, 0.2306);transform: translate(82vw,-3vh);border-radius: 45% 55% 58% 60% / 50% 43% 57% 50%;}
-.base-mud #light-296 {background: rgba(90, 80, 71, 0.0667);transform: translate(100vw,-6vh);border-radius: 51% 52% 50% 59% / 50% 43% 57% 50%;}
+.base-mud #light-296 {background: rgba(90, 80, 71, 0.0667);transform: translate(40vw,-6vh);border-radius: 51% 52% 50% 59% / 50% 43% 57% 50%;}
 .base-mud #light-297 {background: rgba(90, 80, 71, 0.1173);transform: translate(97vw,-3vh);border-radius: 59% 56% 48% 59% / 50% 43% 57% 50%;}
-.base-mud #light-298 {background: rgba(90, 80, 71, 0.1297);transform: translate(99vw,-6vh);border-radius: 53% 57% 59% 47% / 50% 43% 57% 50%;}
+.base-mud #light-298 {background: rgba(90, 80, 71, 0.1297);transform: translate(69vw,-6vh);border-radius: 53% 57% 59% 47% / 50% 43% 57% 50%;}
 .base-mud #light-299 {background: rgba(90, 80, 71, 0.2497);transform: translate(76vw,-2vh);border-radius: 60% 46% 50% 50% / 50% 43% 57% 50%;}
 .base-mud #light-300 {background: rgba(90, 80, 71, 0.2641);transform: translate(96vw,-6vh);border-radius: 51% 45% 57% 57% / 50% 43% 57% 50%;}

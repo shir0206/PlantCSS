@@ -705,7 +705,7 @@
   transform: translate(55vw, -14vh);
   border-radius: 53% 48% 49% 59% / 50% 43% 57% 50%;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
   .base-forest #light-131 {
     background: rgba(217, 235, 187, 0.1524);
     transform: translate(1vw, -14vh);
