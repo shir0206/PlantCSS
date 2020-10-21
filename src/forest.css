@@ -1,6 +1,6 @@
 .background-forest {
-  height: 80vh;
-  width: 100vw;
+  height: 80%;
+  width: 100%;
   background: #0d200d;
   /* left: 0%;
   bottom: 0%; */
@@ -51,1509 +51,1808 @@
 
 .base-forest .circle {
   position: absolute;
-  width: 10vw;
-  height: 10vw;
+  width: min(15vw, 15vh);
+  height: min(15vw, 15vh);
 }
 
 .base-forest #light-1 {
   opacity: 0.147;
-  transform: translate(20vw, 59vh);
+  left: 20%;
+  top: 59%;
   border-radius: 55% 47% 50% 47% / 50% 43% 57% 50%;
 }
 .base-forest #light-2 {
-  background: rgba(217, 235, 187, 0.0266);
-  transform: translate(39vw, 70vh);
+  background: rgba(217, 235, 187, 0.0321);
+  left: 39%;
+  top: 70%;
   border-radius: 55% 55% 51% 51% / 50% 43% 57% 50%;
 }
 .base-forest #light-3 {
   background: rgba(217, 235, 187, 0.0321);
-  transform: translate(19vw, 73vh);
+  left: 19%;
+  top: 73%;
   border-radius: 50% 58% 53% 45% / 50% 43% 57% 50%;
 }
 .base-forest #light-4 {
   background: rgba(217, 235, 187, 0.1496);
-  transform: translate(8vw, -13vh);
+  left: 8%;
+  top: -13%;
   border-radius: 57% 47% 53% 55% / 50% 43% 57% 50%;
 }
 .base-forest #light-5 {
   background: rgba(217, 235, 187, 0.1538);
-  transform: translate(47vw, 31vh);
+  left: 47%;
+  top: 31%;
   border-radius: 53% 59% 56% 54% / 50% 43% 57% 50%;
 }
 .base-forest #light-6 {
   background: rgba(217, 235, 187, 0.2566);
-  transform: translate(98vw, 63vh);
+  left: 98%;
+  top: 63%;
   border-radius: 57% 47% 56% 55% / 50% 43% 57% 50%;
 }
 .base-forest #light-7 {
   background: rgba(217, 235, 187, 0.0068);
-  transform: translate(48vw, 100vh);
+  left: 48%;
+  top: 100%;
   border-radius: 54% 53% 48% 45% / 50% 43% 57% 50%;
 }
 .base-forest #light-8 {
   background: rgba(217, 235, 187, 0.1826);
-  transform: translate(64vw, 4vh);
+  left: 64%;
+  top: 4%;
   border-radius: 57% 56% 58% 59% / 50% 43% 57% 50%;
 }
 .base-forest #light-9 {
   background: rgba(217, 235, 187, 0.2773);
-  transform: translate(-6vw, -1vh);
+  left: -6%;
+  top: -1%;
   border-radius: 55% 49% 48% 51% / 50% 43% 57% 50%;
 }
 .base-forest #light-10 {
   background: rgba(217, 235, 187, 0.2116);
-  transform: translate(69vw, 85vh);
+  left: 69%;
+  top: 85%;
   border-radius: 50% 54% 53% 48% / 50% 43% 57% 50%;
 }
 .base-forest #light-11 {
   background: rgba(217, 235, 187, 0.1649);
-  transform: translate(59vw, 27vh);
+  left: 59%;
+  top: 27%;
   border-radius: 56% 60% 60% 53% / 50% 43% 57% 50%;
 }
 .base-forest #light-12 {
   background: rgba(217, 235, 187, 0.1892);
-  transform: translate(77vw, 8vh);
+  left: 77%;
+  top: 8%;
   border-radius: 53% 45% 56% 46% / 50% 43% 57% 50%;
 }
 .base-forest #light-13 {
   background: rgba(217, 235, 187, 0.0429);
-  transform: translate(5vw, -11vh);
+  left: 5%;
+  top: -11%;
   border-radius: 54% 52% 56% 55% / 50% 43% 57% 50%;
 }
 .base-forest #light-14 {
   background: rgba(217, 235, 187, 0.1523);
-  transform: translate(43vw, 41vh);
+  left: 43%;
+  top: 41%;
   border-radius: 57% 47% 51% 58% / 50% 43% 57% 50%;
 }
 .base-forest #light-15 {
   background: rgba(217, 235, 187, 0.0756);
-  transform: translate(-9vw, 43vh);
+  left: -9%;
+  top: 43%;
   border-radius: 46% 50% 49% 52% / 50% 43% 57% 50%;
 }
 .base-forest #light-16 {
   background: rgba(217, 235, 187, 0.2774);
-  transform: translate(-17vw, 71vh);
+  left: -17%;
+  top: 71%;
   border-radius: 54% 56% 51% 49% / 50% 43% 57% 50%;
 }
 .base-forest #light-17 {
   background: rgba(217, 235, 187, 0.136);
-  transform: translate(66vw, 95vh);
+  left: 66%;
+  top: 95%;
   border-radius: 53% 52% 55% 55% / 50% 43% 57% 50%;
 }
 .base-forest #light-18 {
   background: rgba(217, 235, 187, 0.0869);
-  transform: translate(100vw, 80vh);
+  left: 100%;
+  top: 80%;
   border-radius: 45% 50% 57% 48% / 50% 43% 57% 50%;
 }
 .base-forest #light-19 {
   background: rgba(217, 235, 187, 0.094);
-  transform: translate(98vw, 80vh);
+  left: 98%;
+  top: 80%;
   border-radius: 55% 52% 46% 50% / 50% 43% 57% 50%;
 }
 .base-forest #light-20 {
   background: rgba(217, 235, 187, 0.2765);
-  transform: translate(36vw, 20vh);
+  left: 36%;
+  top: 20%;
   border-radius: 50% 46% 59% 60% / 50% 43% 57% 50%;
 }
 .base-forest #light-21 {
   background: rgba(217, 235, 187, 0.2096);
-  transform: translate(-9vw, -17vh);
+  left: -9%;
+  top: -17%;
   border-radius: 45% 48% 47% 57% / 50% 43% 57% 50%;
 }
 .base-forest #light-22 {
   background: rgba(217, 235, 187, 0.0365);
-  transform: translate(53vw, 76vh);
+  left: 53%;
+  top: 76%;
   border-radius: 53% 47% 56% 47% / 50% 43% 57% 50%;
 }
 .base-forest #light-23 {
   background: rgba(217, 235, 187, 0.2825);
-  transform: translate(16vw, 11vh);
+  left: 16%;
+  top: 11%;
   border-radius: 55% 53% 53% 52% / 50% 43% 57% 50%;
 }
 .base-forest #light-24 {
   background: rgba(217, 235, 187, 0.0712);
-  transform: translate(96vw, 64vh);
+  left: 96%;
+  top: 64%;
   border-radius: 54% 52% 53% 60% / 50% 43% 57% 50%;
 }
 .base-forest #light-25 {
   background: rgba(217, 235, 187, 0.0037);
-  transform: translate(54vw, 98vh);
+  left: 54%;
+  top: 98%;
   border-radius: 49% 48% 60% 45% / 50% 43% 57% 50%;
 }
 .base-forest #light-26 {
   background: rgba(217, 235, 187, 0.0651);
-  transform: translate(88vw, 75vh);
+  left: 88%;
+  top: 75%;
   border-radius: 48% 53% 59% 48% / 50% 43% 57% 50%;
 }
 .base-forest #light-27 {
   background: rgba(217, 235, 187, 0.0243);
-  transform: translate(32vw, -17vh);
+  left: 32%;
+  top: -17%;
   border-radius: 57% 50% 48% 54% / 50% 43% 57% 50%;
 }
 .base-forest #light-28 {
   background: rgba(217, 235, 187, 0.0092);
-  transform: translate(84vw, 17vh);
+  left: 84%;
+  top: 17%;
   border-radius: 58% 51% 50% 60% / 50% 43% 57% 50%;
 }
 .base-forest #light-29 {
   background: rgba(217, 235, 187, 0.1332);
-  transform: translate(64vw, 65vh);
+  left: 64%;
+  top: 65%;
   border-radius: 58% 58% 53% 50% / 50% 43% 57% 50%;
 }
 .base-forest #light-30 {
   background: rgba(217, 235, 187, 0.1082);
-  transform: translate(31vw, 49vh);
+  left: 31%;
+  top: 49%;
   border-radius: 46% 53% 47% 48% / 50% 43% 57% 50%;
 }
 .base-forest #light-31 {
   background: rgba(217, 235, 187, 0.1068);
-  transform: translate(71vw, 76vh);
+  left: 71%;
+  top: 76%;
   border-radius: 60% 60% 47% 54% / 50% 43% 57% 50%;
 }
 .base-forest #light-32 {
   background: rgba(217, 235, 187, 0.2406);
-  transform: translate(86vw, 70vh);
+  left: 86%;
+  top: 70%;
   border-radius: 51% 50% 59% 47% / 50% 43% 57% 50%;
 }
 .base-forest #light-33 {
   background: rgba(217, 235, 187, 0.0171);
-  transform: translate(-17vw, 25vh);
+  left: -17%;
+  top: 25%;
   border-radius: 59% 46% 57% 49% / 50% 43% 57% 50%;
 }
 .base-forest #light-34 {
   background: rgba(217, 235, 187, 0.0303);
-  transform: translate(94vw, -1vh);
+  left: 94%;
+  top: -1%;
   border-radius: 45% 45% 60% 52% / 50% 43% 57% 50%;
 }
 .base-forest #light-35 {
   background: rgba(217, 235, 187, 0.207);
-  transform: translate(22vw, 20vh);
+  left: 22%;
+  top: 20%;
   border-radius: 55% 49% 48% 49% / 50% 43% 57% 50%;
 }
 .base-forest #light-36 {
   background: rgba(217, 235, 187, 0.222);
-  transform: translate(14vw, 7vh);
+  left: 14%;
+  top: 7%;
   border-radius: 60% 58% 51% 47% / 50% 43% 57% 50%;
 }
 .base-forest #light-37 {
   background: rgba(217, 235, 187, 0.1051);
-  transform: translate(33vw, 56vh);
+  left: 33%;
+  top: 56%;
   border-radius: 48% 56% 45% 50% / 50% 43% 57% 50%;
 }
 .base-forest #light-38 {
   background: rgba(217, 235, 187, 0.0275);
-  transform: translate(-8vw, 44vh);
+  left: -8%;
+  top: 44%;
   border-radius: 54% 50% 51% 60% / 50% 43% 57% 50%;
 }
 .base-forest #light-39 {
   background: rgba(217, 235, 187, 0.1998);
-  transform: translate(24vw, 90vh);
+  left: 24%;
+  top: 90%;
   border-radius: 55% 60% 47% 55% / 50% 43% 57% 50%;
 }
 .base-forest #light-40 {
   background: rgba(217, 235, 187, 0.2177);
-  transform: translate(-6vw, 26vh);
+  left: -6%;
+  top: 26%;
   border-radius: 48% 58% 47% 48% / 50% 43% 57% 50%;
 }
 .base-forest #light-41 {
   background: rgba(217, 235, 187, 0.0327);
-  transform: translate(33vw, 15vh);
+  left: 33%;
+  top: 15%;
   border-radius: 53% 60% 58% 52% / 50% 43% 57% 50%;
 }
 .base-forest #light-42 {
   background: rgba(217, 235, 187, 0.0046);
-  transform: translate(33vw, 77vh);
+  left: 33%;
+  top: 77%;
   border-radius: 53% 49% 46% 53% / 50% 43% 57% 50%;
 }
 .base-forest #light-43 {
   background: rgba(217, 235, 187, 0.2762);
-  transform: translate(4vw, 97vh);
+  left: 4%;
+  top: 97%;
   border-radius: 48% 47% 45% 50% / 50% 43% 57% 50%;
 }
 .base-forest #light-44 {
   background: rgba(217, 235, 187, 0.1809);
-  transform: translate(100vw, 14vh);
+  left: 100%;
+  top: 14%;
   border-radius: 59% 59% 55% 50% / 50% 43% 57% 50%;
 }
 .base-forest #light-45 {
   background: rgba(217, 235, 187, 0.1118);
-  transform: translate(37vw, 74vh);
+  left: 37%;
+  top: 74%;
   border-radius: 58% 58% 59% 48% / 50% 43% 57% 50%;
 }
 .base-forest #light-46 {
   background: rgba(217, 235, 187, 0.2833);
-  transform: translate(72vw, 74vh);
+  left: 72%;
+  top: 74%;
   border-radius: 54% 54% 50% 52% / 50% 43% 57% 50%;
 }
 .base-forest #light-47 {
   background: rgba(217, 235, 187, 0.2648);
-  transform: translate(60vw, 62vh);
+  left: 60%;
+  top: 62%;
   border-radius: 58% 47% 56% 60% / 50% 43% 57% 50%;
 }
 .base-forest #light-48 {
   background: rgba(217, 235, 187, 0.0103);
-  transform: translate(95vw, 32vh);
+  left: 95%;
+  top: 32%;
   border-radius: 54% 55% 57% 56% / 50% 43% 57% 50%;
 }
 .base-forest #light-49 {
   background: rgba(217, 235, 187, 0.2044);
-  transform: translate(55vw, 60vh);
+  left: 55%;
+  top: 60%;
   border-radius: 47% 59% 53% 54% / 50% 43% 57% 50%;
 }
 .base-forest #light-50 {
   background: rgba(217, 235, 187, 0.2735);
-  transform: translate(5vw, 25vh);
+  left: 5%;
+  top: 25%;
   border-radius: 56% 59% 51% 47% / 50% 43% 57% 50%;
 }
 .base-forest #light-51 {
   background: rgba(217, 235, 187, 0.0345);
-  transform: translate(99vw, 7vh);
+  left: 99%;
+  top: 7%;
   border-radius: 58% 46% 59% 51% / 50% 43% 57% 50%;
 }
 .base-forest #light-52 {
   background: rgba(217, 235, 187, 0.0528);
-  transform: translate(97vw, 15vh);
+  left: 97%;
+  top: 15%;
   border-radius: 59% 48% 60% 48% / 50% 43% 57% 50%;
 }
 .base-forest #light-53 {
   background: rgba(217, 235, 187, 0.0449);
-  transform: translate(13vw, 39vh);
+  left: 13%;
+  top: 39%;
   border-radius: 49% 57% 52% 51% / 50% 43% 57% 50%;
 }
 .base-forest #light-54 {
   background: rgba(217, 235, 187, 0.0837);
-  transform: translate(10vw, 79vh);
+  left: 10%;
+  top: 79%;
   border-radius: 56% 59% 52% 52% / 50% 43% 57% 50%;
 }
 .base-forest #light-55 {
   background: rgba(217, 235, 187, 0.2823);
-  transform: translate(70vw, 34vh);
+  left: 70%;
+  top: 34%;
   border-radius: 56% 60% 55% 58% / 50% 43% 57% 50%;
 }
 .base-forest #light-56 {
   background: rgba(217, 235, 187, 0.2075);
-  transform: translate(27vw, 1vh);
+  left: 27%;
+  top: 1%;
   border-radius: 56% 52% 53% 49% / 50% 43% 57% 50%;
 }
 .base-forest #light-57 {
   background: rgba(217, 235, 187, 0.0041);
-  transform: translate(89vw, -15vh);
+  left: 89%;
+  top: -15%;
   border-radius: 55% 54% 56% 48% / 50% 43% 57% 50%;
 }
 .base-forest #light-58 {
   background: rgba(217, 235, 187, 0.0033);
-  transform: translate(-17vw, 5vh);
+  left: -17%;
+  top: 5%;
   border-radius: 45% 47% 48% 54% / 50% 43% 57% 50%;
 }
 .base-forest #light-59 {
   background: rgba(217, 235, 187, 0.0835);
-  transform: translate(-5vw, 7vh);
+  left: -5%;
+  top: 7%;
   border-radius: 50% 59% 55% 46% / 50% 43% 57% 50%;
 }
 .base-forest #light-60 {
   background: rgba(217, 235, 187, 0.1584);
-  transform: translate(11vw, 72vh);
+  left: 11%;
+  top: 72%;
   border-radius: 53% 53% 56% 51% / 50% 43% 57% 50%;
 }
 .base-forest #light-61 {
   background: rgba(217, 235, 187, 0.0855);
-  transform: translate(63vw, 46vh);
+  left: 63%;
+  top: 46%;
   border-radius: 45% 53% 51% 47% / 50% 43% 57% 50%;
 }
 .base-forest #light-62 {
   background: rgba(217, 235, 187, 0.0783);
-  transform: translate(77vw, 75vh);
+  left: 77%;
+  top: 75%;
   border-radius: 46% 52% 46% 60% / 50% 43% 57% 50%;
 }
 .base-forest #light-63 {
   background: rgba(217, 235, 187, 0.1766);
-  transform: translate(6vw, -19vh);
+  left: 6%;
+  top: -19%;
   border-radius: 60% 51% 46% 54% / 50% 43% 57% 50%;
 }
 .base-forest #light-64 {
   background: rgba(217, 235, 187, 0.0425);
-  transform: translate(87vw, 54vh);
+  left: 87%;
+  top: 54%;
   border-radius: 46% 58% 60% 46% / 50% 43% 57% 50%;
 }
 .base-forest #light-65 {
   background: rgba(217, 235, 187, 0.2462);
-  transform: translate(79vw, 6vh);
+  left: 79%;
+  top: 6%;
   border-radius: 47% 54% 46% 45% / 50% 43% 57% 50%;
 }
 .base-forest #light-66 {
   background: rgba(217, 235, 187, 0.0257);
-  transform: translate(62vw, 28vh);
+  left: 62%;
+  top: 28%;
   border-radius: 56% 55% 60% 51% / 50% 43% 57% 50%;
 }
 .base-forest #light-67 {
   background: rgba(217, 235, 187, 0.1294);
-  transform: translate(53vw, 34vh);
+  left: 53%;
+  top: 34%;
   border-radius: 55% 57% 55% 58% / 50% 43% 57% 50%;
 }
 .base-forest #light-68 {
   background: rgba(217, 235, 187, 0.0971);
-  transform: translate(26vw, 5vh);
+  left: 26%;
+  top: 5%;
   border-radius: 59% 52% 52% 45% / 50% 43% 57% 50%;
 }
 .base-forest #light-69 {
   background: rgba(217, 235, 187, 0.1744);
-  transform: translate(41vw, 60vh);
+  left: 41%;
+  top: 60%;
   border-radius: 55% 46% 49% 55% / 50% 43% 57% 50%;
 }
 .base-forest #light-70 {
   background: rgba(217, 235, 187, 0.0843);
-  transform: translate(67vw, 64vh);
+  left: 67%;
+  top: 64%;
   border-radius: 47% 55% 60% 54% / 50% 43% 57% 50%;
 }
 .base-forest #light-71 {
   background: rgba(217, 235, 187, 0.1976);
-  transform: translate(34vw, 0vh);
+  left: 34%;
+  top: 0%;
   border-radius: 58% 57% 60% 55% / 50% 43% 57% 50%;
 }
 .base-forest #light-72 {
   background: rgba(217, 235, 187, 0.285);
-  transform: translate(61vw, 67vh);
+  left: 61%;
+  top: 67%;
   border-radius: 48% 49% 53% 45% / 50% 43% 57% 50%;
 }
 .base-forest #light-73 {
   background: rgba(217, 235, 187, 0.1536);
-  transform: translate(28vw, 17vh);
+  left: 28%;
+  top: 17%;
   border-radius: 49% 58% 56% 56% / 50% 43% 57% 50%;
 }
 .base-forest #light-74 {
   background: rgba(217, 235, 187, 0.2656);
-  transform: translate(29vw, 15vh);
+  left: 29%;
+  top: 15%;
   border-radius: 60% 54% 50% 52% / 50% 43% 57% 50%;
 }
 .base-forest #light-75 {
   background: rgba(217, 235, 187, 0.0913);
-  transform: translate(0vw, 7vh);
+  left: 0%;
+  top: 7%;
   border-radius: 58% 47% 54% 53% / 50% 43% 57% 50%;
 }
 .base-forest #light-76 {
   background: rgba(217, 235, 187, 0.0649);
-  transform: translate(-17vw, 72vh);
+  left: -17%;
+  top: 72%;
   border-radius: 60% 45% 48% 60% / 50% 43% 57% 50%;
 }
 .base-forest #light-77 {
   background: rgba(217, 235, 187, 0.112);
-  transform: translate(29vw, 60vh);
+  left: 29%;
+  top: 60%;
   border-radius: 49% 54% 58% 56% / 50% 43% 57% 50%;
 }
 .base-forest #light-78 {
   background: rgba(217, 235, 187, 0.2135);
-  transform: translate(89vw, 54vh);
+  left: 89%;
+  top: 54%;
   border-radius: 60% 55% 60% 56% / 50% 43% 57% 50%;
 }
 .base-forest #light-79 {
   background: rgba(217, 235, 187, 0.1975);
-  transform: translate(33vw, 87vh);
+  left: 33%;
+  top: 87%;
   border-radius: 47% 51% 47% 51% / 50% 43% 57% 50%;
 }
 .base-forest #light-80 {
   background: rgba(217, 235, 187, 0.08);
-  transform: translate(56vw, 73vh);
+  left: 56%;
+  top: 73%;
   border-radius: 59% 46% 51% 53% / 50% 43% 57% 50%;
 }
 .base-forest #light-81 {
   background: rgba(217, 235, 187, 0.0848);
-  transform: translate(60vw, 51vh);
+  left: 60%;
+  top: 51%;
   border-radius: 51% 56% 56% 49% / 50% 43% 57% 50%;
 }
 .base-forest #light-82 {
   background: rgba(217, 235, 187, 0.1065);
-  transform: translate(70vw, 23vh);
+  left: 70%;
+  top: 23%;
   border-radius: 52% 48% 51% 53% / 50% 43% 57% 50%;
 }
 .base-forest #light-83 {
   background: rgba(217, 235, 187, 0.0538);
-  transform: translate(37vw, -15vh);
+  left: 37%;
+  top: -15%;
   border-radius: 52% 51% 54% 57% / 50% 43% 57% 50%;
 }
 .base-forest #light-84 {
   background: rgba(217, 235, 187, 0.0166);
-  transform: translate(42vw, 19vh);
+  left: 42%;
+  top: 19%;
   border-radius: 48% 60% 55% 45% / 50% 43% 57% 50%;
 }
 .base-forest #light-85 {
   background: rgba(217, 235, 187, 0.0402);
-  transform: translate(42vw, 48vh);
+  left: 42%;
+  top: 48%;
   border-radius: 45% 59% 53% 45% / 50% 43% 57% 50%;
 }
 .base-forest #light-86 {
   background: rgba(217, 235, 187, 0.0274);
-  transform: translate(22vw, 69vh);
+  left: 22%;
+  top: 69%;
   border-radius: 59% 55% 45% 55% / 50% 43% 57% 50%;
 }
 .base-forest #light-87 {
   background: rgba(217, 235, 187, 0.0126);
-  transform: translate(6vw, 14vh);
+  left: 6%;
+  top: 14%;
   border-radius: 48% 55% 54% 55% / 50% 43% 57% 50%;
 }
 .base-forest #light-88 {
   background: rgba(217, 235, 187, 0.1678);
-  transform: translate(72vw, 84vh);
+  left: 72%;
+  top: 84%;
   border-radius: 47% 60% 51% 50% / 50% 43% 57% 50%;
 }
 .base-forest #light-89 {
   background: rgba(217, 235, 187, 0.148);
-  transform: translate(25vw, 38vh);
+  left: 25%;
+  top: 38%;
   border-radius: 48% 49% 52% 47% / 50% 43% 57% 50%;
 }
 .base-forest #light-90 {
   background: rgba(217, 235, 187, 0.1354);
-  transform: translate(75vw, 91vh);
+  left: 75%;
+  top: 91%;
   border-radius: 52% 54% 46% 46% / 50% 43% 57% 50%;
 }
 .base-forest #light-91 {
   background: rgba(217, 235, 187, 0.1999);
-  transform: translate(28vw, -1vh);
+  left: 28%;
+  top: -1%;
   border-radius: 46% 58% 54% 51% / 50% 43% 57% 50%;
 }
 .base-forest #light-92 {
   background: rgba(217, 235, 187, 0.1326);
-  transform: translate(38vw, 1vh);
+  left: 38%;
+  top: 1%;
   border-radius: 51% 50% 49% 48% / 50% 43% 57% 50%;
 }
 .base-forest #light-93 {
   background: rgba(217, 235, 187, 0.2551);
-  transform: translate(-5vw, 40vh);
+  left: -5%;
+  top: 40%;
   border-radius: 55% 58% 53% 45% / 50% 43% 57% 50%;
 }
 .base-forest #light-94 {
   background: rgba(217, 235, 187, 0.1961);
-  transform: translate(-10vw, -1vh);
+  left: -10%;
+  top: -1%;
   border-radius: 48% 49% 58% 54% / 50% 43% 57% 50%;
 }
 .base-forest #light-95 {
   background: rgba(217, 235, 187, 0.0299);
-  transform: translate(27vw, -1vh);
+  left: 27%;
+  top: -1%;
   border-radius: 48% 45% 54% 59% / 50% 43% 57% 50%;
 }
 .base-forest #light-96 {
   background: rgba(217, 235, 187, 0.1831);
-  transform: translate(-19vw, 72vh);
+  left: -19%;
+  top: 72%;
   border-radius: 49% 58% 60% 46% / 50% 43% 57% 50%;
 }
 .base-forest #light-97 {
   background: rgba(217, 235, 187, 0.2767);
-  transform: translate(30vw, 83vh);
+  left: 30%;
+  top: 83%;
   border-radius: 51% 49% 55% 58% / 50% 43% 57% 50%;
 }
 .base-forest #light-98 {
   background: rgba(217, 235, 187, 0.0315);
-  transform: translate(46vw, 32vh);
+  left: 46%;
+  top: 32%;
   border-radius: 48% 59% 53% 59% / 50% 43% 57% 50%;
 }
 .base-forest #light-99 {
   background: rgba(217, 235, 187, 0.0895);
-  transform: translate(29vw, 62vh);
+  left: 29%;
+  top: 62%;
   border-radius: 60% 48% 55% 57% / 50% 43% 57% 50%;
 }
 .base-forest #light-100 {
   background: rgba(217, 235, 187, 0.2358);
-  transform: translate(69vw, 57vh);
+  left: 69%;
+  top: 57%;
   border-radius: 47% 45% 56% 49% / 50% 43% 57% 50%;
 }
 .base-forest #light-101 {
   background: rgba(217, 235, 187, 0.2631);
-  transform: translate(98vw, 63vh);
+  left: 98%;
+  top: 63%;
   border-radius: 51% 45% 49% 46% / 50% 43% 57% 50%;
 }
 .base-forest #light-102 {
   background: rgba(217, 235, 187, 0.0862);
-  transform: translate(41vw, 2vh);
+  left: 41%;
+  top: 2%;
   border-radius: 59% 59% 46% 55% / 50% 43% 57% 50%;
 }
 .base-forest #light-103 {
   background: rgba(217, 235, 187, 0.1036);
-  transform: translate(-19vw, 94vh);
+  left: -19%;
+  top: 94%;
   border-radius: 54% 60% 60% 46% / 50% 43% 57% 50%;
 }
 .base-forest #light-104 {
   background: rgba(217, 235, 187, 0.1583);
-  transform: translate(43vw, 35vh);
+  left: 43%;
+  top: 35%;
   border-radius: 50% 48% 58% 55% / 50% 43% 57% 50%;
 }
 .base-forest #light-105 {
   background: rgba(217, 235, 187, 0.1682);
-  transform: translate(32vw, 51vh);
+  left: 32%;
+  top: 51%;
   border-radius: 58% 50% 47% 46% / 50% 43% 57% 50%;
 }
 .base-forest #light-106 {
   background: rgba(217, 235, 187, 0.2307);
-  transform: translate(61vw, 82vh);
+  left: 61%;
+  top: 82%;
   border-radius: 48% 58% 45% 46% / 50% 43% 57% 50%;
 }
 .base-forest #light-107 {
   background: rgba(217, 235, 187, 0.1817);
-  transform: translate(-2vw, 85vh);
+  left: -2%;
+  top: 85%;
   border-radius: 50% 60% 45% 51% / 50% 43% 57% 50%;
 }
 .base-forest #light-108 {
   background: rgba(217, 235, 187, 0.1498);
-  transform: translate(35vw, 57vh);
+  left: 35%;
+  top: 57%;
   border-radius: 53% 53% 49% 58% / 50% 43% 57% 50%;
 }
 .base-forest #light-109 {
   background: rgba(217, 235, 187, 0.0612);
-  transform: translate(61vw, 71vh);
+  left: 61%;
+  top: 71%;
   border-radius: 58% 48% 59% 52% / 50% 43% 57% 50%;
 }
 .base-forest #light-110 {
   background: rgba(217, 235, 187, 0.1601);
-  transform: translate(92vw, 77vh);
+  left: 92%;
+  top: 77%;
   border-radius: 46% 52% 58% 53% / 50% 43% 57% 50%;
 }
 .base-forest #light-111 {
   background: rgba(217, 235, 187, 0.2233);
-  transform: translate(36vw, 88vh);
+  left: 36%;
+  top: 88%;
   border-radius: 55% 60% 46% 57% / 50% 43% 57% 50%;
 }
 .base-forest #light-112 {
   background: rgba(217, 235, 187, 0.0186);
-  transform: translate(59vw, 41vh);
+  left: 59%;
+  top: 41%;
   border-radius: 60% 48% 52% 48% / 50% 43% 57% 50%;
 }
 .base-forest #light-113 {
   background: rgba(217, 235, 187, 0.1118);
-  transform: translate(94vw, 23vh);
+  left: 94%;
+  top: 23%;
   border-radius: 55% 46% 52% 45% / 50% 43% 57% 50%;
 }
 .base-forest #light-114 {
   background: rgba(217, 235, 187, 0.0797);
-  transform: translate(58vw, 43vh);
+  left: 58%;
+  top: 43%;
   border-radius: 50% 56% 59% 51% / 50% 43% 57% 50%;
 }
 .base-forest #light-115 {
   background: rgba(217, 235, 187, 0.1716);
-  transform: translate(78vw, 27vh);
+  left: 78%;
+  top: 27%;
   border-radius: 58% 54% 47% 47% / 50% 43% 57% 50%;
 }
 .base-forest #light-116 {
   background: rgba(217, 235, 187, 0.2287);
-  transform: translate(30vw, 3vh);
+  left: 30%;
+  top: 3%;
   border-radius: 49% 54% 45% 53% / 50% 43% 57% 50%;
 }
 .base-forest #light-117 {
   background: rgba(217, 235, 187, 0.0677);
-  transform: translate(70vw, 43vh);
+  left: 70%;
+  top: 43%;
   border-radius: 59% 56% 58% 49% / 50% 43% 57% 50%;
 }
 .base-forest #light-118 {
   background: rgba(217, 235, 187, 0.092);
-  transform: translate(-17vw, 34vh);
+  left: -17%;
+  top: 34%;
   border-radius: 53% 47% 50% 58% / 50% 43% 57% 50%;
 }
 .base-forest #light-119 {
   background: rgba(217, 235, 187, 0.1924);
-  transform: translate(-15vw, -15vh);
+  left: -15%;
+  top: -15%;
   border-radius: 60% 51% 48% 51% / 50% 43% 57% 50%;
 }
 .base-forest #light-120 {
   background: rgba(217, 235, 187, 0.2522);
-  transform: translate(58vw, 16vh);
+  left: 58%;
+  top: 16%;
   border-radius: 50% 45% 50% 48% / 50% 43% 57% 50%;
 }
 .base-forest #light-121 {
   background: rgba(217, 235, 187, 0.1393);
-  transform: translate(15vw, 5vh);
+  left: 15%;
+  top: 5%;
   border-radius: 47% 53% 50% 46% / 50% 43% 57% 50%;
 }
 .base-forest #light-122 {
   background: rgba(217, 235, 187, 0.2209);
-  transform: translate(84vw, 22vh);
+  left: 84%;
+  top: 22%;
   border-radius: 52% 50% 60% 60% / 50% 43% 57% 50%;
 }
 .base-forest #light-123 {
   background: rgba(217, 235, 187, 0.1059);
-  transform: translate(44vw, 5vh);
+  left: 44%;
+  top: 5%;
   border-radius: 52% 56% 48% 60% / 50% 43% 57% 50%;
 }
 .base-forest #light-124 {
   background: rgba(217, 235, 187, 0.0665);
-  transform: translate(84vw, 35vh);
+  left: 84%;
+  top: 35%;
   border-radius: 58% 47% 49% 46% / 50% 43% 57% 50%;
 }
 .base-forest #light-125 {
   background: rgba(217, 235, 187, 0.2809);
-  transform: translate(84vw, 27vh);
+  left: 84%;
+  top: 27%;
   border-radius: 46% 60% 55% 60% / 50% 43% 57% 50%;
 }
 .base-forest #light-126 {
   background: rgba(217, 235, 187, 0.1299);
-  transform: translate(44vw, 59vh);
+  left: 44%;
+  top: 59%;
   border-radius: 47% 52% 50% 54% / 50% 43% 57% 50%;
 }
 .base-forest #light-127 {
   background: rgba(217, 235, 187, 0.1407);
-  transform: translate(67vw, 52vh);
+  left: 67%;
+  top: 52%;
   border-radius: 48% 56% 55% 58% / 50% 43% 57% 50%;
 }
 .base-forest #light-128 {
   background: rgba(217, 235, 187, 0.2671);
-  transform: translate(56vw, 88vh);
+  left: 56%;
+  top: 88%;
   border-radius: 60% 57% 59% 46% / 50% 43% 57% 50%;
 }
 .base-forest #light-129 {
   background: rgba(217, 235, 187, 0.1908);
-  transform: translate(27vw, 38vh);
+  left: 27%;
+  top: 38%;
   border-radius: 50% 51% 59% 54% / 50% 43% 57% 50%;
 }
 .base-forest #light-130 {
   background: rgba(217, 235, 187, 0.2281);
-  transform: translate(55vw, -14vh);
+  left: 55%;
+  top: -14%;
   border-radius: 53% 48% 49% 59% / 50% 43% 57% 50%;
 }
-@media only screen and (max-width: 500px) {
-  .base-forest #light-131 {
-    background: rgba(217, 235, 187, 0.1524);
-    transform: translate(1vw, -14vh);
-    border-radius: 57% 51% 51% 59% / 50% 43% 57% 50%;
-  }
-  .base-forest #light-132 {
-    background: rgba(217, 235, 187, 0.136);
-    transform: translate(56vw, 19vh);
-    border-radius: 51% 52% 46% 57% / 50% 43% 57% 50%;
-  }
-  .base-forest #light-133 {
-    background: rgba(217, 235, 187, 0.1403);
-    transform: translate(-9vw, 19vh);
-    border-radius: 49% 59% 50% 46% / 50% 43% 57% 50%;
-  }
-  .base-forest #light-134 {
-    background: rgba(217, 235, 187, 0.0466);
-    transform: translate(76vw, -12vh);
-    border-radius: 52% 57% 48% 46% / 50% 43% 57% 50%;
-  }
-  .base-forest #light-135 {
-    background: rgba(217, 235, 187, 0.2808);
-    transform: translate(66vw, 0vh);
-    border-radius: 55% 50% 45% 53% / 50% 43% 57% 50%;
-  }
-  .base-forest #light-136 {
-    background: rgba(217, 235, 187, 0.0556);
-    transform: translate(59vw, 32vh);
-    border-radius: 45% 55% 50% 51% / 50% 43% 57% 50%;
-  }
-  .base-forest #light-137 {
-    background: rgba(217, 235, 187, 0.2748);
-    transform: translate(21vw, -3vh);
-    border-radius: 45% 52% 48% 46% / 50% 43% 57% 50%;
-  }
-  .base-forest #light-138 {
-    background: rgba(217, 235, 187, 0.0147);
-    transform: translate(82vw, 69vh);
-    border-radius: 59% 52% 57% 54% / 50% 43% 57% 50%;
-  }
-  .base-forest #light-139 {
-    background: rgba(217, 235, 187, 0.131);
-    transform: translate(28vw, 79vh);
-    border-radius: 60% 56% 57% 47% / 50% 43% 57% 50%;
-  }
-  .base-forest #light-140 {
-    background: rgba(217, 235, 187, 0.1897);
-    transform: translate(29vw, 38vh);
-    border-radius: 60% 55% 54% 53% / 50% 43% 57% 50%;
-  }
-  .base-forest #light-141 {
-    background: rgba(217, 235, 187, 0.1695);
-    transform: translate(63vw, 68vh);
-    border-radius: 51% 60% 53% 47% / 50% 43% 57% 50%;
-  }
-  .base-forest #light-142 {
-    background: rgba(217, 235, 187, 0.0483);
-    transform: translate(0vw, 62vh);
-    border-radius: 46% 48% 59% 59% / 50% 43% 57% 50%;
-  }
-  .base-forest #light-143 {
-    background: rgba(217, 235, 187, 0.0446);
-    transform: translate(-20vw, 65vh);
-    border-radius: 53% 56% 48% 49% / 50% 43% 57% 50%;
-  }
-  .base-forest #light-144 {
-    background: rgba(217, 235, 187, 0.129);
-    transform: translate(-16vw, -9vh);
-    border-radius: 56% 57% 52% 55% / 50% 43% 57% 50%;
-  }
-  .base-forest #light-145 {
-    background: rgba(217, 235, 187, 0.0026);
-    transform: translate(32vw, -4vh);
-    border-radius: 57% 47% 53% 57% / 50% 43% 57% 50%;
-  }
-  .base-forest #light-146 {
-    background: rgba(217, 235, 187, 0.0097);
-    transform: translate(83vw, -18vh);
-    border-radius: 52% 59% 60% 47% / 50% 43% 57% 50%;
-  }
-  .base-forest #light-147 {
-    background: rgba(217, 235, 187, 0.0529);
-    transform: translate(67vw, 22vh);
-    border-radius: 46% 53% 54% 54% / 50% 43% 57% 50%;
-  }
-  .base-forest #light-148 {
-    background: rgba(217, 235, 187, 0.2631);
-    transform: translate(28vw, 56vh);
-    border-radius: 53% 51% 54% 45% / 50% 43% 57% 50%;
-  }
-  .base-forest #light-149 {
-    background: rgba(217, 235, 187, 0.1788);
-    transform: translate(2vw, 70vh);
-    border-radius: 51% 49% 51% 48% / 50% 43% 57% 50%;
-  }
-  .base-forest #light-150 {
-    background: rgba(217, 235, 187, 0.238);
-    transform: translate(-5vw, 3vh);
-    border-radius: 50% 54% 54% 59% / 50% 43% 57% 50%;
-  }
-  .base-forest #light-151 {
+.base-forest #light-131 {
+  background: rgba(217, 235, 187, 0.1524);
+  left: 1%;
+  top: -14%;
+  border-radius: 57% 51% 51% 59% / 50% 43% 57% 50%;
+}
+.base-forest #light-132 {
+  background: rgba(217, 235, 187, 0.136);
+  left: 56%;
+  top: 19%;
+  border-radius: 51% 52% 46% 57% / 50% 43% 57% 50%;
+}
+.base-forest #light-133 {
+  background: rgba(217, 235, 187, 0.1403);
+  left: -9%;
+  top: 19%;
+  border-radius: 49% 59% 50% 46% / 50% 43% 57% 50%;
+}
+.base-forest #light-134 {
+  background: rgba(217, 235, 187, 0.0466);
+  left: 76%;
+  top: -12%;
+  border-radius: 52% 57% 48% 46% / 50% 43% 57% 50%;
+}
+.base-forest #light-135 {
+  background: rgba(217, 235, 187, 0.2808);
+  left: 66%;
+  top: 0%;
+  border-radius: 55% 50% 45% 53% / 50% 43% 57% 50%;
+}
+.base-forest #light-136 {
+  background: rgba(217, 235, 187, 0.0556);
+  left: 59%;
+  top: 32%;
+  border-radius: 45% 55% 50% 51% / 50% 43% 57% 50%;
+}
+.base-forest #light-137 {
+  background: rgba(217, 235, 187, 0.2748);
+  left: 21%;
+  top: -3%;
+  border-radius: 45% 52% 48% 46% / 50% 43% 57% 50%;
+}
+.base-forest #light-138 {
+  background: rgba(217, 235, 187, 0.0147);
+  left: 82%;
+  top: 69%;
+  border-radius: 59% 52% 57% 54% / 50% 43% 57% 50%;
+}
+.base-forest #light-139 {
+  background: rgba(217, 235, 187, 0.131);
+  left: 28%;
+  top: 79%;
+  border-radius: 60% 56% 57% 47% / 50% 43% 57% 50%;
+}
+.base-forest #light-140 {
+  background: rgba(217, 235, 187, 0.1897);
+  left: 29%;
+  top: 38%;
+  border-radius: 60% 55% 54% 53% / 50% 43% 57% 50%;
+}
+.base-forest #light-141 {
+  background: rgba(217, 235, 187, 0.1695);
+  left: 63%;
+  top: 68%;
+  border-radius: 51% 60% 53% 47% / 50% 43% 57% 50%;
+}
+.base-forest #light-142 {
+  background: rgba(217, 235, 187, 0.0483);
+  left: 0%;
+  top: 62%;
+  border-radius: 46% 48% 59% 59% / 50% 43% 57% 50%;
+}
+.base-forest #light-143 {
+  background: rgba(217, 235, 187, 0.0446);
+  left: -20%;
+  top: 65%;
+  border-radius: 53% 56% 48% 49% / 50% 43% 57% 50%;
+}
+.base-forest #light-144 {
+  background: rgba(217, 235, 187, 0.129);
+  left: -16%;
+  top: -9%;
+  border-radius: 56% 57% 52% 55% / 50% 43% 57% 50%;
+}
+.base-forest #light-145 {
+  background: rgba(217, 235, 187, 0.0026);
+  left: 32%;
+  top: -4%;
+  border-radius: 57% 47% 53% 57% / 50% 43% 57% 50%;
+}
+.base-forest #light-146 {
+  background: rgba(217, 235, 187, 0.0097);
+  left: 83%;
+  top: -18%;
+  border-radius: 52% 59% 60% 47% / 50% 43% 57% 50%;
+}
+.base-forest #light-147 {
+  background: rgba(217, 235, 187, 0.0529);
+  left: 67%;
+  top: 22%;
+  border-radius: 46% 53% 54% 54% / 50% 43% 57% 50%;
+}
+.base-forest #light-148 {
+  background: rgba(217, 235, 187, 0.2631);
+  left: 28%;
+  top: 56%;
+  border-radius: 53% 51% 54% 45% / 50% 43% 57% 50%;
+}
+.base-forest #light-149 {
+  background: rgba(217, 235, 187, 0.1788);
+  left: 2%;
+  top: 70%;
+  border-radius: 51% 49% 51% 48% / 50% 43% 57% 50%;
+}
+.base-forest #light-150 {
+  background: rgba(217, 235, 187, 0.238);
+  left: -5%;
+  top: 3%;
+  border-radius: 50% 54% 54% 59% / 50% 43% 57% 50%;
+}
+/* :disabled.base-forest #light-151 {
     background: rgba(217, 235, 187, 0.14);
-    transform: translate(36vw, 46vh);
+    left: 36%;
+    top: 46%;
     border-radius: 59% 54% 57% 46% / 50% 43% 57% 50%;
   }
   .base-forest #light-152 {
     background: rgba(217, 235, 187, 0.2363);
-    transform: translate(98vw, 55vh);
+    left: 98%;
+    top: 55%;
     border-radius: 57% 45% 49% 56% / 50% 43% 57% 50%;
   }
   .base-forest #light-153 {
     background: rgba(217, 235, 187, 0.0645);
-    transform: translate(78vw, 0vh);
+    left: 78%;
+    top: 0%;
     border-radius: 48% 45% 57% 49% / 50% 43% 57% 50%;
   }
   .base-forest #light-154 {
     background: rgba(217, 235, 187, 0.0629);
-    transform: translate(6vw, 21vh);
+    left: 6%;
+    top: 21%;
     border-radius: 48% 53% 56% 49% / 50% 43% 57% 50%;
   }
   .base-forest #light-155 {
     background: rgba(217, 235, 187, 0.1737);
-    transform: translate(51vw, 38vh);
+    left: 51%;
+    top: 38%;
     border-radius: 49% 56% 50% 48% / 50% 43% 57% 50%;
   }
   .base-forest #light-156 {
     background: rgba(217, 235, 187, 0.0506);
-    transform: translate(-19vw, 55vh);
+    left: -19%;
+    top: 55%;
     border-radius: 46% 60% 46% 48% / 50% 43% 57% 50%;
   }
   .base-forest #light-157 {
     background: rgba(217, 235, 187, 0.2012);
-    transform: translate(6vw, 93vh);
+    left: 6%;
+    top: 93%;
     border-radius: 59% 46% 59% 52% / 50% 43% 57% 50%;
   }
   .base-forest #light-158 {
     background: rgba(217, 235, 187, 0.0908);
-    transform: translate(40vw, 61vh);
+    left: 40%;
+    top: 61%;
     border-radius: 54% 56% 57% 45% / 50% 43% 57% 50%;
   }
   .base-forest #light-159 {
     background: rgba(217, 235, 187, 0.275);
-    transform: translate(59vw, -5vh);
+    left: 59%;
+    top: -5%;
     border-radius: 60% 52% 54% 57% / 50% 43% 57% 50%;
   }
   .base-forest #light-160 {
     background: rgba(217, 235, 187, 0.1116);
-    transform: translate(-5vw, 55vh);
+    left: -5%;
+    top: 55%;
     border-radius: 56% 58% 59% 60% / 50% 43% 57% 50%;
   }
   .base-forest #light-161 {
     background: rgba(217, 235, 187, 0.2621);
-    transform: translate(64vw, 34vh);
+    left: 64%;
+    top: 34%;
     border-radius: 45% 46% 46% 56% / 50% 43% 57% 50%;
   }
   .base-forest #light-162 {
     background: rgba(217, 235, 187, 0.1344);
-    transform: translate(67vw, 44vh);
+    left: 67%;
+    top: 44%;
     border-radius: 58% 58% 50% 45% / 50% 43% 57% 50%;
   }
   .base-forest #light-163 {
     background: rgba(217, 235, 187, 0.1382);
-    transform: translate(-7vw, 28vh);
+    left: -7%;
+    top: 28%;
     border-radius: 46% 47% 48% 54% / 50% 43% 57% 50%;
   }
   .base-forest #light-164 {
     background: rgba(217, 235, 187, 0.1965);
-    transform: translate(40vw, 14vh);
+    left: 40%;
+    top: 14%;
     border-radius: 56% 54% 56% 53% / 50% 43% 57% 50%;
   }
   .base-forest #light-165 {
     background: rgba(217, 235, 187, 0.083);
-    transform: translate(39vw, 65vh);
+    left: 39%;
+    top: 65%;
     border-radius: 46% 57% 47% 49% / 50% 43% 57% 50%;
   }
   .base-forest #light-166 {
     background: rgba(217, 235, 187, 0.2197);
-    transform: translate(48vw, 62vh);
+    left: 48%;
+    top: 62%;
     border-radius: 52% 53% 48% 56% / 50% 43% 57% 50%;
   }
   .base-forest #light-167 {
     background: rgba(217, 235, 187, 0.1807);
-    transform: translate(96vw, 22vh);
+    left: 96%;
+    top: 22%;
     border-radius: 49% 60% 49% 60% / 50% 43% 57% 50%;
   }
   .base-forest #light-168 {
     background: rgba(217, 235, 187, 0.1672);
-    transform: translate(81vw, -16vh);
+    left: 81%;
+    top: -16%;
     border-radius: 51% 53% 56% 54% / 50% 43% 57% 50%;
   }
   .base-forest #light-169 {
     background: rgba(217, 235, 187, 0.0108);
-    transform: translate(64vw, 98vh);
+    left: 64%;
+    top: 98%;
     border-radius: 53% 48% 59% 54% / 50% 43% 57% 50%;
   }
   .base-forest #light-170 {
     background: rgba(217, 235, 187, 0.194);
-    transform: translate(55vw, -9vh);
+    left: 55%;
+    top: -9%;
     border-radius: 49% 57% 60% 53% / 50% 43% 57% 50%;
   }
   .base-forest #light-171 {
     background: rgba(217, 235, 187, 0.2882);
-    transform: translate(16vw, 67vh);
+    left: 16%;
+    top: 67%;
     border-radius: 47% 49% 47% 46% / 50% 43% 57% 50%;
   }
   .base-forest #light-172 {
     background: rgba(217, 235, 187, 0.0492);
-    transform: translate(75vw, 46vh);
+    left: 75%;
+    top: 46%;
     border-radius: 60% 49% 55% 48% / 50% 43% 57% 50%;
   }
   .base-forest #light-173 {
     background: rgba(217, 235, 187, 0.1488);
-    transform: translate(79vw, 63vh);
+    left: 79%;
+    top: 63%;
     border-radius: 56% 57% 55% 45% / 50% 43% 57% 50%;
   }
   .base-forest #light-174 {
     background: rgba(217, 235, 187, 0.2782);
-    transform: translate(39vw, 29vh);
+    left: 39%;
+    top: 29%;
     border-radius: 55% 56% 50% 54% / 50% 43% 57% 50%;
   }
   .base-forest #light-175 {
     background: rgba(217, 235, 187, 0.1582);
-    transform: translate(-19vw, 48vh);
+    left: -19%;
+    top: 48%;
     border-radius: 51% 47% 59% 47% / 50% 43% 57% 50%;
   }
   .base-forest #light-176 {
     background: rgba(217, 235, 187, 0.1177);
-    transform: translate(77vw, 75vh);
+    left: 77%;
+    top: 75%;
     border-radius: 59% 53% 53% 52% / 50% 43% 57% 50%;
   }
   .base-forest #light-177 {
     background: rgba(217, 235, 187, 0.0773);
-    transform: translate(26vw, 55vh);
+    left: 26%;
+    top: 55%;
     border-radius: 52% 51% 51% 57% / 50% 43% 57% 50%;
   }
   .base-forest #light-178 {
     background: rgba(217, 235, 187, 0.2844);
-    transform: translate(89vw, 76vh);
+    left: 89%;
+    top: 76%;
     border-radius: 49% 49% 45% 53% / 50% 43% 57% 50%;
   }
   .base-forest #light-179 {
     background: rgba(217, 235, 187, 0.0845);
-    transform: translate(-10vw, 65vh);
+    left: -10%;
+    top: 65%;
     border-radius: 58% 57% 46% 59% / 50% 43% 57% 50%;
   }
   .base-forest #light-180 {
     background: rgba(217, 235, 187, 0.2434);
-    transform: translate(13vw, 33vh);
+    left: 13%;
+    top: 33%;
     border-radius: 49% 53% 47% 58% / 50% 43% 57% 50%;
   }
   .base-forest #light-181 {
     background: rgba(217, 235, 187, 0.1613);
-    transform: translate(55vw, 12vh);
+    left: 55%;
+    top: 12%;
     border-radius: 45% 57% 56% 51% / 50% 43% 57% 50%;
   }
   .base-forest #light-182 {
     background: rgba(217, 235, 187, 0.0021);
-    transform: translate(6vw, 94vh);
+    left: 6%;
+    top: 94%;
     border-radius: 57% 52% 47% 49% / 50% 43% 57% 50%;
   }
   .base-forest #light-183 {
     background: rgba(217, 235, 187, 0.0475);
-    transform: translate(-3vw, 59vh);
+    left: -3%;
+    top: 59%;
     border-radius: 56% 55% 52% 51% / 50% 43% 57% 50%;
   }
   .base-forest #light-184 {
     background: rgba(217, 235, 187, 0.1514);
-    transform: translate(50vw, 99vh);
+    left: 50%;
+    top: 99%;
     border-radius: 59% 59% 51% 57% / 50% 43% 57% 50%;
   }
   .base-forest #light-185 {
     background: rgba(217, 235, 187, 0.237);
-    transform: translate(40vw, 44vh);
+    left: 40%;
+    top: 44%;
     border-radius: 52% 60% 52% 59% / 50% 43% 57% 50%;
   }
   .base-forest #light-186 {
     background: rgba(217, 235, 187, 0.19);
-    transform: translate(35vw, 3vh);
+    left: 35%;
+    top: 3%;
     border-radius: 54% 54% 59% 52% / 50% 43% 57% 50%;
   }
   .base-forest #light-187 {
     background: rgba(217, 235, 187, 0.0085);
-    transform: translate(-3vw, 70vh);
+    left: -3%;
+    top: 70%;
     border-radius: 52% 60% 54% 59% / 50% 43% 57% 50%;
   }
   .base-forest #light-188 {
     background: rgba(217, 235, 187, 0.2149);
-    transform: translate(22vw, 81vh);
+    left: 22%;
+    top: 81%;
     border-radius: 52% 58% 60% 48% / 50% 43% 57% 50%;
   }
   .base-forest #light-189 {
     background: rgba(217, 235, 187, 0.1235);
-    transform: translate(26vw, 5vh);
+    left: 26%;
+    top: 5%;
     border-radius: 46% 58% 50% 60% / 50% 43% 57% 50%;
   }
   .base-forest #light-190 {
     background: rgba(217, 235, 187, 0.0152);
-    transform: translate(32vw, 83vh);
+    left: 32%;
+    top: 83%;
     border-radius: 50% 56% 58% 53% / 50% 43% 57% 50%;
   }
   .base-forest #light-191 {
     background: rgba(217, 235, 187, 0.2575);
-    transform: translate(3vw, 9vh);
+    left: 3%;
+    top: 9%;
     border-radius: 45% 53% 52% 54% / 50% 43% 57% 50%;
   }
   .base-forest #light-192 {
     background: rgba(217, 235, 187, 0.1763);
-    transform: translate(87vw, 19vh);
+    left: 87%;
+    top: 19%;
     border-radius: 56% 59% 59% 47% / 50% 43% 57% 50%;
   }
   .base-forest #light-193 {
     background: rgba(217, 235, 187, 0.0553);
-    transform: translate(49vw, 38vh);
+    left: 49%;
+    top: 38%;
     border-radius: 56% 59% 60% 60% / 50% 43% 57% 50%;
   }
   .base-forest #light-194 {
     background: rgba(217, 235, 187, 0.0599);
-    transform: translate(39vw, 24vh);
+    left: 39%;
+    top: 24%;
     border-radius: 56% 60% 46% 56% / 50% 43% 57% 50%;
   }
   .base-forest #light-195 {
     background: rgba(217, 235, 187, 0.09);
-    transform: translate(10vw, 46vh);
+    left: 10%;
+    top: 46%;
     border-radius: 49% 46% 53% 56% / 50% 43% 57% 50%;
   }
   .base-forest #light-196 {
     background: rgba(217, 235, 187, 0.2452);
-    transform: translate(-10vw, 1vh);
+    left: -10%;
+    top: 1%;
     border-radius: 53% 52% 46% 60% / 50% 43% 57% 50%;
   }
   .base-forest #light-197 {
     background: rgba(217, 235, 187, 0.1122);
-    transform: translate(34vw, 10vh);
+    left: 34%;
+    top: 10%;
     border-radius: 55% 59% 45% 57% / 50% 43% 57% 50%;
   }
   .base-forest #light-198 {
     background: rgba(217, 235, 187, 0.2005);
-    transform: translate(90vw, 15vh);
+    left: 90%;
+    top: 15%;
     border-radius: 54% 50% 52% 52% / 50% 43% 57% 50%;
   }
   .base-forest #light-199 {
     background: rgba(217, 235, 187, 0.1354);
-    transform: translate(89vw, 49vh);
+    left: 89%;
+    top: 49%;
     border-radius: 56% 50% 58% 45% / 50% 43% 57% 50%;
   }
   .base-forest #light-200 {
     background: rgba(217, 235, 187, 0.053);
-    transform: translate(83vw, 69vh);
+    left: 83%;
+    top: 69%;
     border-radius: 55% 49% 49% 52% / 50% 43% 57% 50%;
   }
   .base-forest #light-201 {
     background: rgba(217, 235, 187, 0.0033);
-    transform: translate(16vw, -2vh);
+    left: 16%;
+    top: -2%;
     border-radius: 56% 45% 57% 50% / 50% 43% 57% 50%;
   }
   .base-forest #light-202 {
     background: rgba(217, 235, 187, 0.1224);
-    transform: translate(43vw, 54vh);
+    left: 43%;
+    top: 54%;
     border-radius: 53% 53% 54% 55% / 50% 43% 57% 50%;
   }
   .base-forest #light-203 {
     background: rgba(217, 235, 187, 0.0374);
-    transform: translate(75vw, 21vh);
+    left: 75%;
+    top: 21%;
     border-radius: 45% 45% 46% 45% / 50% 43% 57% 50%;
   }
   .base-forest #light-204 {
     background: rgba(217, 235, 187, 0.2487);
-    transform: translate(97vw, 40vh);
+    left: 97%;
+    top: 40%;
     border-radius: 53% 60% 48% 54% / 50% 43% 57% 50%;
   }
   .base-forest #light-205 {
     background: rgba(217, 235, 187, 0.1314);
-    transform: translate(69vw, 85vh);
+    left: 69%;
+    top: 85%;
     border-radius: 50% 48% 52% 60% / 50% 43% 57% 50%;
   }
   .base-forest #light-206 {
     background: rgba(217, 235, 187, 0.0648);
-    transform: translate(6vw, 71vh);
+    left: 6%;
+    top: 71%;
     border-radius: 56% 60% 45% 50% / 50% 43% 57% 50%;
   }
   .base-forest #light-207 {
     background: rgba(217, 235, 187, 0.2581);
-    transform: translate(92vw, 28vh);
+    left: 92%;
+    top: 28%;
     border-radius: 54% 46% 49% 58% / 50% 43% 57% 50%;
   }
   .base-forest #light-208 {
     background: rgba(217, 235, 187, 0.0588);
-    transform: translate(6vw, -12vh);
+    left: 6%;
+    top: -12%;
     border-radius: 58% 54% 54% 59% / 50% 43% 57% 50%;
   }
   .base-forest #light-209 {
     background: rgba(217, 235, 187, 0.1501);
-    transform: translate(44vw, 70vh);
+    left: 44%;
+    top: 70%;
     border-radius: 60% 57% 45% 49% / 50% 43% 57% 50%;
   }
   .base-forest #light-210 {
     background: rgba(217, 235, 187, 0.2416);
-    transform: translate(74vw, 87vh);
+    left: 74%;
+    top: 87%;
     border-radius: 57% 49% 48% 55% / 50% 43% 57% 50%;
   }
   .base-forest #light-211 {
     background: rgba(217, 235, 187, 0.1823);
-    transform: translate(79vw, -7vh);
+    left: 79%;
+    top: -7%;
     border-radius: 50% 54% 45% 47% / 50% 43% 57% 50%;
   }
   .base-forest #light-212 {
     background: rgba(217, 235, 187, 0.0501);
-    transform: translate(87vw, -15vh);
+    left: 87%;
+    top: -15%;
     border-radius: 48% 56% 57% 52% / 50% 43% 57% 50%;
   }
   .base-forest #light-213 {
     background: rgba(217, 235, 187, 0.2226);
-    transform: translate(78vw, 12vh);
+    left: 78%;
+    top: 12%;
     border-radius: 48% 57% 59% 55% / 50% 43% 57% 50%;
   }
   .base-forest #light-214 {
     background: rgba(217, 235, 187, 0.2875);
-    transform: translate(30vw, 54vh);
+    left: 30%;
+    top: 54%;
     border-radius: 60% 57% 54% 48% / 50% 43% 57% 50%;
   }
   .base-forest #light-215 {
     background: rgba(217, 235, 187, 0.0124);
-    transform: translate(25vw, 56vh);
+    left: 25%;
+    top: 56%;
     border-radius: 56% 51% 47% 55% / 50% 43% 57% 50%;
   }
   .base-forest #light-216 {
     background: rgba(217, 235, 187, 0.0424);
-    transform: translate(49vw, -10vh);
+    left: 49%;
+    top: -10%;
     border-radius: 46% 59% 55% 54% / 50% 43% 57% 50%;
   }
   .base-forest #light-217 {
     background: rgba(217, 235, 187, 0.1992);
-    transform: translate(6vw, 62vh);
+    left: 6%;
+    top: 62%;
     border-radius: 55% 55% 50% 45% / 50% 43% 57% 50%;
   }
   .base-forest #light-218 {
     background: rgba(217, 235, 187, 0.0015);
-    transform: translate(-19vw, 70vh);
+    left: -19%;
+    top: 70%;
     border-radius: 59% 49% 48% 54% / 50% 43% 57% 50%;
   }
   .base-forest #light-219 {
     background: rgba(217, 235, 187, 0.0781);
-    transform: translate(10vw, 52vh);
+    left: 10%;
+    top: 52%;
     border-radius: 60% 49% 58% 56% / 50% 43% 57% 50%;
   }
   .base-forest #light-220 {
     background: rgba(217, 235, 187, 0.0961);
-    transform: translate(4vw, 14vh);
+    left: 4%;
+    top: 14%;
     border-radius: 51% 46% 45% 46% / 50% 43% 57% 50%;
   }
   .base-forest #light-221 {
     background: rgba(217, 235, 187, 0.1829);
-    transform: translate(-6vw, 25vh);
+    left: -6%;
+    top: 25%;
     border-radius: 48% 48% 53% 52% / 50% 43% 57% 50%;
   }
   .base-forest #light-222 {
     background: rgba(217, 235, 187, 0.197);
-    transform: translate(45vw, -10vh);
+    left: 45%;
+    top: -10%;
     border-radius: 51% 59% 50% 56% / 50% 43% 57% 50%;
   }
   .base-forest #light-223 {
     background: rgba(217, 235, 187, 0.2792);
-    transform: translate(61vw, 100vh);
+    left: 61%;
+    top: 100%;
     border-radius: 60% 58% 47% 50% / 50% 43% 57% 50%;
   }
   .base-forest #light-224 {
     background: rgba(217, 235, 187, 0.2014);
-    transform: translate(7vw, 58vh);
+    left: 7%;
+    top: 58%;
     border-radius: 45% 51% 59% 51% / 50% 43% 57% 50%;
   }
   .base-forest #light-225 {
     background: rgba(217, 235, 187, 0.1125);
-    transform: translate(43vw, 100vh);
+    left: 43%;
+    top: 100%;
     border-radius: 59% 54% 47% 51% / 50% 43% 57% 50%;
   }
   .base-forest #light-226 {
     background: rgba(217, 235, 187, 0.1753);
-    transform: translate(53vw, 49vh);
+    left: 53%;
+    top: 49%;
     border-radius: 54% 54% 49% 46% / 50% 43% 57% 50%;
   }
   .base-forest #light-227 {
     background: rgba(217, 235, 187, 0.0593);
-    transform: translate(81vw, 75vh);
+    left: 81%;
+    top: 75%;
     border-radius: 56% 45% 52% 48% / 50% 43% 57% 50%;
   }
   .base-forest #light-228 {
     background: rgba(217, 235, 187, 0.234);
-    transform: translate(58vw, -16vh);
+    left: 58%;
+    top: -16%;
     border-radius: 46% 58% 52% 52% / 50% 43% 57% 50%;
   }
   .base-forest #light-229 {
     background: rgba(217, 235, 187, 0.0021);
-    transform: translate(94vw, -2vh);
+    left: 94%;
+    top: -2%;
     border-radius: 59% 60% 59% 46% / 50% 43% 57% 50%;
   }
   .base-forest #light-230 {
     background: rgba(217, 235, 187, 0.0451);
-    transform: translate(64vw, 24vh);
+    left: 64%;
+    top: 24%;
     border-radius: 55% 45% 56% 59% / 50% 43% 57% 50%;
   }
   .base-forest #light-231 {
     background: rgba(217, 235, 187, 0.1815);
-    transform: translate(85vw, 89vh);
+    left: 85%;
+    top: 89%;
     border-radius: 59% 57% 58% 59% / 50% 43% 57% 50%;
   }
   .base-forest #light-232 {
     background: rgba(217, 235, 187, 0.1279);
-    transform: translate(-14vw, 21vh);
+    left: -14%;
+    top: 21%;
     border-radius: 45% 51% 59% 49% / 50% 43% 57% 50%;
   }
   .base-forest #light-233 {
     background: rgba(217, 235, 187, 0.1163);
-    transform: translate(32vw, 89vh);
+    left: 32%;
+    top: 89%;
     border-radius: 55% 51% 46% 46% / 50% 43% 57% 50%;
   }
   .base-forest #light-234 {
     background: rgba(217, 235, 187, 0.0389);
-    transform: translate(26vw, 54vh);
+    left: 26%;
+    top: 54%;
     border-radius: 57% 53% 60% 55% / 50% 43% 57% 50%;
   }
   .base-forest #light-235 {
     background: rgba(217, 235, 187, 0.1947);
-    transform: translate(88vw, 32vh);
+    left: 88%;
+    top: 32%;
     border-radius: 52% 52% 56% 54% / 50% 43% 57% 50%;
   }
   .base-forest #light-236 {
     background: rgba(217, 235, 187, 0.1396);
-    transform: translate(42vw, -16vh);
+    left: 42%;
+    top: -16%;
     border-radius: 53% 51% 57% 50% / 50% 43% 57% 50%;
   }
   .base-forest #light-237 {
     background: rgba(217, 235, 187, 0.1733);
-    transform: translate(44vw, 7vh);
+    left: 44%;
+    top: 7%;
     border-radius: 48% 59% 56% 56% / 50% 43% 57% 50%;
   }
   .base-forest #light-238 {
     background: rgba(217, 235, 187, 0.2733);
-    transform: translate(54vw, 53vh);
+    left: 54%;
+    top: 53%;
     border-radius: 53% 56% 54% 59% / 50% 43% 57% 50%;
   }
   .base-forest #light-239 {
     background: rgba(217, 235, 187, 0.0143);
-    transform: translate(81vw, 3vh);
+    left: 81%;
+    top: 3%;
     border-radius: 45% 49% 54% 55% / 50% 43% 57% 50%;
   }
   .base-forest #light-240 {
     background: rgba(217, 235, 187, 0.1209);
-    transform: translate(-1vw, 32vh);
+    left: -1%;
+    top: 32%;
     border-radius: 54% 49% 56% 55% / 50% 43% 57% 50%;
   }
   .base-forest #light-241 {
     background: rgba(217, 235, 187, 0.1704);
-    transform: translate(87vw, 48vh);
+    left: 87%;
+    top: 48%;
     border-radius: 50% 57% 56% 45% / 50% 43% 57% 50%;
   }
   .base-forest #light-242 {
     background: rgba(217, 235, 187, 0.1297);
-    transform: translate(61vw, -4vh);
+    left: 61%;
+    top: -4%;
     border-radius: 49% 52% 50% 49% / 50% 43% 57% 50%;
   }
   .base-forest #light-243 {
     background: rgba(217, 235, 187, 0.2548);
-    transform: translate(37vw, 61vh);
+    left: 37%;
+    top: 61%;
     border-radius: 48% 47% 46% 49% / 50% 43% 57% 50%;
   }
   .base-forest #light-244 {
     background: rgba(217, 235, 187, 0.2361);
-    transform: translate(47vw, 54vh);
+    left: 47%;
+    top: 54%;
     border-radius: 56% 56% 47% 57% / 50% 43% 57% 50%;
   }
   .base-forest #light-245 {
     background: rgba(217, 235, 187, 0.1732);
-    transform: translate(-4vw, 97vh);
+    left: -4%;
+    top: 97%;
     border-radius: 48% 46% 47% 57% / 50% 43% 57% 50%;
   }
   .base-forest #light-246 {
     background: rgba(217, 235, 187, 0.2454);
-    transform: translate(14vw, -13vh);
+    left: 14%;
+    top: -13%;
     border-radius: 56% 53% 50% 56% / 50% 43% 57% 50%;
   }
   .base-forest #light-247 {
     background: rgba(217, 235, 187, 0.0521);
-    transform: translate(89vw, -13vh);
+    left: 89%;
+    top: -13%;
     border-radius: 60% 47% 52% 53% / 50% 43% 57% 50%;
   }
   .base-forest #light-248 {
     background: rgba(217, 235, 187, 0.1941);
-    transform: translate(20vw, 2vh);
+    left: 20%;
+    top: 2%;
     border-radius: 46% 60% 57% 51% / 50% 43% 57% 50%;
   }
   .base-forest #light-249 {
     background: rgba(217, 235, 187, 0.2639);
-    transform: translate(10vw, 63vh);
+    left: 10%;
+    top: 63%;
     border-radius: 47% 59% 46% 49% / 50% 43% 57% 50%;
   }
   .base-forest #light-250 {
     background: rgba(217, 235, 187, 0.1267);
-    transform: translate(-7vw, 10vh);
+    left: -7%;
+    top: 10%;
     border-radius: 57% 57% 54% 53% / 50% 43% 57% 50%;
   }
   .base-forest #light-251 {
     background: rgba(217, 235, 187, 0.2179);
-    transform: translate(26vw, 24vh);
+    left: 26%;
+    top: 24%;
     border-radius: 47% 56% 56% 47% / 50% 43% 57% 50%;
   }
   .base-forest #light-252 {
     background: rgba(217, 235, 187, 0.2423);
-    transform: translate(96vw, 14vh);
+    left: 96%;
+    top: 14%;
     border-radius: 51% 52% 56% 53% / 50% 43% 57% 50%;
   }
   .base-forest #light-253 {
     background: rgba(217, 235, 187, 0.182);
-    transform: translate(49vw, 94vh);
+    left: 49%;
+    top: 94%;
     border-radius: 45% 49% 53% 46% / 50% 43% 57% 50%;
   }
   .base-forest #light-254 {
     background: rgba(217, 235, 187, 0.0341);
-    transform: translate(56vw, 70vh);
+    left: 56%;
+    top: 70%;
     border-radius: 60% 48% 59% 54% / 50% 43% 57% 50%;
   }
   .base-forest #light-255 {
     background: rgba(217, 235, 187, 0.0621);
-    transform: translate(26vw, -19vh);
+    left: 26%;
+    top: -19%;
     border-radius: 48% 53% 57% 50% / 50% 43% 57% 50%;
   }
   .base-forest #light-256 {
     background: rgba(217, 235, 187, 0.0334);
-    transform: translate(63vw, 27vh);
+    left: 63%;
+    top: 27%;
     border-radius: 51% 52% 51% 52% / 50% 43% 57% 50%;
   }
   .base-forest #light-257 {
     background: rgba(217, 235, 187, 0.2329);
-    transform: translate(69vw, -19vh);
+    left: 69%;
+    top: -19%;
     border-radius: 49% 56% 58% 50% / 50% 43% 57% 50%;
   }
   .base-forest #light-258 {
     background: rgba(217, 235, 187, 0.1815);
-    transform: translate(20vw, 1vh);
+    left: 20%;
+    top: 1%;
     border-radius: 52% 58% 55% 51% / 50% 43% 57% 50%;
   }
   .base-forest #light-259 {
     background: rgba(217, 235, 187, 0.1525);
-    transform: translate(-8vw, 3vh);
+    left: -8%;
+    top: 3%;
     border-radius: 59% 52% 48% 48% / 50% 43% 57% 50%;
   }
   .base-forest #light-260 {
     background: rgba(217, 235, 187, 0.2556);
-    transform: translate(15vw, 91vh);
+    left: 15%;
+    top: 91%;
     border-radius: 54% 52% 54% 51% / 50% 43% 57% 50%;
   }
   .base-forest #light-261 {
     background: rgba(217, 235, 187, 0.0874);
-    transform: translate(40vw, 97vh);
+    left: 40%;
+    top: 97%;
     border-radius: 60% 50% 60% 46% / 50% 43% 57% 50%;
   }
   .base-forest #light-262 {
     background: rgba(217, 235, 187, 0.2571);
-    transform: translate(15vw, 60vh);
+    left: 15%;
+    top: 60%;
     border-radius: 46% 54% 48% 45% / 50% 43% 57% 50%;
   }
   .base-forest #light-263 {
     background: rgba(217, 235, 187, 0.0028);
-    transform: translate(76vw, 81vh);
+    left: 76%;
+    top: 81%;
     border-radius: 53% 55% 53% 46% / 50% 43% 57% 50%;
   }
   .base-forest #light-264 {
     background: rgba(217, 235, 187, 0.1851);
-    transform: translate(53vw, 69vh);
+    left: 53%;
+    top: 69%;
     border-radius: 59% 59% 47% 54% / 50% 43% 57% 50%;
   }
   .base-forest #light-265 {
     background: rgba(217, 235, 187, 0.0715);
-    transform: translate(-1vw, 70vh);
+    left: -1%;
+    top: 70%;
     border-radius: 57% 49% 58% 58% / 50% 43% 57% 50%;
   }
   .base-forest #light-266 {
     background: rgba(217, 235, 187, 0.2791);
-    transform: translate(15vw, 32vh);
+    left: 15%;
+    top: 32%;
     border-radius: 45% 47% 60% 45% / 50% 43% 57% 50%;
   }
   .base-forest #light-267 {
     background: rgba(217, 235, 187, 0.1618);
-    transform: translate(40vw, 57vh);
+    left: 40%;
+    top: 57%;
     border-radius: 51% 55% 53% 45% / 50% 43% 57% 50%;
   }
   .base-forest #light-268 {
     background: rgba(217, 235, 187, 0.2432);
-    transform: translate(-4vw, -6vh);
+    left: -4%;
+    top: -6%;
     border-radius: 60% 45% 49% 48% / 50% 43% 57% 50%;
   }
   .base-forest #light-269 {
     background: rgba(217, 235, 187, 0.2555);
-    transform: translate(88vw, 50vh);
+    left: 88%;
+    top: 50%;
     border-radius: 50% 50% 57% 49% / 50% 43% 57% 50%;
   }
   .base-forest #light-270 {
     background: rgba(217, 235, 187, 0.1071);
-    transform: translate(52vw, 55vh);
+    left: 52%;
+    top: 55%;
     border-radius: 53% 50% 55% 49% / 50% 43% 57% 50%;
   }
   .base-forest #light-271 {
     background: rgba(217, 235, 187, 0.0046);
-    transform: translate(-2vw, 72vh);
+    left: -2%;
+    top: 72%;
     border-radius: 50% 46% 59% 52% / 50% 43% 57% 50%;
   }
   .base-forest #light-272 {
     background: rgba(217, 235, 187, 0.1621);
-    transform: translate(74vw, 20vh);
+    left: 74%;
+    top: 20%;
     border-radius: 50% 52% 48% 57% / 50% 43% 57% 50%;
   }
   .base-forest #light-273 {
     background: rgba(217, 235, 187, 0.1795);
-    transform: translate(81vw, 86vh);
+    left: 81%;
+    top: 86%;
     border-radius: 45% 45% 57% 51% / 50% 43% 57% 50%;
   }
   .base-forest #light-274 {
     background: rgba(217, 235, 187, 0.0201);
-    transform: translate(69vw, -18vh);
+    left: 69%;
+    top: -18%;
     border-radius: 48% 49% 60% 49% / 50% 43% 57% 50%;
   }
   .base-forest #light-275 {
     background: rgba(217, 235, 187, 0.1765);
-    transform: translate(7vw, 41vh);
+    left: 7%;
+    top: 41%;
     border-radius: 58% 52% 46% 54% / 50% 43% 57% 50%;
   }
   .base-forest #light-276 {
     background: rgba(217, 235, 187, 0.2713);
-    transform: translate(39vw, 38vh);
+    left: 39%;
+    top: 38%;
     border-radius: 59% 46% 50% 59% / 50% 43% 57% 50%;
   }
   .base-forest #light-277 {
     background: rgba(217, 235, 187, 0.2207);
-    transform: translate(3vw, 10vh);
+    left: 3%;
+    top: 10%;
     border-radius: 58% 58% 51% 50% / 50% 43% 57% 50%;
   }
   .base-forest #light-278 {
     background: rgba(217, 235, 187, 0.0387);
-    transform: translate(47vw, 31vh);
+    left: 47%;
+    top: 31%;
     border-radius: 57% 58% 48% 53% / 50% 43% 57% 50%;
   }
   .base-forest #light-279 {
     background: rgba(217, 235, 187, 0.0674);
-    transform: translate(79vw, 25vh);
+    left: 79%;
+    top: 25%;
     border-radius: 51% 53% 53% 47% / 50% 43% 57% 50%;
   }
   .base-forest #light-280 {
     background: rgba(217, 235, 187, 0.1231);
-    transform: translate(62vw, 15vh);
+    left: 62%;
+    top: 15%;
     border-radius: 47% 49% 50% 46% / 50% 43% 57% 50%;
   }
   .base-forest #light-281 {
     background: rgba(217, 235, 187, 0.16);
-    transform: translate(39vw, 54vh);
+    left: 39%;
+    top: 54%;
     border-radius: 46% 59% 56% 46% / 50% 43% 57% 50%;
   }
   .base-forest #light-282 {
     background: rgba(217, 235, 187, 0.1458);
-    transform: translate(-12vw, 69vh);
+    left: -12%;
+    top: 69%;
     border-radius: 49% 54% 56% 56% / 50% 43% 57% 50%;
   }
   .base-forest #light-283 {
     background: rgba(217, 235, 187, 0.1558);
-    transform: translate(18vw, 48vh);
+    left: 18%;
+    top: 48%;
     border-radius: 56% 59% 51% 52% / 50% 43% 57% 50%;
   }
   .base-forest #light-284 {
     background: rgba(217, 235, 187, 0.1279);
-    transform: translate(4vw, 35vh);
+    left: 4%;
+    top: 35%;
     border-radius: 45% 47% 49% 49% / 50% 43% 57% 50%;
   }
   .base-forest #light-285 {
     background: rgba(217, 235, 187, 0.1843);
-    transform: translate(23vw, 68vh);
+    left: 23%;
+    top: 68%;
     border-radius: 49% 52% 56% 56% / 50% 43% 57% 50%;
   }
   .base-forest #light-286 {
     background: rgba(217, 235, 187, 0.0409);
-    transform: translate(99vw, 41vh);
+    left: 99%;
+    top: 41%;
     border-radius: 51% 51% 50% 56% / 50% 43% 57% 50%;
   }
   .base-forest #light-287 {
     background: rgba(217, 235, 187, 0.2127);
-    transform: translate(63vw, 31vh);
+    left: 63%;
+    top: 31%;
     border-radius: 60% 50% 58% 55% / 50% 43% 57% 50%;
   }
   .base-forest #light-288 {
     background: rgba(217, 235, 187, 0.0341);
-    transform: translate(70vw, 36vh);
+    left: 70%;
+    top: 36%;
     border-radius: 58% 55% 50% 45% / 50% 43% 57% 50%;
   }
   .base-forest #light-289 {
     background: rgba(217, 235, 187, 0.1908);
-    transform: translate(3vw, 100vh);
+    left: 3%;
+    top: 100%;
     border-radius: 57% 59% 47% 57% / 50% 43% 57% 50%;
   }
   .base-forest #light-290 {
     background: rgba(217, 235, 187, 0.1885);
-    transform: translate(28vw, 50vh);
+    left: 28%;
+    top: 50%;
     border-radius: 45% 55% 47% 52% / 50% 43% 57% 50%;
   }
   .base-forest #light-291 {
     background: rgba(217, 235, 187, 0.0989);
-    transform: translate(49vw, 17vh);
+    left: 49%;
+    top: 17%;
     border-radius: 49% 48% 58% 50% / 50% 43% 57% 50%;
   }
   .base-forest #light-292 {
     background: rgba(217, 235, 187, 0.224);
-    transform: translate(25vw, 24vh);
+    left: 25%;
+    top: 24%;
     border-radius: 57% 55% 58% 47% / 50% 43% 57% 50%;
   }
   .base-forest #light-293 {
     background: rgba(217, 235, 187, 0.1212);
-    transform: translate(10vw, 19vh);
+    left: 10%;
+    top: 19%;
     border-radius: 53% 46% 59% 46% / 50% 43% 57% 50%;
   }
   .base-forest #light-294 {
     background: rgba(217, 235, 187, 0.252);
-    transform: translate(79vw, 13vh);
+    left: 79%;
+    top: 13%;
     border-radius: 54% 58% 52% 52% / 50% 43% 57% 50%;
   }
   .base-forest #light-295 {
     background: rgba(217, 235, 187, 0.262);
-    transform: translate(88vw, 86vh);
+    left: 88%;
+    top: 86%;
     border-radius: 55% 55% 53% 49% / 50% 43% 57% 50%;
   }
   .base-forest #light-296 {
     background: rgba(217, 235, 187, 0.2467);
-    transform: translate(89vw, 59vh);
+    left: 89%;
+    top: 59%;
     border-radius: 45% 51% 54% 51% / 50% 43% 57% 50%;
   }
   .base-forest #light-297 {
     background: rgba(217, 235, 187, 0.0839);
-    transform: translate(8vw, 11vh);
+    left: 8%;
+    top: 11%;
     border-radius: 49% 57% 55% 46% / 50% 43% 57% 50%;
   }
   .base-forest #light-298 {
     background: rgba(217, 235, 187, 0.1757);
-    transform: translate(59vw, -17vh);
+    left: 59%;
+    top: -17%;
     border-radius: 60% 55% 45% 47% / 50% 43% 57% 50%;
   }
   .base-forest #light-299 {
     background: rgba(217, 235, 187, 0.2628);
-    transform: translate(52vw, 50vh);
+    left: 52%;
+    top: 50%;
     border-radius: 55% 53% 60% 52% / 50% 43% 57% 50%;
   }
   .base-forest #light-300 {
-    background: rgba(217, 235, 187, 0.2248);
-    transform: translate(11vw, 56vh);
+    background: rgba(217, 235, 187, 0.0248);
+    left: 11%;
+    top: 56%;
     border-radius: 54% 53% 57% 54% / 50% 43% 57% 50%;
   }
-}
+} */
