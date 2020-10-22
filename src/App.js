@@ -10,6 +10,38 @@ export default function App() {
       <div className="img"></div>
 
       <div className="base-plant">
+        <div id="plant-glow-1" className="plant circle glow"></div>
+        <div id="plant-glow-2" className="plant circle glow"></div>
+        <div id="plant-glow-3" className="plant circle glow"></div>
+        <div id="plant-glow-4" className="plant circle glow"></div>
+        <div id="plant-glow-5" className="plant circle glow"></div>
+        <div id="plant-glow-6" className="plant circle glow"></div>
+        <div id="plant-glow-7" className="plant circle glow"></div>
+        <div id="plant-glow-8" className="plant circle glow"></div>
+        <div id="plant-glow-9" className="plant circle glow"></div>
+        <div id="plant-glow-10" className="plant circle glow"></div>
+        <div id="plant-glow-11" className="plant circle glow"></div>
+        <div id="plant-glow-12" className="plant circle glow"></div>
+        <div id="plant-glow-13" className="plant circle glow"></div>
+        <div id="plant-glow-14" className="plant circle glow"></div>
+        <div id="plant-glow-15" className="plant circle glow"></div>
+        <div id="plant-glow-16" className="plant circle glow"></div>
+        <div id="plant-glow-17" className="plant circle glow"></div>
+        <div id="plant-glow-18" className="plant circle glow"></div>
+        <div id="plant-glow-19" className="plant circle glow"></div>
+        <div id="plant-glow-20" className="plant circle glow"></div>
+        <div id="plant-glow-21" className="plant circle glow"></div>
+        <div id="plant-glow-22" className="plant circle glow"></div>
+        <div id="plant-glow-23" className="plant circle glow"></div>
+        <div id="plant-glow-24" className="plant circle glow"></div>
+        <div id="plant-glow-25" className="plant circle glow"></div>
+        <div id="plant-glow-26" className="plant circle glow"></div>
+        <div id="plant-glow-27" className="plant circle glow"></div>
+        <div id="plant-glow-28" className="plant circle glow"></div>
+        <div id="plant-glow-29" className="plant circle glow"></div>
+        <div id="plant-glow-30" className="plant circle glow"></div>
+        <div id="plant-glow-31" className="plant circle glow"></div>
+
         <div id="plant-1" className="plant circle"></div>
         <div id="plant-2" className="plant circle"></div>
         <div id="plant-3" className="plant circle"></div>
