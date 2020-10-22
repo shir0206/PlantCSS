@@ -234,10 +234,10 @@
 }
 
 .base-plant #plant-glow-40 {
-  left: 35%;
-  top: 48%;
+  left: 34%;
+  top: 48.2%;
   border-radius: 57% 60% 45% 52% / 54% 54% 51% 45%;
-  transform: scale(5);
+  transform: scale(5.1);
 
   background: -webkit-linear-gradient(
     0deg,
@@ -569,9 +569,9 @@
 
   background: -webkit-linear-gradient(
     0deg,
-    rgba(101, 128, 0, 1) 0,
-    rgba(101, 128, 0, 1) 5%,
-    rgba(255, 255, 255, 0) 35%
+    rgba(255, 253, 162, 1) 0,
+    rgb(255, 253, 162) 15%,
+    rgba(0, 150, 255, 0) 25%
   );
   background: -moz-linear-gradient(
     215deg,
@@ -994,10 +994,10 @@
 
 .base-plant #plant-50 {
   background: #8ca404;
-  left: 41%;
+  left: 40%;
   top: 41%;
   border-radius: 57% 60% 45% 52% / 54% 54% 51% 45%;
-  transform: scale(1.5);
+  transform: scale(1.2);
   z-index: 50;
 }
 
