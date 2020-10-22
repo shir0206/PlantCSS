@@ -9,307 +9,307 @@ export default function App() {
     <div className="App">
       <div className="img"></div>
 
-      <div className="plant">
-        <div id="plant-1" className="plant-circle"></div>
-        <div id="plant-2" className="plant-circle"></div>
-        <div id="plant-3" className="plant-circle"></div>
-        <div id="plant-4" className="plant-circle"></div>
-        <div id="plant-5" className="plant-circle"></div>
-        <div id="plant-6" className="plant-circle"></div>
-        <div id="plant-7" className="plant-circle"></div>
-        <div id="plant-8" className="plant-circle"></div>
-        <div id="plant-9" className="plant-circle"></div>
-        <div id="plant-10" className="plant-circle"></div>
-        <div id="plant-11" className="plant-circle"></div>
-        <div id="plant-12" className="plant-circle"></div>
-        <div id="plant-13" className="plant-circle"></div>
-        <div id="plant-14" className="plant-circle"></div>
-        <div id="plant-15" className="plant-circle"></div>
-        <div id="plant-16" className="plant-circle"></div>
-        <div id="plant-17" className="plant-circle"></div>
-        <div id="plant-18" className="plant-circle"></div>
-        <div id="plant-19" className="plant-circle"></div>
-        <div id="plant-20" className="plant-circle"></div>
-        <div id="plant-21" className="plant-circle"></div>
-        <div id="plant-22" className="plant-circle"></div>
-        <div id="plant-23" className="plant-circle"></div>
-        <div id="plant-24" className="plant-circle"></div>
-        <div id="plant-25" className="plant-circle"></div>
-        <div id="plant-26" className="plant-circle"></div>
-        <div id="plant-27" className="plant-circle"></div>
-        <div id="plant-28" className="plant-circle"></div>
-        <div id="plant-29" className="plant-circle"></div>
-        <div id="plant-30" className="plant-circle"></div>
-        <div id="plant-31" className="plant-circle"></div>
-        <div id="plant-32" className="plant-circle"></div>
-        <div id="plant-33" className="plant-circle"></div>
-        <div id="plant-34" className="plant-circle"></div>
-        <div id="plant-35" className="plant-circle"></div>
-        <div id="plant-36" className="plant-circle"></div>
-        <div id="plant-37" className="plant-circle"></div>
-        <div id="plant-38" className="plant-circle"></div>
-        <div id="plant-39" className="plant-circle"></div>
-        <div id="plant-40" className="plant-circle"></div>
-        <div id="plant-41" className="plant-circle"></div>
-        <div id="plant-42" className="plant-circle"></div>
-        <div id="plant-43" className="plant-circle"></div>
-        <div id="plant-44" className="plant-circle"></div>
-        <div id="plant-45" className="plant-circle"></div>
-        <div id="plant-46" className="plant-circle"></div>
-        <div id="plant-47" className="plant-circle"></div>
-        <div id="plant-48" className="plant-circle"></div>
-        <div id="plant-49" className="plant-circle"></div>
-        <div id="plant-50" className="plant-circle"></div>
-        <div id="plant-51" className="plant-circle"></div>
-        <div id="plant-52" className="plant-circle"></div>
-        <div id="plant-53" className="plant-circle"></div>
-        <div id="plant-54" className="plant-circle"></div>
-        <div id="plant-55" className="plant-circle"></div>
-        <div id="plant-56" className="plant-circle"></div>
-        <div id="plant-57" className="plant-circle"></div>
-        <div id="plant-58" className="plant-circle"></div>
-        <div id="plant-59" className="plant-circle"></div>
-        <div id="plant-60" className="plant-circle"></div>
-        <div id="plant-61" className="plant-circle"></div>
-        <div id="plant-62" className="plant-circle"></div>
-        <div id="plant-63" className="plant-circle"></div>
-        <div id="plant-64" className="plant-circle"></div>
-        <div id="plant-65" className="plant-circle"></div>
-        <div id="plant-66" className="plant-circle"></div>
-        <div id="plant-67" className="plant-circle"></div>
-        <div id="plant-68" className="plant-circle"></div>
-        <div id="plant-69" className="plant-circle"></div>
-        <div id="plant-70" className="plant-circle"></div>
-        <div id="plant-71" className="plant-circle"></div>
-        <div id="plant-72" className="plant-circle"></div>
-        <div id="plant-73" className="plant-circle"></div>
-        <div id="plant-74" className="plant-circle"></div>
-        <div id="plant-75" className="plant-circle"></div>
-        <div id="plant-76" className="plant-circle"></div>
-        <div id="plant-77" className="plant-circle"></div>
-        <div id="plant-78" className="plant-circle"></div>
-        <div id="plant-79" className="plant-circle"></div>
-        <div id="plant-80" className="plant-circle"></div>
-        <div id="plant-81" className="plant-circle"></div>
-        <div id="plant-82" className="plant-circle"></div>
-        <div id="plant-83" className="plant-circle"></div>
-        <div id="plant-84" className="plant-circle"></div>
-        <div id="plant-85" className="plant-circle"></div>
-        <div id="plant-86" className="plant-circle"></div>
-        <div id="plant-87" className="plant-circle"></div>
-        <div id="plant-88" className="plant-circle"></div>
-        <div id="plant-89" className="plant-circle"></div>
-        <div id="plant-90" className="plant-circle"></div>
-        <div id="plant-91" className="plant-circle"></div>
-        <div id="plant-92" className="plant-circle"></div>
-        <div id="plant-93" className="plant-circle"></div>
-        <div id="plant-94" className="plant-circle"></div>
-        <div id="plant-95" className="plant-circle"></div>
-        <div id="plant-96" className="plant-circle"></div>
-        <div id="plant-97" className="plant-circle"></div>
-        <div id="plant-98" className="plant-circle"></div>
-        <div id="plant-99" className="plant-circle"></div>
-        <div id="plant-100" className="plant-circle"></div>
-        <div id="plant-101" className="plant-circle"></div>
-        <div id="plant-102" className="plant-circle"></div>
-        <div id="plant-103" className="plant-circle"></div>
-        <div id="plant-104" className="plant-circle"></div>
-        <div id="plant-105" className="plant-circle"></div>
-        <div id="plant-106" className="plant-circle"></div>
-        <div id="plant-107" className="plant-circle"></div>
-        <div id="plant-108" className="plant-circle"></div>
-        <div id="plant-109" className="plant-circle"></div>
-        <div id="plant-110" className="plant-circle"></div>
-        <div id="plant-111" className="plant-circle"></div>
-        <div id="plant-112" className="plant-circle"></div>
-        <div id="plant-113" className="plant-circle"></div>
-        <div id="plant-114" className="plant-circle"></div>
-        <div id="plant-115" className="plant-circle"></div>
-        <div id="plant-116" className="plant-circle"></div>
-        <div id="plant-117" className="plant-circle"></div>
-        <div id="plant-118" className="plant-circle"></div>
-        <div id="plant-119" className="plant-circle"></div>
-        <div id="plant-120" className="plant-circle"></div>
-        <div id="plant-121" className="plant-circle"></div>
-        <div id="plant-122" className="plant-circle"></div>
-        <div id="plant-123" className="plant-circle"></div>
-        <div id="plant-124" className="plant-circle"></div>
-        <div id="plant-125" className="plant-circle"></div>
-        <div id="plant-126" className="plant-circle"></div>
-        <div id="plant-127" className="plant-circle"></div>
-        <div id="plant-128" className="plant-circle"></div>
-        <div id="plant-129" className="plant-circle"></div>
-        <div id="plant-130" className="plant-circle"></div>
-        <div id="plant-131" className="plant-circle"></div>
-        <div id="plant-132" className="plant-circle"></div>
-        <div id="plant-133" className="plant-circle"></div>
-        <div id="plant-134" className="plant-circle"></div>
-        <div id="plant-135" className="plant-circle"></div>
-        <div id="plant-136" className="plant-circle"></div>
-        <div id="plant-137" className="plant-circle"></div>
-        <div id="plant-138" className="plant-circle"></div>
-        <div id="plant-139" className="plant-circle"></div>
-        <div id="plant-140" className="plant-circle"></div>
-        <div id="plant-141" className="plant-circle"></div>
-        <div id="plant-142" className="plant-circle"></div>
-        <div id="plant-143" className="plant-circle"></div>
-        <div id="plant-144" className="plant-circle"></div>
-        <div id="plant-145" className="plant-circle"></div>
-        <div id="plant-146" className="plant-circle"></div>
-        <div id="plant-147" className="plant-circle"></div>
-        <div id="plant-148" className="plant-circle"></div>
-        <div id="plant-149" className="plant-circle"></div>
-        <div id="plant-150" className="plant-circle"></div>
-        <div id="plant-151" className="plant-circle"></div>
-        <div id="plant-152" className="plant-circle"></div>
-        <div id="plant-153" className="plant-circle"></div>
-        <div id="plant-154" className="plant-circle"></div>
-        <div id="plant-155" className="plant-circle"></div>
-        <div id="plant-156" className="plant-circle"></div>
-        <div id="plant-157" className="plant-circle"></div>
-        <div id="plant-158" className="plant-circle"></div>
-        <div id="plant-159" className="plant-circle"></div>
-        <div id="plant-160" className="plant-circle"></div>
-        <div id="plant-161" className="plant-circle"></div>
-        <div id="plant-162" className="plant-circle"></div>
-        <div id="plant-163" className="plant-circle"></div>
-        <div id="plant-164" className="plant-circle"></div>
-        <div id="plant-165" className="plant-circle"></div>
-        <div id="plant-166" className="plant-circle"></div>
-        <div id="plant-167" className="plant-circle"></div>
-        <div id="plant-168" className="plant-circle"></div>
-        <div id="plant-169" className="plant-circle"></div>
-        <div id="plant-170" className="plant-circle"></div>
-        <div id="plant-171" className="plant-circle"></div>
-        <div id="plant-172" className="plant-circle"></div>
-        <div id="plant-173" className="plant-circle"></div>
-        <div id="plant-174" className="plant-circle"></div>
-        <div id="plant-175" className="plant-circle"></div>
-        <div id="plant-176" className="plant-circle"></div>
-        <div id="plant-177" className="plant-circle"></div>
-        <div id="plant-178" className="plant-circle"></div>
-        <div id="plant-179" className="plant-circle"></div>
-        <div id="plant-180" className="plant-circle"></div>
-        <div id="plant-181" className="plant-circle"></div>
-        <div id="plant-182" className="plant-circle"></div>
-        <div id="plant-183" className="plant-circle"></div>
-        <div id="plant-184" className="plant-circle"></div>
-        <div id="plant-185" className="plant-circle"></div>
-        <div id="plant-186" className="plant-circle"></div>
-        <div id="plant-187" className="plant-circle"></div>
-        <div id="plant-188" className="plant-circle"></div>
-        <div id="plant-189" className="plant-circle"></div>
-        <div id="plant-190" className="plant-circle"></div>
-        <div id="plant-191" className="plant-circle"></div>
-        <div id="plant-192" className="plant-circle"></div>
-        <div id="plant-193" className="plant-circle"></div>
-        <div id="plant-194" className="plant-circle"></div>
-        <div id="plant-195" className="plant-circle"></div>
-        <div id="plant-196" className="plant-circle"></div>
-        <div id="plant-197" className="plant-circle"></div>
-        <div id="plant-198" className="plant-circle"></div>
-        <div id="plant-199" className="plant-circle"></div>
-        <div id="plant-200" className="plant-circle"></div>
-        <div id="plant-201" className="plant-circle"></div>
-        <div id="plant-202" className="plant-circle"></div>
-        <div id="plant-203" className="plant-circle"></div>
-        <div id="plant-204" className="plant-circle"></div>
-        <div id="plant-205" className="plant-circle"></div>
-        <div id="plant-206" className="plant-circle"></div>
-        <div id="plant-207" className="plant-circle"></div>
-        <div id="plant-208" className="plant-circle"></div>
-        <div id="plant-209" className="plant-circle"></div>
-        <div id="plant-210" className="plant-circle"></div>
-        <div id="plant-211" className="plant-circle"></div>
-        <div id="plant-212" className="plant-circle"></div>
-        <div id="plant-213" className="plant-circle"></div>
-        <div id="plant-214" className="plant-circle"></div>
-        <div id="plant-215" className="plant-circle"></div>
-        <div id="plant-216" className="plant-circle"></div>
-        <div id="plant-217" className="plant-circle"></div>
-        <div id="plant-218" className="plant-circle"></div>
-        <div id="plant-219" className="plant-circle"></div>
-        <div id="plant-220" className="plant-circle"></div>
-        <div id="plant-221" className="plant-circle"></div>
-        <div id="plant-222" className="plant-circle"></div>
-        <div id="plant-223" className="plant-circle"></div>
-        <div id="plant-224" className="plant-circle"></div>
-        <div id="plant-225" className="plant-circle"></div>
-        <div id="plant-226" className="plant-circle"></div>
-        <div id="plant-227" className="plant-circle"></div>
-        <div id="plant-228" className="plant-circle"></div>
-        <div id="plant-229" className="plant-circle"></div>
-        <div id="plant-230" className="plant-circle"></div>
-        <div id="plant-231" className="plant-circle"></div>
-        <div id="plant-232" className="plant-circle"></div>
-        <div id="plant-233" className="plant-circle"></div>
-        <div id="plant-234" className="plant-circle"></div>
-        <div id="plant-235" className="plant-circle"></div>
-        <div id="plant-236" className="plant-circle"></div>
-        <div id="plant-237" className="plant-circle"></div>
-        <div id="plant-238" className="plant-circle"></div>
-        <div id="plant-239" className="plant-circle"></div>
-        <div id="plant-240" className="plant-circle"></div>
-        <div id="plant-241" className="plant-circle"></div>
-        <div id="plant-242" className="plant-circle"></div>
-        <div id="plant-243" className="plant-circle"></div>
-        <div id="plant-244" className="plant-circle"></div>
-        <div id="plant-245" className="plant-circle"></div>
-        <div id="plant-246" className="plant-circle"></div>
-        <div id="plant-247" className="plant-circle"></div>
-        <div id="plant-248" className="plant-circle"></div>
-        <div id="plant-249" className="plant-circle"></div>
-        <div id="plant-250" className="plant-circle"></div>
-        <div id="plant-251" className="plant-circle"></div>
-        <div id="plant-252" className="plant-circle"></div>
-        <div id="plant-253" className="plant-circle"></div>
-        <div id="plant-254" className="plant-circle"></div>
-        <div id="plant-255" className="plant-circle"></div>
-        <div id="plant-256" className="plant-circle"></div>
-        <div id="plant-257" className="plant-circle"></div>
-        <div id="plant-258" className="plant-circle"></div>
-        <div id="plant-259" className="plant-circle"></div>
-        <div id="plant-260" className="plant-circle"></div>
-        <div id="plant-261" className="plant-circle"></div>
-        <div id="plant-262" className="plant-circle"></div>
-        <div id="plant-263" className="plant-circle"></div>
-        <div id="plant-264" className="plant-circle"></div>
-        <div id="plant-265" className="plant-circle"></div>
-        <div id="plant-266" className="plant-circle"></div>
-        <div id="plant-267" className="plant-circle"></div>
-        <div id="plant-268" className="plant-circle"></div>
-        <div id="plant-269" className="plant-circle"></div>
-        <div id="plant-270" className="plant-circle"></div>
-        <div id="plant-271" className="plant-circle"></div>
-        <div id="plant-272" className="plant-circle"></div>
-        <div id="plant-273" className="plant-circle"></div>
-        <div id="plant-274" className="plant-circle"></div>
-        <div id="plant-275" className="plant-circle"></div>
-        <div id="plant-276" className="plant-circle"></div>
-        <div id="plant-277" className="plant-circle"></div>
-        <div id="plant-278" className="plant-circle"></div>
-        <div id="plant-279" className="plant-circle"></div>
-        <div id="plant-280" className="plant-circle"></div>
-        <div id="plant-281" className="plant-circle"></div>
-        <div id="plant-282" className="plant-circle"></div>
-        <div id="plant-283" className="plant-circle"></div>
-        <div id="plant-284" className="plant-circle"></div>
-        <div id="plant-285" className="plant-circle"></div>
-        <div id="plant-286" className="plant-circle"></div>
-        <div id="plant-287" className="plant-circle"></div>
-        <div id="plant-288" className="plant-circle"></div>
-        <div id="plant-289" className="plant-circle"></div>
-        <div id="plant-290" className="plant-circle"></div>
-        <div id="plant-291" className="plant-circle"></div>
-        <div id="plant-292" className="plant-circle"></div>
-        <div id="plant-293" className="plant-circle"></div>
-        <div id="plant-294" className="plant-circle"></div>
-        <div id="plant-295" className="plant-circle"></div>
-        <div id="plant-296" className="plant-circle"></div>
-        <div id="plant-297" className="plant-circle"></div>
-        <div id="plant-298" className="plant-circle"></div>
-        <div id="plant-299" className="plant-circle"></div>
-        <div id="plant-300" className="plant-circle"></div>
+      <div className="base-plant">
+        <div id="plant-1" className="plant circle"></div>
+        <div id="plant-2" className="plant circle"></div>
+        <div id="plant-3" className="plant circle"></div>
+        <div id="plant-4" className="plant circle"></div>
+        <div id="plant-5" className="plant circle"></div>
+        <div id="plant-6" className="plant circle"></div>
+        <div id="plant-7" className="plant circle"></div>
+        <div id="plant-8" className="plant circle"></div>
+        <div id="plant-9" className="plant circle"></div>
+        <div id="plant-10" className="plant circle"></div>
+        <div id="plant-11" className="plant circle"></div>
+        <div id="plant-12" className="plant circle"></div>
+        <div id="plant-13" className="plant circle"></div>
+        <div id="plant-14" className="plant circle"></div>
+        <div id="plant-15" className="plant circle"></div>
+        <div id="plant-16" className="plant circle"></div>
+        <div id="plant-17" className="plant circle"></div>
+        <div id="plant-18" className="plant circle"></div>
+        <div id="plant-19" className="plant circle"></div>
+        <div id="plant-20" className="plant circle"></div>
+        <div id="plant-21" className="plant circle"></div>
+        <div id="plant-22" className="plant circle"></div>
+        <div id="plant-23" className="plant circle"></div>
+        <div id="plant-24" className="plant circle"></div>
+        <div id="plant-25" className="plant circle"></div>
+        <div id="plant-26" className="plant circle"></div>
+        <div id="plant-27" className="plant circle"></div>
+        <div id="plant-28" className="plant circle"></div>
+        <div id="plant-29" className="plant circle"></div>
+        <div id="plant-30" className="plant circle"></div>
+        <div id="plant-31" className="plant circle"></div>
+        <div id="plant-32" className="plant circle"></div>
+        <div id="plant-33" className="plant circle"></div>
+        <div id="plant-34" className="plant circle"></div>
+        <div id="plant-35" className="plant circle"></div>
+        <div id="plant-36" className="plant circle"></div>
+        <div id="plant-37" className="plant circle"></div>
+        <div id="plant-38" className="plant circle"></div>
+        <div id="plant-39" className="plant circle"></div>
+        <div id="plant-40" className="plant circle"></div>
+        <div id="plant-41" className="plant circle"></div>
+        <div id="plant-42" className="plant circle"></div>
+        <div id="plant-43" className="plant circle"></div>
+        <div id="plant-44" className="plant circle"></div>
+        <div id="plant-45" className="plant circle"></div>
+        <div id="plant-46" className="plant circle"></div>
+        <div id="plant-47" className="plant circle"></div>
+        <div id="plant-48" className="plant circle"></div>
+        <div id="plant-49" className="plant circle"></div>
+        <div id="plant-50" className="plant circle"></div>
+        <div id="plant-51" className="plant circle"></div>
+        <div id="plant-52" className="plant circle"></div>
+        <div id="plant-53" className="plant circle"></div>
+        <div id="plant-54" className="plant circle"></div>
+        <div id="plant-55" className="plant circle"></div>
+        <div id="plant-56" className="plant circle"></div>
+        <div id="plant-57" className="plant circle"></div>
+        <div id="plant-58" className="plant circle"></div>
+        <div id="plant-59" className="plant circle"></div>
+        <div id="plant-60" className="plant circle"></div>
+        <div id="plant-61" className="plant circle"></div>
+        <div id="plant-62" className="plant circle"></div>
+        <div id="plant-63" className="plant circle"></div>
+        <div id="plant-64" className="plant circle"></div>
+        <div id="plant-65" className="plant circle"></div>
+        <div id="plant-66" className="plant circle"></div>
+        <div id="plant-67" className="plant circle"></div>
+        <div id="plant-68" className="plant circle"></div>
+        <div id="plant-69" className="plant circle"></div>
+        <div id="plant-70" className="plant circle"></div>
+        <div id="plant-71" className="plant circle"></div>
+        <div id="plant-72" className="plant circle"></div>
+        <div id="plant-73" className="plant circle"></div>
+        <div id="plant-74" className="plant circle"></div>
+        <div id="plant-75" className="plant circle"></div>
+        <div id="plant-76" className="plant circle"></div>
+        <div id="plant-77" className="plant circle"></div>
+        <div id="plant-78" className="plant circle"></div>
+        <div id="plant-79" className="plant circle"></div>
+        <div id="plant-80" className="plant circle"></div>
+        <div id="plant-81" className="plant circle"></div>
+        <div id="plant-82" className="plant circle"></div>
+        <div id="plant-83" className="plant circle"></div>
+        <div id="plant-84" className="plant circle"></div>
+        <div id="plant-85" className="plant circle"></div>
+        <div id="plant-86" className="plant circle"></div>
+        <div id="plant-87" className="plant circle"></div>
+        <div id="plant-88" className="plant circle"></div>
+        <div id="plant-89" className="plant circle"></div>
+        <div id="plant-90" className="plant circle"></div>
+        <div id="plant-91" className="plant circle"></div>
+        <div id="plant-92" className="plant circle"></div>
+        <div id="plant-93" className="plant circle"></div>
+        <div id="plant-94" className="plant circle"></div>
+        <div id="plant-95" className="plant circle"></div>
+        <div id="plant-96" className="plant circle"></div>
+        <div id="plant-97" className="plant circle"></div>
+        <div id="plant-98" className="plant circle"></div>
+        <div id="plant-99" className="plant circle"></div>
+        <div id="plant-100" className="plant circle"></div>
+        <div id="plant-101" className="plant circle"></div>
+        <div id="plant-102" className="plant circle"></div>
+        <div id="plant-103" className="plant circle"></div>
+        <div id="plant-104" className="plant circle"></div>
+        <div id="plant-105" className="plant circle"></div>
+        <div id="plant-106" className="plant circle"></div>
+        <div id="plant-107" className="plant circle"></div>
+        <div id="plant-108" className="plant circle"></div>
+        <div id="plant-109" className="plant circle"></div>
+        <div id="plant-110" className="plant circle"></div>
+        <div id="plant-111" className="plant circle"></div>
+        <div id="plant-112" className="plant circle"></div>
+        <div id="plant-113" className="plant circle"></div>
+        <div id="plant-114" className="plant circle"></div>
+        <div id="plant-115" className="plant circle"></div>
+        <div id="plant-116" className="plant circle"></div>
+        <div id="plant-117" className="plant circle"></div>
+        <div id="plant-118" className="plant circle"></div>
+        <div id="plant-119" className="plant circle"></div>
+        <div id="plant-120" className="plant circle"></div>
+        <div id="plant-121" className="plant circle"></div>
+        <div id="plant-122" className="plant circle"></div>
+        <div id="plant-123" className="plant circle"></div>
+        <div id="plant-124" className="plant circle"></div>
+        <div id="plant-125" className="plant circle"></div>
+        <div id="plant-126" className="plant circle"></div>
+        <div id="plant-127" className="plant circle"></div>
+        <div id="plant-128" className="plant circle"></div>
+        <div id="plant-129" className="plant circle"></div>
+        <div id="plant-130" className="plant circle"></div>
+        <div id="plant-131" className="plant circle"></div>
+        <div id="plant-132" className="plant circle"></div>
+        <div id="plant-133" className="plant circle"></div>
+        <div id="plant-134" className="plant circle"></div>
+        <div id="plant-135" className="plant circle"></div>
+        <div id="plant-136" className="plant circle"></div>
+        <div id="plant-137" className="plant circle"></div>
+        <div id="plant-138" className="plant circle"></div>
+        <div id="plant-139" className="plant circle"></div>
+        <div id="plant-140" className="plant circle"></div>
+        <div id="plant-141" className="plant circle"></div>
+        <div id="plant-142" className="plant circle"></div>
+        <div id="plant-143" className="plant circle"></div>
+        <div id="plant-144" className="plant circle"></div>
+        <div id="plant-145" className="plant circle"></div>
+        <div id="plant-146" className="plant circle"></div>
+        <div id="plant-147" className="plant circle"></div>
+        <div id="plant-148" className="plant circle"></div>
+        <div id="plant-149" className="plant circle"></div>
+        <div id="plant-150" className="plant circle"></div>
+        <div id="plant-151" className="plant circle"></div>
+        <div id="plant-152" className="plant circle"></div>
+        <div id="plant-153" className="plant circle"></div>
+        <div id="plant-154" className="plant circle"></div>
+        <div id="plant-155" className="plant circle"></div>
+        <div id="plant-156" className="plant circle"></div>
+        <div id="plant-157" className="plant circle"></div>
+        <div id="plant-158" className="plant circle"></div>
+        <div id="plant-159" className="plant circle"></div>
+        <div id="plant-160" className="plant circle"></div>
+        <div id="plant-161" className="plant circle"></div>
+        <div id="plant-162" className="plant circle"></div>
+        <div id="plant-163" className="plant circle"></div>
+        <div id="plant-164" className="plant circle"></div>
+        <div id="plant-165" className="plant circle"></div>
+        <div id="plant-166" className="plant circle"></div>
+        <div id="plant-167" className="plant circle"></div>
+        <div id="plant-168" className="plant circle"></div>
+        <div id="plant-169" className="plant circle"></div>
+        <div id="plant-170" className="plant circle"></div>
+        <div id="plant-171" className="plant circle"></div>
+        <div id="plant-172" className="plant circle"></div>
+        <div id="plant-173" className="plant circle"></div>
+        <div id="plant-174" className="plant circle"></div>
+        <div id="plant-175" className="plant circle"></div>
+        <div id="plant-176" className="plant circle"></div>
+        <div id="plant-177" className="plant circle"></div>
+        <div id="plant-178" className="plant circle"></div>
+        <div id="plant-179" className="plant circle"></div>
+        <div id="plant-180" className="plant circle"></div>
+        <div id="plant-181" className="plant circle"></div>
+        <div id="plant-182" className="plant circle"></div>
+        <div id="plant-183" className="plant circle"></div>
+        <div id="plant-184" className="plant circle"></div>
+        <div id="plant-185" className="plant circle"></div>
+        <div id="plant-186" className="plant circle"></div>
+        <div id="plant-187" className="plant circle"></div>
+        <div id="plant-188" className="plant circle"></div>
+        <div id="plant-189" className="plant circle"></div>
+        <div id="plant-190" className="plant circle"></div>
+        <div id="plant-191" className="plant circle"></div>
+        <div id="plant-192" className="plant circle"></div>
+        <div id="plant-193" className="plant circle"></div>
+        <div id="plant-194" className="plant circle"></div>
+        <div id="plant-195" className="plant circle"></div>
+        <div id="plant-196" className="plant circle"></div>
+        <div id="plant-197" className="plant circle"></div>
+        <div id="plant-198" className="plant circle"></div>
+        <div id="plant-199" className="plant circle"></div>
+        <div id="plant-200" className="plant circle"></div>
+        <div id="plant-201" className="plant circle"></div>
+        <div id="plant-202" className="plant circle"></div>
+        <div id="plant-203" className="plant circle"></div>
+        <div id="plant-204" className="plant circle"></div>
+        <div id="plant-205" className="plant circle"></div>
+        <div id="plant-206" className="plant circle"></div>
+        <div id="plant-207" className="plant circle"></div>
+        <div id="plant-208" className="plant circle"></div>
+        <div id="plant-209" className="plant circle"></div>
+        <div id="plant-210" className="plant circle"></div>
+        <div id="plant-211" className="plant circle"></div>
+        <div id="plant-212" className="plant circle"></div>
+        <div id="plant-213" className="plant circle"></div>
+        <div id="plant-214" className="plant circle"></div>
+        <div id="plant-215" className="plant circle"></div>
+        <div id="plant-216" className="plant circle"></div>
+        <div id="plant-217" className="plant circle"></div>
+        <div id="plant-218" className="plant circle"></div>
+        <div id="plant-219" className="plant circle"></div>
+        <div id="plant-220" className="plant circle"></div>
+        <div id="plant-221" className="plant circle"></div>
+        <div id="plant-222" className="plant circle"></div>
+        <div id="plant-223" className="plant circle"></div>
+        <div id="plant-224" className="plant circle"></div>
+        <div id="plant-225" className="plant circle"></div>
+        <div id="plant-226" className="plant circle"></div>
+        <div id="plant-227" className="plant circle"></div>
+        <div id="plant-228" className="plant circle"></div>
+        <div id="plant-229" className="plant circle"></div>
+        <div id="plant-230" className="plant circle"></div>
+        <div id="plant-231" className="plant circle"></div>
+        <div id="plant-232" className="plant circle"></div>
+        <div id="plant-233" className="plant circle"></div>
+        <div id="plant-234" className="plant circle"></div>
+        <div id="plant-235" className="plant circle"></div>
+        <div id="plant-236" className="plant circle"></div>
+        <div id="plant-237" className="plant circle"></div>
+        <div id="plant-238" className="plant circle"></div>
+        <div id="plant-239" className="plant circle"></div>
+        <div id="plant-240" className="plant circle"></div>
+        <div id="plant-241" className="plant circle"></div>
+        <div id="plant-242" className="plant circle"></div>
+        <div id="plant-243" className="plant circle"></div>
+        <div id="plant-244" className="plant circle"></div>
+        <div id="plant-245" className="plant circle"></div>
+        <div id="plant-246" className="plant circle"></div>
+        <div id="plant-247" className="plant circle"></div>
+        <div id="plant-248" className="plant circle"></div>
+        <div id="plant-249" className="plant circle"></div>
+        <div id="plant-250" className="plant circle"></div>
+        <div id="plant-251" className="plant circle"></div>
+        <div id="plant-252" className="plant circle"></div>
+        <div id="plant-253" className="plant circle"></div>
+        <div id="plant-254" className="plant circle"></div>
+        <div id="plant-255" className="plant circle"></div>
+        <div id="plant-256" className="plant circle"></div>
+        <div id="plant-257" className="plant circle"></div>
+        <div id="plant-258" className="plant circle"></div>
+        <div id="plant-259" className="plant circle"></div>
+        <div id="plant-260" className="plant circle"></div>
+        <div id="plant-261" className="plant circle"></div>
+        <div id="plant-262" className="plant circle"></div>
+        <div id="plant-263" className="plant circle"></div>
+        <div id="plant-264" className="plant circle"></div>
+        <div id="plant-265" className="plant circle"></div>
+        <div id="plant-266" className="plant circle"></div>
+        <div id="plant-267" className="plant circle"></div>
+        <div id="plant-268" className="plant circle"></div>
+        <div id="plant-269" className="plant circle"></div>
+        <div id="plant-270" className="plant circle"></div>
+        <div id="plant-271" className="plant circle"></div>
+        <div id="plant-272" className="plant circle"></div>
+        <div id="plant-273" className="plant circle"></div>
+        <div id="plant-274" className="plant circle"></div>
+        <div id="plant-275" className="plant circle"></div>
+        <div id="plant-276" className="plant circle"></div>
+        <div id="plant-277" className="plant circle"></div>
+        <div id="plant-278" className="plant circle"></div>
+        <div id="plant-279" className="plant circle"></div>
+        <div id="plant-280" className="plant circle"></div>
+        <div id="plant-281" className="plant circle"></div>
+        <div id="plant-282" className="plant circle"></div>
+        <div id="plant-283" className="plant circle"></div>
+        <div id="plant-284" className="plant circle"></div>
+        <div id="plant-285" className="plant circle"></div>
+        <div id="plant-286" className="plant circle"></div>
+        <div id="plant-287" className="plant circle"></div>
+        <div id="plant-288" className="plant circle"></div>
+        <div id="plant-289" className="plant circle"></div>
+        <div id="plant-290" className="plant circle"></div>
+        <div id="plant-291" className="plant circle"></div>
+        <div id="plant-292" className="plant circle"></div>
+        <div id="plant-293" className="plant circle"></div>
+        <div id="plant-294" className="plant circle"></div>
+        <div id="plant-295" className="plant circle"></div>
+        <div id="plant-296" className="plant circle"></div>
+        <div id="plant-297" className="plant circle"></div>
+        <div id="plant-298" className="plant circle"></div>
+        <div id="plant-299" className="plant circle"></div>
+        <div id="plant-300" className="plant circle"></div>
       </div>
 
       <div className="background-forest">

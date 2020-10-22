@@ -18,8 +18,446 @@
   height: 100%;
 }
 
-.plant {
+.base-plant {
   width: 100%;
   height: 100%;
   position: absolute;
+  top: 0;
+  left: 0;
 }
+
+.base-plant .circle {
+  position: absolute;
+  width: min(5vw, 5vh);
+  height: min(5vw, 5vh);
+  z-index: 100;
+  -webkit-filter: blur(1px);
+}
+
+.base-plant #plant-1 {
+  background: #feeab5;
+  left: 45%;
+  top: 80%;
+  border-radius: 57% 60% 45% 52% / 54% 54% 51% 45%;
+  transform: scale(0.2);
+  z-index: 100;
+}
+.base-plant #plant-2 {
+  background: #f0eda0;
+  left: 45.8%;
+  top: 79.5%;
+  border-radius: 57% 60% 45% 52% / 54% 54% 51% 45%;
+  transform: scale(0.2);
+  z-index: 100;
+}
+.base-plant #plant-3 {
+  background: #f9ea99;
+  left: 45.1%;
+  top: 79%;
+  border-radius: 57% 60% 45% 52% / 54% 54% 51% 45%;
+  transform: scale(0.4);
+  z-index: 50;
+}
+.base-plant #plant-4 {
+  background: #f5e899;
+  left: 45.1%;
+  top: 78%;
+  border-radius: 57% 60% 45% 52% / 54% 54% 51% 45%;
+  transform: scale(0.4);
+  z-index: 50;
+}
+.base-plant #plant-5 {
+  background: #edec99;
+  left: 45.1%;
+  top: 77%;
+  border-radius: 57% 60% 45% 52% / 54% 54% 51% 45%;
+  transform: scale(0.4);
+  z-index: 50;
+}
+.base-plant #plant-6 {
+  background: #f3ed95;
+  left: 45.1%;
+  top: 76%;
+  border-radius: 57% 60% 45% 52% / 54% 54% 51% 45%;
+  transform: scale(0.4);
+  z-index: 50;
+}
+.base-plant #plant-7 {
+  background: #f0eb8f;
+  left: 45.15%;
+  top: 75%;
+  border-radius: 57% 60% 45% 52% / 54% 54% 51% 45%;
+  transform: scale(0.4);
+  z-index: 50;
+}
+.base-plant #plant-8 {
+  background: #f0e78a;
+  left: 45.155%;
+  top: 74%;
+  border-radius: 57% 60% 45% 52% / 54% 54% 51% 45%;
+  transform: scale(0.4);
+  z-index: 50;
+}
+.base-plant #plant-9 {
+  background: #eae67b;
+  left: 45.15%;
+  top: 73%;
+  border-radius: 57% 60% 45% 52% / 54% 54% 51% 45%;
+  transform: scale(0.4);
+  z-index: 50;
+}
+.base-plant #plant-10 {
+  background: #ebe374;
+  left: 45.155%;
+  top: 72%;
+  border-radius: 57% 60% 45% 52% / 54% 54% 51% 45%;
+  transform: scale(0.4);
+  z-index: 50;
+}
+.base-plant #plant-11 {
+  background: #eae669;
+  left: 45.15%;
+  top: 71%;
+  border-radius: 57% 60% 45% 52% / 54% 54% 51% 45%;
+  transform: scale(0.4);
+  z-index: 50;
+}
+.base-plant #plant-12 {
+  background: #ebe460;
+  left: 45.1%;
+  top: 70%;
+  border-radius: 57% 60% 45% 52% / 54% 54% 51% 45%;
+  transform: scale(0.4);
+  z-index: 50;
+}
+.base-plant #plant-13 {
+  background: #eae766;
+  left: 45.11%;
+  top: 69%;
+  border-radius: 57% 60% 45% 52% / 54% 54% 51% 45%;
+  transform: scale(0.4);
+  z-index: 50;
+}
+.base-plant #plant-14 {
+  background: #eae563;
+  left: 45.12%;
+  top: 68%;
+  border-radius: 57% 60% 45% 52% / 54% 54% 51% 45%;
+  transform: scale(0.4);
+  z-index: 50;
+}
+.base-plant #plant-15 {
+  background: #ebea5e;
+  left: 45.13%;
+  top: 67%;
+  border-radius: 57% 60% 45% 52% / 54% 54% 51% 45%;
+  transform: scale(0.4);
+  z-index: 50;
+}
+.base-plant #plant-16 {
+  background: #ebe569;
+  left: 45.14%;
+  top: 67%;
+  border-radius: 57% 60% 45% 52% / 54% 54% 51% 45%;
+  transform: scale(0.4);
+  z-index: 50;
+}
+/* .base-plant #plant-2 {  background: rgba(90, 80, 71, 0.2642);  left: -17%; top: 8%;  border-radius: 54% 60% 55% 57% / 50% 45% 48% 52%; }
+.base-plant #plant-3 {  background: rgba(90, 80, 71, 0.1091);  left: -3%; top: 2%;  border-radius: 47% 50% 49% 50% / 52% 49% 51% 58%; }
+.base-plant #plant-4 {  background: rgba(90, 80, 71, 0.1521);  left: -5%; top: 2%;  border-radius: 48% 45% 60% 56% / 47% 45% 47% 56%; }
+.base-plant #plant-5 {  background: rgba(90, 80, 71, 0.2686);  left: -13%; top: -7%;  border-radius: 53% 51% 45% 53% / 55% 60% 47% 46%; }
+.base-plant #plant-6 {  background: rgba(90, 80, 71, 0.3047);  left: 0%; top: -5%;  border-radius: 59% 46% 46% 52% / 55% 58% 49% 57%; }
+.base-plant #plant-7 {  background: rgba(90, 80, 71, 0.2481);  left: -9%; top: -9%;  border-radius: 54% 52% 54% 47% / 49% 53% 50% 49%; }
+.base-plant #plant-8 {  background: rgba(90, 80, 71, 0.1953);  left: -4%; top: 11%;  border-radius: 55% 47% 57% 46% / 58% 52% 59% 59%; }
+.base-plant #plant-9 {  background: rgba(90, 80, 71, 0.3946);  left: -20%; top: 17%;  border-radius: 51% 57% 54% 57% / 59% 51% 46% 53%; }
+.base-plant #plant-10 {  background: rgba(90, 80, 71, 0.1018);  left: -2%; top: 6%;  border-radius: 58% 56% 47% 47% / 47% 59% 45% 51%; }
+.base-plant #plant-11 {  background: rgba(90, 80, 71, 0.2537);  left: 0%; top: -7%;  border-radius: 45% 50% 58% 58% / 47% 52% 48% 59%; }
+.base-plant #plant-12 {  background: rgba(90, 80, 71, 0.2610);  left: -17%; top: 16%;  border-radius: 51% 57% 60% 45% / 54% 57% 51% 47%; }
+.base-plant #plant-13 {  background: rgba(90, 80, 71, 0.1075);  left: -20%; top: 10%;  border-radius: 59% 47% 55% 46% / 50% 55% 45% 51%; }
+.base-plant #plant-14 {  background: rgba(90, 80, 71, 0.1522);  left: -17%; top: 3%;  border-radius: 45% 53% 54% 50% / 51% 53% 53% 56%; }
+.base-plant #plant-15 {  background: rgba(90, 80, 71, 0.3375);  left: -4%; top: -5%;  border-radius: 57% 52% 55% 53% / 48% 48% 57% 58%; }
+.base-plant #plant-16 {  background: rgba(90, 80, 71, 0.1550);  left: -4%; top: 13%;  border-radius: 48% 57% 57% 60% / 45% 52% 60% 47%; }
+.base-plant #plant-17 {  background: rgba(90, 80, 71, 0.3619);  left: -17%; top: 3%;  border-radius: 45% 57% 59% 60% / 59% 55% 60% 54%; }
+.base-plant #plant-18 {  background: rgba(90, 80, 71, 0.3202);  left: -18%; top: 11%;  border-radius: 58% 53% 51% 60% / 52% 58% 53% 59%; }
+.base-plant #plant-19 {  background: rgba(90, 80, 71, 0.1689);  left: -14%; top: -10%;  border-radius: 47% 47% 57% 60% / 45% 58% 55% 55%; }
+.base-plant #plant-20 {  background: rgba(90, 80, 71, 0.1216);  left: -4%; top: -3%;  border-radius: 45% 59% 46% 58% / 47% 47% 46% 48%; }
+.base-plant #plant-21 {  background: rgba(90, 80, 71, 0.2164);  left: -2%; top: -3%;  border-radius: 53% 51% 49% 48% / 58% 47% 54% 49%; }
+.base-plant #plant-22 {  background: rgba(90, 80, 71, 0.1352);  left: -11%; top: 8%;  border-radius: 55% 48% 60% 57% / 51% 59% 52% 46%; }
+.base-plant #plant-23 {  background: rgba(90, 80, 71, 0.2321);  left: -15%; top: -5%;  border-radius: 53% 52% 46% 57% / 53% 53% 52% 60%; }
+.base-plant #plant-24 {  background: rgba(90, 80, 71, 0.2383);  left: -23%; top: 12%;  border-radius: 48% 46% 59% 57% / 49% 60% 48% 53%; }
+.base-plant #plant-25 {  background: rgba(90, 80, 71, 0.3579);  left: -17%; top: 7%;  border-radius: 59% 45% 57% 56% / 59% 60% 47% 57%; }
+.base-plant #plant-26 {  background: rgba(90, 80, 71, 0.2880);  left: -12%; top: 12%;  border-radius: 58% 52% 59% 55% / 58% 47% 48% 46%; }
+.base-plant #plant-27 {  background: rgba(90, 80, 71, 0.3402);  left: -21%; top: -3%;  border-radius: 50% 48% 46% 54% / 47% 45% 59% 49%; }
+.base-plant #plant-28 {  background: rgba(90, 80, 71, 0.2952);  left: -3%; top: 0%;  border-radius: 46% 46% 58% 46% / 56% 50% 45% 48%; }
+.base-plant #plant-29 {  background: rgba(90, 80, 71, 0.1079);  left: -10%; top: -5%;  border-radius: 56% 58% 52% 58% / 51% 51% 50% 52%; }
+.base-plant #plant-30 {  background: rgba(90, 80, 71, 0.2759);  left: -17%; top: -3%;  border-radius: 60% 58% 56% 58% / 49% 57% 59% 59%; }
+.base-plant #plant-31 {  background: rgba(90, 80, 71, 0.1714);  left: -9%; top: -9%;  border-radius: 52% 52% 48% 57% / 58% 56% 56% 51%; }
+.base-plant #plant-32 {  background: rgba(90, 80, 71, 0.2320);  left: -22%; top: 1%;  border-radius: 48% 56% 51% 53% / 58% 46% 46% 46%; }
+.base-plant #plant-33 {  background: rgba(90, 80, 71, 0.2287);  left: -14%; top: 4%;  border-radius: 50% 57% 57% 54% / 51% 52% 58% 55%; }
+.base-plant #plant-34 {  background: rgba(90, 80, 71, 0.3256);  left: -23%; top: 1%;  border-radius: 59% 52% 53% 52% / 50% 59% 51% 50%; }
+.base-plant #plant-35 {  background: rgba(90, 80, 71, 0.1754);  left: -11%; top: 12%;  border-radius: 56% 52% 52% 58% / 55% 46% 51% 45%; }
+.base-plant #plant-36 {  background: rgba(90, 80, 71, 0.3816);  left: -18%; top: 16%;  border-radius: 46% 56% 57% 54% / 46% 52% 54% 49%; }
+.base-plant #plant-37 {  background: rgba(90, 80, 71, 0.1854);  left: -3%; top: 2%;  border-radius: 56% 57% 56% 45% / 58% 47% 50% 47%; }
+.base-plant #plant-38 {  background: rgba(90, 80, 71, 0.2153);  left: -20%; top: -10%;  border-radius: 52% 46% 58% 52% / 48% 45% 54% 55%; }
+.base-plant #plant-39 {  background: rgba(90, 80, 71, 0.3824);  left: -24%; top: -9%;  border-radius: 48% 48% 57% 45% / 51% 52% 56% 46%; }
+.base-plant #plant-40 {  background: rgba(90, 80, 71, 0.3837);  left: -20%; top: 20%;  border-radius: 59% 60% 58% 49% / 58% 52% 54% 55%; }
+.base-plant #plant-41 {  background: rgba(90, 80, 71, 0.1047);  left: -10%; top: 15%;  border-radius: 59% 51% 60% 45% / 58% 52% 52% 52%; }
+.base-plant #plant-42 {  background: rgba(90, 80, 71, 0.2139);  left: -12%; top: 15%;  border-radius: 51% 52% 55% 51% / 53% 51% 60% 52%; }
+.base-plant #plant-43 {  background: rgba(90, 80, 71, 0.2076);  left: -21%; top: -4%;  border-radius: 54% 56% 60% 53% / 57% 54% 48% 58%; }
+.base-plant #plant-44 {  background: rgba(90, 80, 71, 0.1163);  left: -6%; top: 17%;  border-radius: 49% 54% 48% 57% / 50% 56% 50% 57%; }
+.base-plant #plant-45 {  background: rgba(90, 80, 71, 0.3153);  left: -25%; top: 11%;  border-radius: 51% 51% 60% 60% / 58% 45% 58% 54%; }
+.base-plant #plant-46 {  background: rgba(90, 80, 71, 0.2910);  left: -10%; top: 1%;  border-radius: 49% 51% 47% 57% / 47% 59% 54% 60%; }
+.base-plant #plant-47 {  background: rgba(90, 80, 71, 0.2945);  left: -6%; top: -4%;  border-radius: 60% 57% 46% 58% / 55% 55% 53% 48%; }
+.base-plant #plant-48 {  background: rgba(90, 80, 71, 0.3193);  left: -10%; top: -6%;  border-radius: 51% 52% 48% 48% / 55% 57% 53% 57%; }
+.base-plant #plant-49 {  background: rgba(90, 80, 71, 0.2882);  left: -1%; top: -10%;  border-radius: 45% 59% 54% 58% / 47% 52% 60% 47%; }
+.base-plant #plant-50 {  background: rgba(90, 80, 71, 0.3164);  left: -24%; top: -10%;  border-radius: 57% 58% 59% 48% / 49% 55% 45% 60%; }
+.base-plant #plant-51 {  background: rgba(90, 80, 71, 0.1612);  left: -11%; top: -4%;  border-radius: 54% 46% 49% 50% / 57% 56% 58% 47%; }
+.base-plant #plant-52 {  background: rgba(90, 80, 71, 0.1550);  left: -7%; top: -5%;  border-radius: 54% 56% 46% 56% / 60% 54% 54% 55%; }
+.base-plant #plant-53 {  background: rgba(90, 80, 71, 0.1692);  left: -8%; top: 16%;  border-radius: 47% 46% 54% 52% / 52% 52% 49% 60%; }
+.base-plant #plant-54 {  background: rgba(90, 80, 71, 0.2033);  left: -20%; top: 3%;  border-radius: 50% 50% 60% 57% / 60% 57% 54% 53%; }
+.base-plant #plant-55 {  background: rgba(90, 80, 71, 0.3119);  left: -21%; top: 4%;  border-radius: 58% 47% 51% 52% / 49% 60% 49% 50%; }
+.base-plant #plant-56 {  background: rgba(90, 80, 71, 0.2331);  left: -10%; top: -2%;  border-radius: 60% 60% 48% 45% / 47% 48% 50% 52%; }
+.base-plant #plant-57 {  background: rgba(90, 80, 71, 0.1028);  left: -3%; top: 6%;  border-radius: 50% 49% 48% 60% / 55% 51% 51% 50%; }
+.base-plant #plant-58 {  background: rgba(90, 80, 71, 0.1778);  left: -4%; top: 2%;  border-radius: 59% 60% 56% 59% / 51% 46% 58% 49%; }
+.base-plant #plant-59 {  background: rgba(90, 80, 71, 0.1512);  left: -12%; top: -1%;  border-radius: 58% 57% 56% 53% / 55% 50% 48% 50%; }
+.base-plant #plant-60 {  background: rgba(90, 80, 71, 0.3708);  left: -7%; top: 13%;  border-radius: 57% 53% 53% 45% / 49% 50% 48% 58%; }
+.base-plant #plant-61 {  background: rgba(90, 80, 71, 0.1427);  left: -18%; top: 9%;  border-radius: 53% 52% 51% 50% / 47% 45% 52% 53%; }
+.base-plant #plant-62 {  background: rgba(90, 80, 71, 0.3992);  left: -11%; top: 19%;  border-radius: 60% 49% 46% 53% / 58% 51% 54% 57%; }
+.base-plant #plant-63 {  background: rgba(90, 80, 71, 0.3531);  left: -1%; top: 15%;  border-radius: 57% 48% 55% 55% / 51% 60% 60% 47%; }
+.base-plant #plant-64 {  background: rgba(90, 80, 71, 0.2978);  left: -20%; top: 10%;  border-radius: 56% 47% 49% 51% / 46% 60% 45% 50%; }
+.base-plant #plant-65 {  background: rgba(90, 80, 71, 0.3049);  left: -5%; top: 2%;  border-radius: 55% 60% 60% 47% / 58% 49% 50% 49%; }
+.base-plant #plant-66 {  background: rgba(90, 80, 71, 0.1581);  left: -5%; top: -4%;  border-radius: 60% 59% 46% 60% / 47% 51% 50% 57%; }
+.base-plant #plant-67 {  background: rgba(90, 80, 71, 0.2325);  left: -8%; top: 15%;  border-radius: 59% 46% 56% 51% / 45% 51% 47% 60%; }
+.base-plant #plant-68 {  background: rgba(90, 80, 71, 0.1254);  left: -10%; top: -8%;  border-radius: 50% 52% 53% 58% / 46% 46% 50% 57%; }
+.base-plant #plant-69 {  background: rgba(90, 80, 71, 0.1552);  left: -5%; top: -8%;  border-radius: 52% 50% 50% 53% / 55% 51% 59% 50%; }
+.base-plant #plant-70 {  background: rgba(90, 80, 71, 0.3835);  left: -11%; top: 12%;  border-radius: 54% 53% 55% 59% / 54% 45% 55% 54%; }
+.base-plant #plant-71 {  background: rgba(90, 80, 71, 0.3246);  left: -14%; top: -9%;  border-radius: 50% 58% 46% 54% / 60% 60% 46% 46%; }
+.base-plant #plant-72 {  background: rgba(90, 80, 71, 0.2562);  left: -17%; top: 14%;  border-radius: 47% 46% 55% 53% / 60% 59% 51% 50%; }
+.base-plant #plant-73 {  background: rgba(90, 80, 71, 0.2978);  left: -21%; top: 17%;  border-radius: 56% 54% 46% 49% / 57% 55% 49% 48%; }
+.base-plant #plant-74 {  background: rgba(90, 80, 71, 0.2655);  left: -23%; top: -10%;  border-radius: 53% 51% 49% 47% / 58% 60% 59% 47%; }
+.base-plant #plant-75 {  background: rgba(90, 80, 71, 0.2193);  left: -22%; top: 1%;  border-radius: 53% 48% 51% 47% / 46% 59% 46% 48%; }
+.base-plant #plant-76 {  background: rgba(90, 80, 71, 0.1996);  left: -14%; top: 11%;  border-radius: 55% 53% 50% 45% / 55% 50% 47% 56%; }
+.base-plant #plant-77 {  background: rgba(90, 80, 71, 0.2345);  left: -22%; top: -5%;  border-radius: 60% 46% 58% 58% / 55% 49% 60% 50%; }
+.base-plant #plant-78 {  background: rgba(90, 80, 71, 0.3895);  left: -23%; top: 14%;  border-radius: 47% 52% 51% 46% / 53% 46% 58% 52%; }
+.base-plant #plant-79 {  background: rgba(90, 80, 71, 0.3804);  left: -23%; top: -5%;  border-radius: 58% 48% 45% 53% / 59% 46% 54% 57%; }
+.base-plant #plant-80 {  background: rgba(90, 80, 71, 0.2615);  left: -11%; top: 3%;  border-radius: 57% 46% 47% 46% / 57% 56% 54% 56%; }
+.base-plant #plant-81 {  background: rgba(90, 80, 71, 0.2677);  left: -9%; top: -6%;  border-radius: 45% 58% 49% 55% / 59% 49% 53% 57%; }
+.base-plant #plant-82 {  background: rgba(90, 80, 71, 0.3447);  left: -22%; top: 1%;  border-radius: 45% 56% 48% 57% / 46% 50% 53% 55%; }
+.base-plant #plant-83 {  background: rgba(90, 80, 71, 0.3622);  left: -14%; top: -3%;  border-radius: 51% 51% 55% 53% / 53% 52% 54% 47%; }
+.base-plant #plant-84 {  background: rgba(90, 80, 71, 0.2427);  left: -19%; top: 20%;  border-radius: 48% 48% 57% 54% / 56% 48% 58% 58%; }
+.base-plant #plant-85 {  background: rgba(90, 80, 71, 0.1998);  left: -8%; top: 20%;  border-radius: 48% 53% 49% 60% / 53% 52% 60% 45%; }
+.base-plant #plant-86 {  background: rgba(90, 80, 71, 0.2134);  left: -6%; top: 6%;  border-radius: 60% 52% 50% 52% / 53% 47% 52% 58%; }
+.base-plant #plant-87 {  background: rgba(90, 80, 71, 0.3589);  left: -18%; top: 18%;  border-radius: 57% 59% 52% 45% / 45% 49% 57% 53%; }
+.base-plant #plant-88 {  background: rgba(90, 80, 71, 0.1839);  left: -11%; top: 16%;  border-radius: 58% 53% 60% 46% / 50% 56% 59% 57%; }
+.base-plant #plant-89 {  background: rgba(90, 80, 71, 0.1004);  left: -24%; top: 18%;  border-radius: 54% 51% 46% 60% / 56% 46% 58% 51%; }
+.base-plant #plant-90 {  background: rgba(90, 80, 71, 0.3525);  left: -15%; top: 14%;  border-radius: 47% 53% 46% 52% / 60% 45% 55% 51%; }
+.base-plant #plant-91 {  background: rgba(90, 80, 71, 0.3963);  left: -14%; top: 13%;  border-radius: 48% 55% 56% 60% / 54% 60% 50% 45%; }
+.base-plant #plant-92 {  background: rgba(90, 80, 71, 0.1858);  left: -21%; top: 20%;  border-radius: 47% 56% 51% 47% / 49% 52% 50% 55%; }
+.base-plant #plant-93 {  background: rgba(90, 80, 71, 0.1537);  left: -7%; top: 7%;  border-radius: 57% 48% 58% 60% / 56% 51% 60% 59%; }
+.base-plant #plant-94 {  background: rgba(90, 80, 71, 0.3637);  left: -22%; top: 6%;  border-radius: 48% 45% 57% 50% / 55% 47% 48% 57%; }
+.base-plant #plant-95 {  background: rgba(90, 80, 71, 0.2376);  left: -12%; top: 7%;  border-radius: 53% 48% 53% 50% / 56% 50% 54% 56%; }
+.base-plant #plant-96 {  background: rgba(90, 80, 71, 0.2395);  left: -25%; top: 0%;  border-radius: 49% 59% 45% 47% / 49% 60% 45% 46%; }
+.base-plant #plant-97 {  background: rgba(90, 80, 71, 0.2293);  left: -19%; top: -3%;  border-radius: 47% 56% 51% 48% / 57% 58% 56% 59%; }
+.base-plant #plant-98 {  background: rgba(90, 80, 71, 0.2545);  left: -6%; top: 18%;  border-radius: 59% 55% 50% 55% / 52% 54% 51% 45%; }
+.base-plant #plant-99 {  background: rgba(90, 80, 71, 0.2654);  left: -13%; top: 3%;  border-radius: 55% 50% 54% 52% / 51% 48% 49% 46%; }
+.base-plant #plant-100 {  background: rgba(90, 80, 71, 0.3744);  left: 17%; top: 30%;  border-radius: 60% 58% 58% 51% / 60% 59% 55% 51%; }
+.base-plant #plant-101 {  background: rgba(90, 80, 71, 0.1646);  left: 10%; top: 12%;  border-radius: 53% 49% 54% 58% / 56% 50% 45% 57%; }
+.base-plant #plant-102 {  background: rgba(90, 80, 71, 0.1012);  left: 17%; top: -18%;  border-radius: 52% 49% 45% 46% / 58% 57% 54% 60%; }
+.base-plant #plant-103 {  background: rgba(90, 80, 71, 0.2014);  left: 11%; top: -12%;  border-radius: 56% 49% 52% 53% / 56% 45% 50% 46%; }
+.base-plant #plant-104 {  background: rgba(90, 80, 71, 0.2429);  left: 1%; top: 17%;  border-radius: 50% 53% 48% 48% / 56% 46% 50% 58%; }
+.base-plant #plant-105 {  background: rgba(90, 80, 71, 0.1871);  left: 2%; top: -11%;  border-radius: 52% 49% 51% 48% / 45% 46% 57% 53%; }
+.base-plant #plant-106 {  background: rgba(90, 80, 71, 0.1080);  left: 19%; top: 27%;  border-radius: 46% 49% 59% 47% / 57% 46% 59% 58%; }
+.base-plant #plant-107 {  background: rgba(90, 80, 71, 0.2154);  left: 25%; top: -11%;  border-radius: 51% 52% 51% 58% / 58% 45% 49% 57%; }
+.base-plant #plant-108 {  background: rgba(90, 80, 71, 0.2774);  left: 1%; top: 12%;  border-radius: 49% 58% 46% 56% / 49% 57% 55% 46%; }
+.base-plant #plant-109 {  background: rgba(90, 80, 71, 0.3250);  left: 18%; top: 8%;  border-radius: 58% 59% 59% 51% / 56% 56% 59% 48%; }
+.base-plant #plant-110 {  background: rgba(90, 80, 71, 0.3107);  left: 0%; top: -32%;  border-radius: 48% 54% 46% 55% / 58% 53% 50% 51%; }
+.base-plant #plant-111 {  background: rgba(90, 80, 71, 0.2429);  left: 18%; top: -3%;  border-radius: 47% 48% 46% 45% / 55% 47% 55% 48%; }
+.base-plant #plant-112 {  background: rgba(90, 80, 71, 0.3770);  left: 13%; top: 11%;  border-radius: 55% 58% 48% 48% / 51% 50% 47% 46%; }
+.base-plant #plant-113 {  background: rgba(90, 80, 71, 0.3118);  left: 20%; top: 13%;  border-radius: 55% 58% 50% 53% / 60% 55% 48% 56%; }
+.base-plant #plant-114 {  background: rgba(90, 80, 71, 0.3489);  left: 1%; top: -43%;  border-radius: 54% 47% 46% 53% / 55% 52% 46% 51%; }
+.base-plant #plant-115 {  background: rgba(90, 80, 71, 0.1856);  left: 8%; top: 33%;  border-radius: 59% 45% 53% 48% / 55% 51% 47% 55%; }
+.base-plant #plant-116 {  background: rgba(90, 80, 71, 0.2025);  left: 8%; top: 35%;  border-radius: 55% 59% 47% 52% / 50% 51% 51% 48%; }
+.base-plant #plant-117 {  background: rgba(90, 80, 71, 0.2721);  left: 15%; top: 7%;  border-radius: 57% 57% 45% 53% / 53% 56% 51% 48%; }
+.base-plant #plant-118 {  background: rgba(90, 80, 71, 0.1976);  left: 11%; top: 10%;  border-radius: 56% 48% 46% 48% / 48% 53% 46% 48%; }
+.base-plant #plant-119 {  background: rgba(90, 80, 71, 0.1082);  left: 18%; top: 21%;  border-radius: 56% 60% 51% 48% / 55% 60% 45% 45%; }
+.base-plant #plant-120 {  background: rgba(90, 80, 71, 0.2776);  left: 17%; top: -14%;  border-radius: 47% 46% 50% 45% / 51% 45% 60% 46%; }
+.base-plant #plant-121 {  background: rgba(90, 80, 71, 0.1729);  left: 25%; top: 15%;  border-radius: 49% 46% 52% 48% / 54% 54% 57% 58%; }
+.base-plant #plant-122 {  background: rgba(90, 80, 71, 0.3756);  left: 14%; top: -32%;  border-radius: 46% 52% 56% 47% / 50% 47% 59% 53%; }
+.base-plant #plant-123 {  background: rgba(90, 80, 71, 0.1978);  left: 16%; top: 2%;  border-radius: 56% 55% 49% 45% / 48% 59% 60% 45%; }
+.base-plant #plant-124 {  background: rgba(90, 80, 71, 0.1314);  left: 25%; top: -20%;  border-radius: 49% 50% 46% 60% / 46% 50% 48% 51%; }
+.base-plant #plant-125 {  background: rgba(90, 80, 71, 0.2692);  left: 22%; top: -17%;  border-radius: 52% 54% 60% 56% / 54% 51% 55% 50%; }
+.base-plant #plant-126 {  background: rgba(90, 80, 71, 0.1790);  left: 4%; top: -27%;  border-radius: 48% 54% 55% 52% / 48% 45% 55% 58%; }
+.base-plant #plant-127 {  background: rgba(90, 80, 71, 0.2331);  left: 15%; top: -20%;  border-radius: 50% 56% 49% 57% / 50% 59% 53% 56%; }
+.base-plant #plant-128 {  background: rgba(90, 80, 71, 0.3925);  left: 12%; top: 44%;  border-radius: 56% 45% 48% 57% / 50% 50% 46% 45%; }
+.base-plant #plant-129 {  background: rgba(90, 80, 71, 0.2595);  left: 21%; top: -42%;  border-radius: 56% 54% 51% 52% / 46% 49% 53% 54%; }
+.base-plant #plant-130 {  background: rgba(90, 80, 71, 0.2469);  left: 8%; top: 1%;  border-radius: 53% 47% 50% 50% / 59% 47% 58% 54%; }
+.base-plant #plant-131 {  background: rgba(90, 80, 71, 0.2193);  left: 3%; top: 26%;  border-radius: 55% 46% 47% 56% / 48% 55% 54% 58%; }
+.base-plant #plant-132 {  background: rgba(90, 80, 71, 0.3567);  left: 25%; top: 28%;  border-radius: 45% 55% 59% 49% / 60% 52% 45% 54%; }
+.base-plant #plant-133 {  background: rgba(90, 80, 71, 0.3515);  left: 13%; top: 13%;  border-radius: 55% 50% 51% 58% / 60% 60% 58% 48%; }
+.base-plant #plant-134 {  background: rgba(90, 80, 71, 0.3024);  left: 16%; top: 7%;  border-radius: 51% 58% 50% 59% / 53% 60% 47% 45%; }
+.base-plant #plant-135 {  background: rgba(90, 80, 71, 0.2554);  left: 16%; top: 12%;  border-radius: 45% 60% 45% 59% / 51% 47% 54% 56%; }
+.base-plant #plant-136 {  background: rgba(90, 80, 71, 0.2458);  left: 22%; top: -9%;  border-radius: 51% 48% 51% 51% / 45% 50% 56% 60%; }
+.base-plant #plant-137 {  background: rgba(90, 80, 71, 0.3881);  left: 11%; top: 15%;  border-radius: 55% 53% 46% 49% / 57% 45% 56% 50%; }
+.base-plant #plant-138 {  background: rgba(90, 80, 71, 0.2847);  left: 19%; top: 41%;  border-radius: 58% 53% 58% 50% / 59% 53% 58% 46%; }
+.base-plant #plant-139 {  background: rgba(90, 80, 71, 0.3608);  left: 12%; top: 7%;  border-radius: 48% 51% 55% 48% / 47% 46% 50% 60%; }
+.base-plant #plant-140 {  background: rgba(90, 80, 71, 0.1394);  left: 10%; top: -30%;  border-radius: 58% 59% 60% 52% / 53% 46% 55% 48%; }
+.base-plant #plant-141 {  background: rgba(90, 80, 71, 0.3300);  left: 12%; top: 45%;  border-radius: 56% 48% 50% 50% / 50% 58% 45% 50%; }
+.base-plant #plant-142 {  background: rgba(90, 80, 71, 0.2989);  left: 24%; top: -27%;  border-radius: 47% 50% 57% 54% / 58% 57% 49% 52%; }
+.base-plant #plant-143 {  background: rgba(90, 80, 71, 0.1158);  left: 1%; top: -13%;  border-radius: 47% 59% 59% 55% / 51% 55% 47% 55%; }
+.base-plant #plant-144 {  background: rgba(90, 80, 71, 0.3730);  left: 13%; top: 5%;  border-radius: 58% 51% 53% 56% / 48% 49% 54% 52%; }
+.base-plant #plant-145 {  background: rgba(90, 80, 71, 0.3439);  left: 12%; top: -5%;  border-radius: 58% 57% 45% 53% / 45% 60% 55% 51%; }
+.base-plant #plant-146 {  background: rgba(90, 80, 71, 0.2207);  left: 0%; top: 4%;  border-radius: 45% 58% 59% 52% / 56% 54% 53% 60%; }
+.base-plant #plant-147 {  background: rgba(90, 80, 71, 0.1583);  left: 19%; top: -21%;  border-radius: 47% 53% 54% 57% / 58% 48% 47% 54%; }
+.base-plant #plant-148 {  background: rgba(90, 80, 71, 0.3580);  left: 7%; top: 27%;  border-radius: 48% 57% 45% 58% / 53% 57% 58% 46%; }
+.base-plant #plant-149 {  background: rgba(90, 80, 71, 0.1680);  left: 18%; top: 40%;  border-radius: 56% 48% 47% 48% / 58% 54% 49% 59%; }
+.base-plant #plant-150 {  background: rgba(90, 80, 71, 0.1151);  left: 16%; top: 0%;  border-radius: 53% 52% 56% 50% / 54% 59% 52% 57%; }
+.base-plant #plant-151 {  background: rgba(90, 80, 71, 0.3932);  left: 21%; top: -49%;  border-radius: 56% 60% 47% 57% / 46% 51% 52% 52%; }
+.base-plant #plant-152 {  background: rgba(90, 80, 71, 0.2657);  left: 1%; top: -19%;  border-radius: 57% 55% 56% 52% / 51% 51% 46% 60%; }
+.base-plant #plant-153 {  background: rgba(90, 80, 71, 0.2340);  left: 8%; top: 6%;  border-radius: 47% 60% 58% 45% / 47% 58% 48% 55%; }
+.base-plant #plant-154 {  background: rgba(90, 80, 71, 0.1519);  left: 3%; top: 10%;  border-radius: 56% 54% 49% 59% / 52% 49% 50% 49%; }
+.base-plant #plant-155 {  background: rgba(90, 80, 71, 0.2595);  left: 20%; top: 38%;  border-radius: 55% 53% 46% 45% / 52% 54% 54% 47%; }
+.base-plant #plant-156 {  background: rgba(90, 80, 71, 0.3089);  left: 0%; top: 32%;  border-radius: 54% 50% 54% 45% / 48% 49% 49% 53%; }
+.base-plant #plant-157 {  background: rgba(90, 80, 71, 0.2806);  left: 2%; top: 38%;  border-radius: 48% 58% 50% 45% / 50% 48% 50% 58%; }
+.base-plant #plant-158 {  background: rgba(90, 80, 71, 0.3929);  left: 10%; top: -30%;  border-radius: 50% 53% 60% 57% / 46% 54% 49% 51%; }
+.base-plant #plant-159 {  background: rgba(90, 80, 71, 0.1936);  left: 12%; top: -1%;  border-radius: 53% 52% 53% 47% / 56% 59% 57% 46%; }
+.base-plant #plant-160 {  background: rgba(90, 80, 71, 0.3576);  left: 21%; top: 35%;  border-radius: 45% 48% 45% 59% / 57% 52% 46% 47%; }
+.base-plant #plant-161 {  background: rgba(90, 80, 71, 0.2818);  left: 21%; top: -16%;  border-radius: 52% 54% 48% 59% / 49% 46% 57% 48%; }
+.base-plant #plant-162 {  background: rgba(90, 80, 71, 0.1346);  left: 0%; top: 25%;  border-radius: 46% 56% 51% 52% / 60% 56% 50% 45%; }
+.base-plant #plant-163 {  background: rgba(90, 80, 71, 0.3681);  left: 1%; top: 49%;  border-radius: 53% 57% 51% 45% / 53% 50% 57% 49%; }
+.base-plant #plant-164 {  background: rgba(90, 80, 71, 0.3844);  left: 16%; top: 5%;  border-radius: 59% 48% 52% 60% / 47% 53% 47% 57%; }
+.base-plant #plant-165 {  background: rgba(90, 80, 71, 0.2669);  left: 25%; top: 8%;  border-radius: 46% 45% 51% 45% / 58% 45% 60% 49%; }
+.base-plant #plant-166 {  background: rgba(90, 80, 71, 0.1116);  left: 24%; top: -30%;  border-radius: 46% 50% 55% 58% / 46% 55% 47% 45%; }
+.base-plant #plant-167 {  background: rgba(90, 80, 71, 0.2457);  left: 17%; top: 0%;  border-radius: 57% 45% 55% 54% / 54% 50% 55% 54%; }
+.base-plant #plant-168 {  background: rgba(90, 80, 71, 0.3452);  left: 3%; top: -39%;  border-radius: 59% 55% 57% 53% / 54% 46% 56% 52%; }
+.base-plant #plant-169 {  background: rgba(90, 80, 71, 0.2075);  left: 3%; top: -8%;  border-radius: 47% 56% 49% 47% / 46% 56% 60% 55%; }
+.base-plant #plant-170 {  background: rgba(90, 80, 71, 0.1207);  left: 9%; top: 22%;  border-radius: 52% 54% 45% 53% / 60% 45% 53% 54%; }
+.base-plant #plant-171 {  background: rgba(90, 80, 71, 0.1473);  left: 7%; top: -13%;  border-radius: 50% 51% 59% 60% / 56% 50% 45% 58%; }
+.base-plant #plant-172 {  background: rgba(90, 80, 71, 0.1204);  left: 21%; top: 39%;  border-radius: 59% 56% 48% 58% / 60% 58% 55% 59%; }
+.base-plant #plant-173 {  background: rgba(90, 80, 71, 0.1523);  left: 5%; top: -29%;  border-radius: 51% 49% 50% 49% / 46% 50% 51% 50%; }
+.base-plant #plant-174 {  background: rgba(90, 80, 71, 0.3002);  left: 12%; top: 39%;  border-radius: 56% 55% 57% 58% / 58% 45% 60% 54%; }
+.base-plant #plant-175 {  background: rgba(90, 80, 71, 0.2174);  left: 11%; top: 50%;  border-radius: 45% 49% 48% 56% / 52% 58% 52% 45%; }
+.base-plant #plant-176 {  background: rgba(90, 80, 71, 0.2152);  left: 10%; top: -39%;  border-radius: 48% 58% 48% 56% / 47% 60% 60% 55%; }
+.base-plant #plant-177 {  background: rgba(90, 80, 71, 0.1578);  left: 23%; top: 48%;  border-radius: 50% 58% 57% 50% / 45% 58% 45% 55%; }
+.base-plant #plant-178 {  background: rgba(90, 80, 71, 0.1771);  left: 21%; top: -20%;  border-radius: 57% 47% 58% 57% / 50% 47% 48% 57%; }
+.base-plant #plant-179 {  background: rgba(90, 80, 71, 0.3273);  left: 5%; top: -34%;  border-radius: 45% 59% 48% 55% / 50% 46% 45% 54%; }
+.base-plant #plant-180 {  background: rgba(90, 80, 71, 0.2988);  left: 5%; top: 44%;  border-radius: 57% 55% 50% 47% / 59% 50% 59% 53%; }
+.base-plant #plant-181 {  background: rgba(90, 80, 71, 0.3516);  left: 12%; top: -24%;  border-radius: 50% 54% 47% 45% / 47% 58% 51% 59%; }
+.base-plant #plant-182 {  background: rgba(90, 80, 71, 0.1047);  left: 15%; top: -49%;  border-radius: 48% 50% 51% 53% / 45% 47% 55% 50%; }
+.base-plant #plant-183 {  background: rgba(90, 80, 71, 0.1624);  left: 8%; top: 12%;  border-radius: 46% 53% 58% 55% / 45% 60% 57% 57%; }
+.base-plant #plant-184 {  background: rgba(90, 80, 71, 0.2808);  left: 18%; top: 8%;  border-radius: 57% 54% 53% 60% / 57% 58% 56% 47%; }
+.base-plant #plant-185 {  background: rgba(90, 80, 71, 0.1864);  left: 7%; top: 2%;  border-radius: 58% 54% 54% 54% / 60% 50% 58% 47%; }
+.base-plant #plant-186 {  background: rgba(90, 80, 71, 0.3384);  left: 11%; top: 1%;  border-radius: 54% 58% 55% 56% / 51% 60% 45% 52%; }
+.base-plant #plant-187 {  background: rgba(90, 80, 71, 0.1364);  left: 11%; top: -26%;  border-radius: 59% 49% 47% 48% / 59% 58% 45% 55%; }
+.base-plant #plant-188 {  background: rgba(90, 80, 71, 0.3147);  left: 19%; top: -31%;  border-radius: 45% 51% 58% 60% / 50% 60% 47% 56%; }
+.base-plant #plant-189 {  background: rgba(90, 80, 71, 0.1242);  left: 4%; top: 30%;  border-radius: 59% 47% 54% 45% / 47% 56% 54% 50%; }
+.base-plant #plant-190 {  background: rgba(90, 80, 71, 0.2214);  left: 6%; top: 15%;  border-radius: 57% 50% 55% 57% / 57% 58% 47% 50%; }
+.base-plant #plant-191 {  background: rgba(90, 80, 71, 0.3347);  left: 14%; top: -9%;  border-radius: 60% 45% 59% 56% / 50% 59% 48% 52%; }
+.base-plant #plant-192 {  background: rgba(90, 80, 71, 0.2864);  left: 8%; top: -30%;  border-radius: 51% 60% 53% 58% / 47% 58% 46% 52%; }
+.base-plant #plant-193 {  background: rgba(90, 80, 71, 0.3308);  left: 22%; top: -30%;  border-radius: 54% 50% 53% 54% / 57% 55% 49% 47%; }
+.base-plant #plant-194 {  background: rgba(90, 80, 71, 0.2830);  left: 1%; top: 12%;  border-radius: 59% 48% 50% 45% / 51% 53% 54% 58%; }
+.base-plant #plant-195 {  background: rgba(90, 80, 71, 0.1584);  left: 17%; top: 28%;  border-radius: 52% 58% 52% 45% / 58% 57% 45% 60%; }
+.base-plant #plant-196 {  background: rgba(90, 80, 71, 0.1426);  left: 0%; top: -49%;  border-radius: 55% 47% 53% 51% / 58% 48% 57% 60%; }
+.base-plant #plant-197 {  background: rgba(90, 80, 71, 0.1716);  left: 23%; top: -11%;  border-radius: 60% 49% 56% 51% / 50% 58% 55% 56%; }
+.base-plant #plant-198 {  background: rgba(90, 80, 71, 0.1207);  left: 7%; top: 40%;  border-radius: 60% 47% 48% 50% / 52% 56% 57% 57%; }
+.base-plant #plant-199 {  background: rgba(90, 80, 71, 0.2099);  left: 22%; top: -41%;  border-radius: 52% 52% 56% 59% / 49% 50% 59% 60%; }
+.base-plant #plant-200 {  background: rgba(90, 80, 71, 0.2867);  left: 36%; top: -8%;  border-radius: 56% 50% 59% 58% / 55% 48% 56% 57%; }
+.base-plant #plant-201 {  background: rgba(90, 80, 71, 0.3417);  left: 38%; top: -34%;  border-radius: 45% 55% 46% 47% / 48% 45% 54% 56%; }
+.base-plant #plant-202 {  background: rgba(90, 80, 71, 0.1731);  left: 33%; top: 6%;  border-radius: 49% 54% 47% 54% / 47% 60% 54% 45%; }
+.base-plant #plant-203 {  background: rgba(90, 80, 71, 0.2192);  left: 41%; top: 5%;  border-radius: 56% 54% 50% 47% / 47% 45% 57% 53%; }
+.base-plant #plant-204 {  background: rgba(90, 80, 71, 0.3564);  left: 39%; top: 40%;  border-radius: 54% 56% 49% 48% / 56% 52% 49% 59%; }
+.base-plant #plant-205 {  background: rgba(90, 80, 71, 0.3792);  left: 49%; top: 32%;  border-radius: 55% 55% 46% 50% / 45% 46% 50% 49%; }
+.base-plant #plant-206 {  background: rgba(90, 80, 71, 0.1135);  left: 27%; top: -2%;  border-radius: 49% 55% 46% 51% / 58% 53% 46% 50%; }
+.base-plant #plant-207 {  background: rgba(90, 80, 71, 0.2994);  left: 26%; top: 5%;  border-radius: 51% 58% 51% 51% / 47% 58% 54% 51%; }
+.base-plant #plant-208 {  background: rgba(90, 80, 71, 0.2688);  left: 35%; top: 42%;  border-radius: 56% 58% 53% 45% / 49% 57% 58% 48%; }
+.base-plant #plant-209 {  background: rgba(90, 80, 71, 0.1758);  left: 41%; top: 12%;  border-radius: 50% 46% 59% 56% / 58% 60% 58% 58%; }
+.base-plant #plant-210 {  background: rgba(90, 80, 71, 0.3243);  left: 38%; top: 49%;  border-radius: 48% 58% 59% 47% / 55% 59% 53% 60%; }
+.base-plant #plant-211 {  background: rgba(90, 80, 71, 0.1650);  left: 48%; top: 42%;  border-radius: 49% 49% 45% 59% / 49% 48% 59% 59%; }
+.base-plant #plant-212 {  background: rgba(90, 80, 71, 0.2065);  left: 33%; top: 9%;  border-radius: 51% 59% 50% 46% / 46% 56% 55% 56%; }
+.base-plant #plant-213 {  background: rgba(90, 80, 71, 0.1133);  left: 35%; top: 6%;  border-radius: 48% 55% 60% 50% / 49% 54% 51% 57%; }
+.base-plant #plant-214 {  background: rgba(90, 80, 71, 0.1715);  left: 49%; top: 29%;  border-radius: 58% 52% 45% 55% / 49% 50% 60% 59%; }
+.base-plant #plant-215 {  background: rgba(90, 80, 71, 0.2369);  left: 40%; top: 43%;  border-radius: 55% 51% 50% 51% / 56% 47% 54% 54%; }
+.base-plant #plant-216 {  background: rgba(90, 80, 71, 0.2091);  left: 40%; top: -21%;  border-radius: 58% 47% 55% 46% / 46% 52% 47% 45%; }
+.base-plant #plant-217 {  background: rgba(90, 80, 71, 0.3687);  left: 26%; top: -10%;  border-radius: 49% 51% 47% 45% / 55% 55% 55% 59%; }
+.base-plant #plant-218 {  background: rgba(90, 80, 71, 0.2508);  left: 45%; top: 34%;  border-radius: 49% 57% 55% 58% / 46% 53% 49% 48%; }
+.base-plant #plant-219 {  background: rgba(90, 80, 71, 0.3469);  left: 31%; top: 37%;  border-radius: 47% 48% 60% 55% / 54% 49% 54% 54%; }
+.base-plant #plant-220 {  background: rgba(90, 80, 71, 0.2576);  left: 30%; top: -6%;  border-radius: 60% 57% 55% 58% / 51% 60% 46% 49%; }
+.base-plant #plant-221 {  background: rgba(90, 80, 71, 0.3828);  left: 28%; top: 46%;  border-radius: 49% 47% 55% 46% / 56% 59% 49% 53%; }
+.base-plant #plant-222 {  background: rgba(90, 80, 71, 0.2763);  left: 33%; top: -12%;  border-radius: 47% 59% 57% 56% / 47% 48% 55% 51%; }
+.base-plant #plant-223 {  background: rgba(90, 80, 71, 0.1587);  left: 34%; top: 20%;  border-radius: 58% 47% 51% 52% / 59% 52% 60% 50%; }
+.base-plant #plant-224 {  background: rgba(90, 80, 71, 0.3413);  left: 30%; top: 16%;  border-radius: 57% 51% 46% 53% / 49% 55% 52% 56%; }
+.base-plant #plant-225 {  background: rgba(90, 80, 71, 0.2363);  left: 49%; top: -18%;  border-radius: 49% 48% 54% 59% / 57% 53% 57% 53%; }
+.base-plant #plant-226 {  background: rgba(90, 80, 71, 0.2833);  left: 39%; top: -16%;  border-radius: 48% 47% 57% 49% / 60% 46% 59% 47%; }
+.base-plant #plant-227 {  background: rgba(90, 80, 71, 0.3495);  left: 26%; top: -25%;  border-radius: 52% 56% 57% 46% / 55% 58% 57% 59%; }
+.base-plant #plant-228 {  background: rgba(90, 80, 71, 0.1910);  left: 41%; top: 0%;  border-radius: 46% 49% 54% 50% / 54% 58% 60% 54%; }
+.base-plant #plant-229 {  background: rgba(90, 80, 71, 0.1248);  left: 31%; top: 1%;  border-radius: 56% 55% 58% 56% / 53% 57% 59% 50%; }
+.base-plant #plant-230 {  background: rgba(90, 80, 71, 0.1115);  left: 32%; top: -30%;  border-radius: 53% 60% 50% 54% / 49% 52% 60% 58%; }
+.base-plant #plant-231 {  background: rgba(90, 80, 71, 0.1091);  left: 35%; top: -4%;  border-radius: 52% 48% 53% 51% / 56% 54% 58% 57%; }
+.base-plant #plant-232 {  background: rgba(90, 80, 71, 0.3809);  left: 34%; top: 32%;  border-radius: 51% 54% 51% 51% / 51% 47% 57% 55%; }
+.base-plant #plant-233 {  background: rgba(90, 80, 71, 0.1362);  left: 32%; top: 32%;  border-radius: 52% 46% 55% 58% / 46% 45% 55% 56%; }
+.base-plant #plant-234 {  background: rgba(90, 80, 71, 0.2387);  left: 39%; top: 43%;  border-radius: 60% 49% 51% 50% / 60% 56% 58% 54%; }
+.base-plant #plant-235 {  background: rgba(90, 80, 71, 0.2193);  left: 42%; top: 29%;  border-radius: 60% 59% 53% 47% / 55% 60% 56% 49%; }
+.base-plant #plant-236 {  background: rgba(90, 80, 71, 0.1711);  left: 36%; top: 29%;  border-radius: 55% 60% 56% 47% / 50% 48% 46% 51%; }
+.base-plant #plant-237 {  background: rgba(90, 80, 71, 0.2277);  left: 28%; top: 49%;  border-radius: 48% 51% 57% 46% / 48% 45% 48% 54%; }
+.base-plant #plant-238 {  background: rgba(90, 80, 71, 0.3375);  left: 42%; top: -19%;  border-radius: 56% 53% 48% 53% / 59% 48% 54% 45%; }
+.base-plant #plant-239 {  background: rgba(90, 80, 71, 0.3069);  left: 34%; top: -13%;  border-radius: 46% 47% 45% 59% / 53% 47% 52% 54%; }
+.base-plant #plant-240 {  background: rgba(90, 80, 71, 0.3607);  left: 42%; top: -20%;  border-radius: 56% 46% 45% 50% / 49% 59% 54% 55%; }
+.base-plant #plant-241 {  background: rgba(90, 80, 71, 0.3188);  left: 43%; top: 17%;  border-radius: 56% 49% 48% 54% / 59% 52% 53% 56%; }
+.base-plant #plant-242 {  background: rgba(90, 80, 71, 0.2478);  left: 34%; top: 42%;  border-radius: 53% 60% 57% 60% / 53% 53% 58% 51%; }
+.base-plant #plant-243 {  background: rgba(90, 80, 71, 0.3621);  left: 26%; top: -32%;  border-radius: 48% 47% 49% 49% / 58% 57% 54% 58%; }
+.base-plant #plant-244 {  background: rgba(90, 80, 71, 0.2517);  left: 37%; top: -2%;  border-radius: 49% 58% 47% 48% / 47% 47% 47% 48%; }
+.base-plant #plant-245 {  background: rgba(90, 80, 71, 0.3617);  left: 28%; top: -25%;  border-radius: 55% 51% 54% 46% / 54% 56% 46% 59%; }
+.base-plant #plant-246 {  background: rgba(90, 80, 71, 0.1259);  left: 44%; top: -35%;  border-radius: 59% 50% 54% 52% / 57% 60% 53% 54%; }
+.base-plant #plant-247 {  background: rgba(90, 80, 71, 0.1108);  left: 39%; top: 31%;  border-radius: 60% 54% 52% 60% / 45% 53% 50% 56%; }
+.base-plant #plant-248 {  background: rgba(90, 80, 71, 0.3229);  left: 26%; top: -39%;  border-radius: 50% 52% 51% 55% / 54% 59% 49% 49%; }
+.base-plant #plant-249 {  background: rgba(90, 80, 71, 0.2634);  left: 39%; top: -9%;  border-radius: 46% 50% 55% 53% / 51% 56% 52% 48%; }
+.base-plant #plant-250 {  background: rgba(90, 80, 71, 0.2107);  left: 33%; top: 1%;  border-radius: 51% 48% 50% 60% / 50% 46% 60% 60%; }
+.base-plant #plant-251 {  background: rgba(90, 80, 71, 0.2297);  left: 35%; top: 46%;  border-radius: 59% 52% 60% 51% / 49% 56% 60% 58%; }
+.base-plant #plant-252 {  background: rgba(90, 80, 71, 0.3415);  left: 33%; top: 13%;  border-radius: 58% 45% 53% 48% / 54% 50% 55% 52%; }
+.base-plant #plant-253 {  background: rgba(90, 80, 71, 0.1770);  left: 41%; top: 1%;  border-radius: 48% 60% 45% 49% / 58% 52% 59% 57%; }
+.base-plant #plant-254 {  background: rgba(90, 80, 71, 0.1668);  left: 31%; top: -36%;  border-radius: 49% 55% 59% 51% / 56% 46% 46% 50%; }
+.base-plant #plant-255 {  background: rgba(90, 80, 71, 0.1449);  left: 37%; top: 36%;  border-radius: 46% 50% 45% 47% / 54% 53% 56% 48%; }
+.base-plant #plant-256 {  background: rgba(90, 80, 71, 0.2200);  left: 34%; top: 13%;  border-radius: 46% 46% 58% 54% / 52% 51% 49% 60%; }
+.base-plant #plant-257 {  background: rgba(90, 80, 71, 0.2030);  left: 39%; top: -25%;  border-radius: 50% 59% 51% 47% / 47% 60% 60% 50%; }
+.base-plant #plant-258 {  background: rgba(90, 80, 71, 0.1305);  left: 34%; top: 36%;  border-radius: 45% 59% 49% 58% / 54% 53% 50% 56%; }
+.base-plant #plant-259 {  background: rgba(90, 80, 71, 0.2256);  left: 26%; top: -12%;  border-radius: 48% 60% 54% 47% / 52% 48% 47% 46%; }
+.base-plant #plant-260 {  background: rgba(90, 80, 71, 0.3931);  left: 36%; top: -10%;  border-radius: 50% 47% 54% 58% / 48% 51% 48% 49%; }
+.base-plant #plant-261 {  background: rgba(90, 80, 71, 0.1674);  left: 30%; top: 26%;  border-radius: 45% 48% 47% 46% / 49% 55% 54% 59%; }
+.base-plant #plant-262 {  background: rgba(90, 80, 71, 0.2685);  left: 46%; top: 40%;  border-radius: 60% 52% 54% 60% / 46% 50% 53% 58%; }
+.base-plant #plant-263 {  background: rgba(90, 80, 71, 0.1817);  left: 36%; top: -17%;  border-radius: 45% 58% 58% 59% / 60% 56% 50% 45%; }
+.base-plant #plant-264 {  background: rgba(90, 80, 71, 0.1984);  left: 40%; top: 25%;  border-radius: 49% 51% 48% 56% / 56% 59% 47% 51%; }
+.base-plant #plant-265 {  background: rgba(90, 80, 71, 0.1627);  left: 44%; top: -13%;  border-radius: 46% 50% 48% 49% / 46% 51% 50% 59%; }
+.base-plant #plant-266 {  background: rgba(90, 80, 71, 0.1021);  left: 45%; top: 10%;  border-radius: 45% 51% 60% 51% / 47% 55% 47% 59%; }
+.base-plant #plant-267 {  background: rgba(90, 80, 71, 0.2626);  left: 45%; top: -4%;  border-radius: 52% 46% 56% 55% / 48% 59% 49% 49%; }
+.base-plant #plant-268 {  background: rgba(90, 80, 71, 0.3537);  left: 39%; top: -2%;  border-radius: 60% 55% 50% 58% / 47% 60% 60% 46%; }
+.base-plant #plant-269 {  background: rgba(90, 80, 71, 0.1382);  left: 48%; top: -13%;  border-radius: 59% 48% 46% 55% / 56% 49% 55% 60%; }
+.base-plant #plant-270 {  background: rgba(90, 80, 71, 0.1534);  left: 48%; top: 6%;  border-radius: 46% 60% 57% 58% / 55% 48% 53% 54%; }
+.base-plant #plant-271 {  background: rgba(90, 80, 71, 0.2141);  left: 42%; top: -27%;  border-radius: 57% 57% 55% 45% / 50% 53% 53% 55%; }
+.base-plant #plant-272 {  background: rgba(90, 80, 71, 0.2933);  left: 32%; top: 26%;  border-radius: 57% 47% 48% 58% / 46% 48% 46% 56%; }
+.base-plant #plant-273 {  background: rgba(90, 80, 71, 0.2936);  left: 33%; top: 9%;  border-radius: 60% 51% 50% 57% / 47% 49% 45% 46%; }
+.base-plant #plant-274 {  background: rgba(90, 80, 71, 0.1806);  left: 45%; top: -1%;  border-radius: 48% 46% 54% 45% / 52% 58% 51% 60%; }
+.base-plant #plant-275 {  background: rgba(90, 80, 71, 0.3401);  left: 30%; top: -36%;  border-radius: 51% 55% 54% 60% / 50% 60% 52% 46%; }
+.base-plant #plant-276 {  background: rgba(90, 80, 71, 0.3761);  left: 31%; top: 39%;  border-radius: 45% 49% 51% 50% / 50% 50% 48% 59%; }
+.base-plant #plant-277 {  background: rgba(90, 80, 71, 0.3774);  left: 34%; top: -19%;  border-radius: 53% 58% 45% 58% / 47% 59% 51% 58%; }
+.base-plant #plant-278 {  background: rgba(90, 80, 71, 0.2654);  left: 34%; top: 43%;  border-radius: 46% 55% 60% 46% / 51% 50% 52% 55%; }
+.base-plant #plant-279 {  background: rgba(90, 80, 71, 0.2545);  left: 48%; top: -7%;  border-radius: 45% 49% 52% 55% / 47% 51% 57% 49%; }
+.base-plant #plant-280 {  background: rgba(90, 80, 71, 0.3943);  left: 45%; top: 10%;  border-radius: 50% 46% 47% 56% / 50% 47% 48% 53%; }
+.base-plant #plant-281 {  background: rgba(90, 80, 71, 0.1454);  left: 33%; top: 27%;  border-radius: 51% 48% 51% 57% / 49% 56% 57% 52%; }
+.base-plant #plant-282 {  background: rgba(90, 80, 71, 0.3396);  left: 37%; top: 21%;  border-radius: 57% 57% 55% 45% / 48% 57% 53% 52%; }
+.base-plant #plant-283 {  background: rgba(90, 80, 71, 0.3532);  left: 44%; top: 27%;  border-radius: 60% 58% 48% 50% / 59% 55% 53% 58%; }
+.base-plant #plant-284 {  background: rgba(90, 80, 71, 0.3643);  left: 36%; top: 45%;  border-radius: 56% 48% 54% 51% / 60% 60% 48% 45%; }
+.base-plant #plant-285 {  background: rgba(90, 80, 71, 0.3707);  left: 45%; top: 41%;  border-radius: 59% 48% 58% 56% / 56% 60% 60% 48%; }
+.base-plant #plant-286 {  background: rgba(90, 80, 71, 0.3275);  left: 27%; top: -3%;  border-radius: 51% 46% 50% 56% / 48% 52% 48% 45%; }
+.base-plant #plant-287 {  background: rgba(90, 80, 71, 0.2951);  left: 49%; top: 37%;  border-radius: 50% 60% 60% 46% / 50% 46% 49% 60%; }
+.base-plant #plant-288 {  background: rgba(90, 80, 71, 0.3921);  left: 45%; top: 23%;  border-radius: 46% 47% 56% 59% / 53% 45% 45% 52%; }
+.base-plant #plant-289 {  background: rgba(90, 80, 71, 0.2885);  left: 26%; top: -4%;  border-radius: 56% 53% 52% 59% / 57% 53% 55% 46%; }
+.base-plant #plant-290 {  background: rgba(90, 80, 71, 0.1350);  left: 26%; top: -12%;  border-radius: 47% 57% 47% 52% / 60% 48% 54% 55%; }
+.base-plant #plant-291 {  background: rgba(90, 80, 71, 0.2273);  left: 49%; top: -18%;  border-radius: 46% 49% 54% 55% / 54% 55% 51% 49%; }
+.base-plant #plant-292 {  background: rgba(90, 80, 71, 0.1943);  left: 30%; top: -20%;  border-radius: 51% 47% 58% 58% / 47% 51% 60% 55%; }
+.base-plant #plant-293 {  background: rgba(90, 80, 71, 0.1723);  left: 34%; top: 1%;  border-radius: 50% 54% 54% 55% / 46% 47% 47% 49%; }
+.base-plant #plant-294 {  background: rgba(90, 80, 71, 0.3406);  left: 31%; top: -16%;  border-radius: 56% 56% 50% 50% / 58% 55% 59% 59%; }
+.base-plant #plant-295 {  background: rgba(90, 80, 71, 0.2591);  left: 29%; top: -9%;  border-radius: 54% 52% 47% 58% / 60% 60% 46% 52%; }
+.base-plant #plant-296 {  background: rgba(90, 80, 71, 0.1979);  left: 43%; top: 27%;  border-radius: 53% 48% 56% 57% / 51% 55% 46% 48%; }
+.base-plant #plant-297 {  background: rgba(90, 80, 71, 0.2247);  left: 40%; top: 43%;  border-radius: 47% 52% 46% 53% / 56% 50% 46% 50%; }
+.base-plant #plant-298 {  background: rgba(90, 80, 71, 0.1364);  left: 25%; top: 49%;  border-radius: 50% 47% 58% 58% / 49% 60% 60% 53%; }
+.base-plant #plant-299 {  background: rgba(90, 80, 71, 0.2578);  left: 26%; top: -20%;  border-radius: 55% 47% 55% 57% / 57% 54% 51% 45%; }
+.base-plant #plant-300 {  background: rgba(90, 80, 71, 0.3839);  left: 75%; top: 19%;  border-radius: 58% 54% 57% 60% / 51% 57% 53% 47%; } */
