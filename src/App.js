@@ -41,6 +41,25 @@ export default function App() {
         <div id="plant-glow-29" className="plant circle glow"></div>
         <div id="plant-glow-30" className="plant circle glow"></div>
         <div id="plant-glow-31" className="plant circle glow"></div>
+        <div id="plant-glow-32" className="plant circle"></div>
+        <div id="plant-glow-33" className="plant circle"></div>
+        <div id="plant-glow-34" className="plant circle"></div>
+        <div id="plant-glow-35" className="plant circle"></div>
+        <div id="plant-glow-36" className="plant circle"></div>
+        <div id="plant-glow-37" className="plant circle"></div>
+        <div id="plant-glow-38" className="plant circle"></div>
+        <div id="plant-glow-39" className="plant circle"></div>
+        <div id="plant-glow-40" className="plant circle"></div>
+        <div id="plant-glow-41" className="plant circle"></div>
+        <div id="plant-glow-42" className="plant circle"></div>
+        <div id="plant-glow-43" className="plant circle"></div>
+        <div id="plant-glow-44" className="plant circle"></div>
+        <div id="plant-glow-45" className="plant circle"></div>
+        <div id="plant-glow-46" className="plant circle"></div>
+        <div id="plant-glow-47" className="plant circle"></div>
+        <div id="plant-glow-48" className="plant circle"></div>
+        <div id="plant-glow-49" className="plant circle"></div>
+        <div id="plant-glow-50" className="plant circle"></div>
 
         <div id="plant-1" className="plant circle"></div>
         <div id="plant-2" className="plant circle"></div>

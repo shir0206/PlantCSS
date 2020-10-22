@@ -23,7 +23,7 @@ html * {
   overflow: hidden;
 }
 
-.img1 {
+.img {
   z-index: 100;
   position: absolute;
   width: 100%;
