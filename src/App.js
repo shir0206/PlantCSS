@@ -12,37 +12,130 @@ export default function App() {
       <div className="base-plant">
         <div id="plant-glow-1" className="plant circle glow stem-glow"></div>
         <div id="plant-glow-2" className="plant circle glow stem-glow"></div>
-        <div id="plant-glow-3" className="plant circle glow stem-glow  stem-straight"></div>
-        <div id="plant-glow-4" className="plant circle glow stem-glow  stem-straight"></div>
-        <div id="plant-glow-5" className="plant circle glow stem-glow  stem-straight"></div>
-        <div id="plant-glow-6" className="plant circle glow stem-glow  stem-straight"></div>
-        <div id="plant-glow-7" className="plant circle glow stem-glow  stem-straight"></div>
-        <div id="plant-glow-8" className="plant circle glow stem-glow  stem-straight"></div>
-        <div id="plant-glow-9" className="plant circle glow stem-glow  stem-straight"></div>
-        <div id="plant-glow-10" className="plant circle glow stem-glow  stem-straight"></div>
-        <div id="plant-glow-11" className="plant circle glow stem-glow  stem-straight"></div>
-        <div id="plant-glow-12" className="plant circle glow stem-glow  stem-straight"></div>
-        <div id="plant-glow-13" className="plant circle glow stem-glow  stem-straight"></div>
-        <div id="plant-glow-14" className="plant circle glow stem-glow  stem-straight"></div>
-        <div id="plant-glow-15" className="plant circle glow stem-glow  stem-straight"></div>
-        <div id="plant-glow-16" className="plant circle glow stem-glow  stem-straight"></div>
-        <div id="plant-glow-17" className="plant circle glow stem-glow stem-slanted"></div>
-        <div id="plant-glow-18" className="plant circle glow stem-glow stem-slanted"></div>
-        <div id="plant-glow-19" className="plant circle glow stem-glow stem-slanted"></div>
-        <div id="plant-glow-20" className="plant circle glow stem-glow stem-slanted"></div>
-        <div id="plant-glow-21" className="plant circle glow stem-glow stem-slanted"></div>
-        <div id="plant-glow-22" className="plant circle glow stem-glow stem-slanted"></div>
-        <div id="plant-glow-23" className="plant circle glow stem-glow stem-slanted"></div>
-        <div id="plant-glow-24" className="plant circle glow stem-glow stem-slanted"></div>
-        <div id="plant-glow-25" className="plant circle glow stem-glow stem-slanted"></div>
-        <div id="plant-glow-26" className="plant circle glow stem-glow stem-slanted"></div>
-        <div id="plant-glow-27" className="plant circle glow stem-glow stem-slanted"></div>
-        <div id="plant-glow-28" className="plant circle glow stem-glow stem-slanted"></div>
-        <div id="plant-glow-29" className="plant circle glow stem-glow stem-slanted"></div>
-        <div id="plant-glow-30" className="plant circle glow stem-glow stem-slanted"></div>
-        <div id="plant-glow-31" className="plant circle glow stem-glow stem-slanted"></div>
-        <div id="plant-glow-32" className="plant circle glow stem-glow stem-slanted"></div>
-        <div id="plant-glow-33" className="plant circle glow stem-glow stem-slanted"></div>
+        <div
+          id="plant-glow-3"
+          className="plant circle glow stem-glow  stem-straight"
+        ></div>
+        <div
+          id="plant-glow-4"
+          className="plant circle glow stem-glow  stem-straight"
+        ></div>
+        <div
+          id="plant-glow-5"
+          className="plant circle glow stem-glow  stem-straight"
+        ></div>
+        <div
+          id="plant-glow-6"
+          className="plant circle glow stem-glow  stem-straight"
+        ></div>
+        <div
+          id="plant-glow-7"
+          className="plant circle glow stem-glow  stem-straight"
+        ></div>
+        <div
+          id="plant-glow-8"
+          className="plant circle glow stem-glow  stem-straight"
+        ></div>
+        <div
+          id="plant-glow-9"
+          className="plant circle glow stem-glow  stem-straight"
+        ></div>
+        <div
+          id="plant-glow-10"
+          className="plant circle glow stem-glow  stem-straight"
+        ></div>
+        <div
+          id="plant-glow-11"
+          className="plant circle glow stem-glow  stem-straight"
+        ></div>
+        <div
+          id="plant-glow-12"
+          className="plant circle glow stem-glow  stem-straight"
+        ></div>
+        <div
+          id="plant-glow-13"
+          className="plant circle glow stem-glow  stem-straight"
+        ></div>
+        <div
+          id="plant-glow-14"
+          className="plant circle glow stem-glow  stem-straight"
+        ></div>
+        <div
+          id="plant-glow-15"
+          className="plant circle glow stem-glow  stem-straight"
+        ></div>
+        <div
+          id="plant-glow-16"
+          className="plant circle glow stem-glow  stem-straight"
+        ></div>
+        <div
+          id="plant-glow-17"
+          className="plant circle glow stem-glow stem-slanted"
+        ></div>
+        <div
+          id="plant-glow-18"
+          className="plant circle glow stem-glow stem-slanted"
+        ></div>
+        <div
+          id="plant-glow-19"
+          className="plant circle glow stem-glow stem-slanted"
+        ></div>
+        <div
+          id="plant-glow-20"
+          className="plant circle glow stem-glow stem-slanted"
+        ></div>
+        <div
+          id="plant-glow-21"
+          className="plant circle glow stem-glow stem-slanted"
+        ></div>
+        <div
+          id="plant-glow-22"
+          className="plant circle glow stem-glow stem-slanted"
+        ></div>
+        <div
+          id="plant-glow-23"
+          className="plant circle glow stem-glow stem-slanted"
+        ></div>
+        <div
+          id="plant-glow-24"
+          className="plant circle glow stem-glow stem-slanted"
+        ></div>
+        <div
+          id="plant-glow-25"
+          className="plant circle glow stem-glow stem-slanted"
+        ></div>
+        <div
+          id="plant-glow-26"
+          className="plant circle glow stem-glow stem-slanted"
+        ></div>
+        <div
+          id="plant-glow-27"
+          className="plant circle glow stem-glow stem-slanted"
+        ></div>
+        <div
+          id="plant-glow-28"
+          className="plant circle glow stem-glow stem-slanted"
+        ></div>
+        <div
+          id="plant-glow-29"
+          className="plant circle glow stem-glow stem-slanted"
+        ></div>
+        <div
+          id="plant-glow-30"
+          className="plant circle glow stem-glow stem-slanted"
+        ></div>
+        <div
+          id="plant-glow-31"
+          className="plant circle glow stem-glow stem-slanted"
+        ></div>
+        <div
+          id="plant-glow-32"
+          className="plant circle glow stem-glow stem-slanted"
+        ></div>
+        <div
+          id="plant-glow-33"
+          className="plant circle glow stem-glow stem-slanted"
+        ></div>
 
         <div id="plant-glow-34" className="plant circle "></div>
         <div id="plant-glow-35" className="plant circle"></div>
@@ -108,63 +201,63 @@ export default function App() {
         <div id="plant-32" className="plant stem circle stem-slanted"></div>
         <div id="plant-33" className="plant stem circle stem-slanted"></div>
 
-        <div id="plant-34" className="plant leaf circle"></div>
-        <div id="plant-35" className="plant leaf circle"></div>
-        <div id="plant-36" className="plant leaf circle"></div>
-        <div id="plant-37" className="plant leaf circle"></div>
-        <div id="plant-38" className="plant leaf circle"></div>
-        <div id="plant-39" className="plant leaf circle"></div>
-        <div id="plant-40" className="plant leaf circle"></div>
-        <div id="plant-41" className="plant leaf circle"></div>
-        <div id="plant-42" className="plant leaf circle"></div>
-        <div id="plant-43" className="plant leaf circle"></div>
-        <div id="plant-44" className="plant leaf circle"></div>
-        <div id="plant-45" className="plant leaf circle"></div>
-        <div id="plant-46" className="plant leaf circle"></div>
-        <div id="plant-47" className="plant leaf circle"></div>
-        <div id="plant-48" className="plant leaf circle"></div>
-        <div id="plant-49" className="plant leaf circle"></div>
-        <div id="plant-50" className="plant leaf circle"></div>
-        <div id="plant-51" className="plant leaf circle"></div>
-        <div id="plant-52" className="plant leaf circle"></div>
-        <div id="plant-53" className="plant leaf circle"></div>
-        <div id="plant-54" className="plant leaf circle"></div>
-        <div id="plant-55" className="plant leaf circle"></div>
-        <div id="plant-56" className="plant leaf circle"></div>
-        <div id="plant-57" className="plant circle"></div>
-        <div id="plant-58" className="plant circle"></div>
-        <div id="plant-59" className="plant circle"></div>
-        <div id="plant-60" className="plant circle"></div>
-        <div id="plant-61" className="plant circle"></div>
-        <div id="plant-62" className="plant circle"></div>
-        <div id="plant-63" className="plant circle"></div>
-        <div id="plant-64" className="plant circle"></div>
-        <div id="plant-65" className="plant circle"></div>
-        <div id="plant-66" className="plant circle"></div>
-        <div id="plant-67" className="plant circle"></div>
-        <div id="plant-68" className="plant circle"></div>
-        <div id="plant-69" className="plant circle"></div>
-        <div id="plant-70" className="plant circle"></div>
-        <div id="plant-71" className="plant circle"></div>
-        <div id="plant-72" className="plant circle"></div>
-        <div id="plant-73" className="plant circle"></div>
-        <div id="plant-74" className="plant circle"></div>
-        <div id="plant-75" className="plant circle"></div>
-        <div id="plant-76" className="plant circle"></div>
-        <div id="plant-77" className="plant circle"></div>
-        <div id="plant-78" className="plant circle"></div>
-        <div id="plant-79" className="plant circle"></div>
-        <div id="plant-80" className="plant circle"></div>
-        <div id="plant-81" className="plant circle"></div>
-        <div id="plant-82" className="plant circle"></div>
-        <div id="plant-83" className="plant circle"></div>
-        <div id="plant-84" className="plant circle"></div>
-        <div id="plant-85" className="plant circle"></div>
-        <div id="plant-86" className="plant circle"></div>
-        <div id="plant-87" className="plant circle"></div>
-        <div id="plant-88" className="plant circle"></div>
-        <div id="plant-89" className="plant circle"></div>
-        <div id="plant-90" className="plant circle"></div>
+        <div id="plant-34" className="plant leaf left-leaf circle"></div>
+        <div id="plant-35" className="plant leaf  left-leaf circle"></div>
+        <div id="plant-36" className="plant leaf  left-leaf circle"></div>
+        <div id="plant-37" className="plant leaf  left-leaf circle"></div>
+        <div id="plant-38" className="plant leaf  left-leaf circle"></div>
+        <div id="plant-39" className="plant leaf  left-leaf circle"></div>
+        <div id="plant-40" className="plant leaf  left-leaf circle"></div>
+        <div id="plant-41" className="plant leaf  left-leaf circle"></div>
+        <div id="plant-42" className="plant leaf  left-leaf circle"></div>
+        <div id="plant-43" className="plant leaf  left-leaf circle"></div>
+        <div id="plant-44" className="plant leaf  left-leaf circle"></div>
+        <div id="plant-45" className="plant leaf  left-leaf circle"></div>
+        <div id="plant-46" className="plant leaf  left-leaf circle"></div>
+        <div id="plant-47" className="plant leaf  left-leaf circle"></div>
+        <div id="plant-48" className="plant leaf  left-leaf circle"></div>
+        <div id="plant-49" className="plant leaf  left-leaf circle"></div>
+        <div id="plant-50" className="plant leaf  left-leaf circle"></div>
+        <div id="plant-51" className="plant leaf  left-leaf circle"></div>
+        <div id="plant-52" className="plant leaf  left-leaf circle"></div>
+        <div id="plant-53" className="plant leaf  left-leaf circle"></div>
+        <div id="plant-54" className="plant leaf  left-leaf circle"></div>
+        <div id="plant-55" className="plant leaf  left-leaf circle"></div>
+        <div id="plant-56" className="plant leaf  left-leaf circle"></div>
+        <div id="plant-57" className="plant leaf right-leaf circle "></div>
+        <div id="plant-58" className="plant  right-leaf circle"></div>
+        <div id="plant-59" className="plant  right-leaf circle"></div>
+        <div id="plant-60" className="plant  right-leaf circle"></div>
+        <div id="plant-61" className="plant  right-leaf circle"></div>
+        <div id="plant-62" className="plant  right-leaf circle"></div>
+        <div id="plant-63" className="plant  right-leaf circle"></div>
+        <div id="plant-64" className="plant right-leaf  circle"></div>
+        <div id="plant-65" className="plant  right-leaf circle"></div>
+        <div id="plant-66" className="plant  right-leaf circle"></div>
+        <div id="plant-67" className="plant  right-leaf circle"></div>
+        <div id="plant-68" className="plant  right-leaf circle"></div>
+        <div id="plant-69" className="plant  right-leaf circle"></div>
+        <div id="plant-70" className="plant  right-leaf circle"></div>
+        <div id="plant-71" className="plant  right-leaf circle"></div>
+        <div id="plant-72" className="plant  right-leaf circle"></div>
+        <div id="plant-73" className="plant  right-leaf circle"></div>
+        <div id="plant-74" className="plant  right-leaf circle"></div>
+        <div id="plant-75" className="plant  right-leaf circle"></div>
+        <div id="plant-76" className="plant  right-leaf circle"></div>
+        <div id="plant-77" className="plant  right-leaf circle"></div>
+        <div id="plant-78" className="plant  right-leaf circle"></div>
+        <div id="plant-79" className="plant  right-leaf circle"></div>
+        <div id="plant-80" className="plant  right-leaf circle"></div>
+        <div id="plant-81" className="plant  right-leaf circle"></div>
+        <div id="plant-82" className="plant  right-leaf circle"></div>
+        <div id="plant-83" className="plant  right-leaf circle"></div>
+        <div id="plant-84" className="plant  right-leaf circle"></div>
+        <div id="plant-85" className="plant  right-leaf circle"></div>
+        <div id="plant-86" className="plant  right-leaf circle"></div>
+        <div id="plant-87" className="plant  right-leaf circle"></div>
+        <div id="plant-88" className="plant right-leaf  circle"></div>
+        <div id="plant-89" className="plant  right-leaf circle"></div>
+        <div id="plant-90" className="plant  right-leaf circle"></div>
         <div id="plant-91" className="plant circle"></div>
         <div id="plant-92" className="plant circle"></div>
         <div id="plant-93" className="plant circle"></div>
