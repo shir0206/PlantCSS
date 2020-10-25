@@ -560,6 +560,90 @@
   z-index: 250;
 }
 
+.base-plant #plant-glow-52 {
+  left: 44%;
+  top: 30%;
+  border-radius: 57% 60% 45% 52% / 54% 54% 51% 45%;
+  transform: scale(7.5);
+
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0,
+    rgba(255, 255, 255, 1) 5%,
+    rgba(255, 255, 255, 0) 35%
+  );
+  background: -moz-linear-gradient(
+    -55deg,
+    rgba(112, 159, 82, 1) 0,
+    rgba(112, 159, 82, 1) 10%,
+    rgba(255, 255, 255, 0) 25%
+  );
+  background: linear-gradient(
+    -55deg,
+    rgba(112, 159, 82, 1) 0,
+    rgba(112, 159, 82, 1) 10%,
+    rgba(0, 150, 255, 0) 25%
+  );
+  -webkit-filter: blur(0.2px);
+  z-index: 5;
+}
+
+.base-plant #plant-glow-53 {
+  left: 64%;
+  top: 44%;
+  border-radius: 57% 60% 45% 52% / 54% 54% 51% 45%;
+  transform: scale(6.5);
+
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0,
+    rgba(255, 255, 255, 1) 5%,
+    rgba(255, 255, 255, 0) 35%
+  );
+  background: -moz-linear-gradient(
+    130deg,
+    rgba(245, 244, 214, 1) 0,
+    rgba(245, 244, 214, 1) 10%,
+    rgba(255, 255, 255, 0) 25%
+  );
+  background: linear-gradient(
+    130deg,
+    rgba(245, 244, 214, 1) 0,
+    rgba(245, 244, 214, 1) 10%,
+    rgba(0, 150, 255, 0) 25%
+  );
+  -webkit-filter: blur(0.2px);
+  z-index: 5;
+}
+.base-plant #plant-glow-54 {
+  left: 58%;
+  top: 33.8%;
+  border-radius: 56% 44% 70% 30% / 56% 27% 73% 44%
+  ;
+  transform: scale(2.35);
+
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0,
+    rgba(255, 255, 255, 1) 5%,
+    rgba(255, 255, 255, 0) 35%
+  );
+  background: -moz-linear-gradient(
+    200deg,
+    rgba(226, 240, 142, 1) 0,
+    rgba(226, 240, 142, 1) 10%,
+    rgba(255, 255, 255, 0) 35%
+  );
+  background: linear-gradient(
+    200deg,
+    rgba(226, 240, 142, 1) 0,
+    rgba(226, 240, 142, 1) 10%,
+    rgba(0, 150, 255, 0) 55%
+  );
+  -webkit-filter: blur(0.2px);
+  z-index: 5;
+}
+
 .stem-glow {
   background: -webkit-linear-gradient(
     0deg,
@@ -1070,6 +1154,106 @@
   opacity: 0.8;
   z-index: 10;
 }
+
+.base-plant #plant-65 {
+  background: #669d38;
+  left: 55.5%;
+  top: 45%;
+  transform: scale(0.8);
+  z-index: 10;
+}
+
+.base-plant #plant-66 {
+  background: #65a034;
+  left: 56%;
+  top: 44%;
+  transform: scale(0.6);
+  z-index: 10;
+}
+
+.base-plant #plant-67 {
+  background: #5a9419;
+  left: 57%;
+  top: 43%;
+  transform: scale(1);
+  z-index: 10;
+}
+
+.base-plant #plant-68 {
+  background: #4c9000;
+  left: 57%;
+  top: 42%;
+  transform: scale(1);
+  z-index: 10;
+}
+
+.base-plant #plant-69 {
+  background: #509104;
+  left: 57.5%;
+  top: 41%;
+  transform: scale(1);
+  z-index: 10;
+}
+
+.base-plant #plant-70 {
+  background: #468d02;
+  left: 58%;
+  top: 40%;
+  transform: scale(1);
+  z-index: 10;
+}
+.base-plant #plant-71 {
+  background: #468d01;
+  left: 58.5%;
+  top: 39%;
+  transform: scale(1);
+  z-index: 10;
+}
+.base-plant #plant-72 {
+  background: #448b00;
+  left: 59%;
+  top: 38%;
+  transform: scale(1);
+  z-index: 10;
+}
+.base-plant #plant-73 {
+  background: #419203;
+  left: 59.5%;
+  top: 37%;
+  transform: scale(1);
+  z-index: 10;
+}
+.base-plant #plant-74 {
+  background: #488d02;
+  left: 60%;
+  top: 36%;
+  transform: scale(0.6);
+  z-index: 10;
+}
+.base-plant #plant-75 {
+  background: #5a9e02;
+  left: 60.5%;
+  top: 35%;
+  transform: scale(1);
+  z-index: 10;
+}
+.base-plant #plant-81 {
+  background: #76b10e;
+  left: 60%;
+  top: 33%;
+  transform: scale(0.6);
+  z-index: 10;
+}
+
+.base-plant #plant-84 {
+  background: #c7e138;
+  left: 57%;
+  top: 32%;
+  transform: scale(0.8);
+  opacity: 0.8;
+  z-index: 10;
+}
+
 /* .base-plant #plant-2 {  background: rgba(90, 80, 71, 0.2642);  left: -17%; top: 8%;  border-radius: 54% 60% 55% 57% / 50% 45% 48% 52%; }
 .base-plant #plant-3 {  background: rgba(90, 80, 71, 0.1091);  left: -3%; top: 2%;  border-radius: 47% 50% 49% 50% / 52% 49% 51% 58%; }
 .base-plant #plant-4 {  background: rgba(90, 80, 71, 0.1521);  left: -5%; top: 2%;  border-radius: 48% 45% 60% 56% / 47% 45% 47% 56%; }
