@@ -1,5 +1,7 @@
 # PlantCSS
 
+>“Seeds you plant today determine the harvest you reap tomorrow.”
+
 
 Painting a plant sprout via `CSS` only! :seedling: <b>[*under development*]</b> 
 
