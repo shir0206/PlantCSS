@@ -7,7 +7,7 @@ import "./mud.css";
 export default function App() {
   return (
     <div className="App">
-      <div className="img"></div>
+      <div id="plant-img" className="img"></div>
 
       <div className="base-plant">
         <div id="plant-glow-1" className="plant circle glow stem-glow"></div>
